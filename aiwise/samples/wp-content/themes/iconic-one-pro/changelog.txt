@@ -1,0 +1,635 @@
+Changelog for Iconic One PRO WordPress Responsive Theme
+
+Visit your Member area for http://themonic.com/member-login/ for latest version
+
+January 17, 2023 
+
+Version 3.7.3
+
+-- Bug fix - menu
+-- Translation fixes
+
+
+July 22, 2022 
+
+Version 3.7.2
+
+-- Bug fix (reset_post_data() in widget-recent-thumbnail.php)
+
+Feb 1, 2022 
+
+Version 3.7.1
+
+-- Bug fix (radio/checkbox)
+
+3 Jan, 2022 
+
+Version 3.7
+
+-- One click Yoast SEO Breadcrumbs support (Customizer -> V3 Control Panel -> Post Settings)
+
+16 December, 2021 
+
+Version 3.6
+
+-- Fix: iPhone mobile view
+
+15 December, 2021 
+
+Version 3.5.2
+
+-- Fix: H1 tag in Author archive pages
+-- License page reporting errors in SEO tools fixed
+
+2 February, 2021 
+
+Version 3.5.1
+
+-- Fix: Default colors, when customizer colors are not yet saved
+
+30 January, 2021 
+
+Version 3.5
+
+-- Fix: White space below Full Width header: when using "Full Width header image" in logo section
+
+20 December, 2020  
+
+Version 3.4
+
+-- WordPress 5.6  Compatibility update
+-- Slider display fix
+-- jQuery updates
+
+7 December, 2020  
+
+Version 3.3
+
+-- Added two column widget area on home page, enable from V3 control panel -> Post Settings
+-- A new option of category ID inside the Recent Posts widget that will allow category post lists
+
+24 November, 2020  
+
+Version 3.2
+
+-- .webp image support, tested with imagify plugin
+-- bug fixes 
+
+30 September, 2020  
+
+Version 3.1
+
+-- WP Block Table font size now linked to sitewide font 
+-- Improved WP Block Table and Image captions
+
+-V3------ 25th September, 2020  
+
+Version 3.0
+
+-- NEW: Font-family selector in Customizer -> V3 control panel -> Design Settings
+-- NEW: Font-size selector in Customizer -> V3 control panel -> Design Settings
+-- NEW: Advanced breadcrumb option with Schema support available in Customizer -> V3 control panel -> Post Settings
+-- NEW: More color options in Customizer -> V3 control panel -> Design Settings
+-- Added Search bar option before social icons in header Customizer -> V3 control panel -> Social
+-- Fixed: Error when widget title of Recent posts widget was empty
+-- Fixed: Archive drop down widget width issue
+-- Translation updates
+
+-------------- August 26 2020 ----------------
+
+
+- Version 2.9.9.9
+
+-- Fixed blank settings page in some WP installations
+
+- Version 2.9.9.8
+
+-- Added wp_body_open function
+-- Added orderby option in Recent Posts widget
+
+-------------- July 17 2020 ----------------
+
+- Version 2.9.9.7
+
+-- Revert to site_url
+-- If your WordPress installation is in a sub directory, look inside member area for a different download
+
+-------------- July 10 2020 ----------------
+
+- Version 2.9.9.6
+
+-- Custom HTML widget fix, now editable without refresh
+-- Calender style update
+-- Language pot files updated
+-- New: Sweden language .po file sv_SE added
+
+-------------- June 24 2020 ----------------
+
+- Version 2.9.9.5
+
+-- New: Page template: Page with Author Bio and Sidebar
+-- Fix: Missing Styles in Theme options where WordPress installation is in a sub directory
+
+-------------- June 09 2020 ----------------
+
+- Version 2.9.9.4
+
+-- New: Page template: Full width with Author Bio
+-- Woocommerce cart button style fix
+-- Author bio - added padding to social icons
+-- Added Japanese, German, Chinese and Russian .po and .mo files
+
+-------------- March 13 20120 ----------------
+
+- Version 2.9.9.2
+
+-- Fix: Admin dashboard bar width
+
+
+-------------- March 12 2020 ----------------
+
+- Version 2.9.9.1
+
+-- New: Added Editor Styles for Gutenberg blocks
+-- Mobile View improvements
+-- Tables styles -> fully bordered Cells
+
+-------------- December 21 2019 ----------------
+
+- Version 2.9.9
+
+-- Fix: Missing Facebook share button in page templates
+-- CSS Bug fixes
+
+-------------- December 04 2019 ----------------
+
+- Version 2.9.8
+
+-- Added Instagram in Author profile page
+-- Removed multi author requirement to show author profile below posts
+-- Bug fixes
+
+-------------- November 18 2019 ----------------
+
+- Version 2.9.7
+
+-- WordPress 5.3 compatibility
+-- Block Image captions alignment fix
+-- Width fix for Facebook Share Button for other languages
+
+-------------- August 16 2019 ----------------
+
+- Version 2.9.6
+
+-- Removed Google Plus share button
+-- Added a separate option for Facebook Share Button
+
+-------------- July 5 2019 ----------------
+
+- Version 2.9.5
+
+-- Added Instagram social icon in header
+-- Added square shape social icons option in customizer -> social
+-- Removed Google plus icon
+-- Added LinkedIn in Author profile
+
+-------------- June 19 2019 ----------------
+
+26/06/2019  - Version 2.9.4
+
+- RTL fixes (If you don't use RTL languages you can skip this one)
+
+19/06/2019  - Version 2.9.2
+
+- Accessibility fixes
+
+-------------- May 28 2019 ----------------
+
+28/05/2019  - Version 2.9.1
+
+- Centered text logo on mobiles
+
+28/05/2019  - Version 2.9
+
+- Added option to display Search bar in mobile, available via customizer -> post settings
+- Translation fixes
+- Mobile view improvements for modern full screen phones
+
+-------------- April 23 2019 ----------------
+
+23/04/2019  - Version 2.8
+
+- HTTPS warning fixed when using form fields in sidebar
+
+-------------- February 24 2019 ----------------
+
+24/02/2019  - Version 2.7
+
+- Bug fixes (Fixed: Right aligned text logo and description when logo image is not uploaded)
+
+-------------- February 18 2019 ----------------
+
+18/02/2019  - Version 2.6.1
+
+- Bug fix for the last update
+
+-------------- February 18 2019 ----------------
+
+18/02/2019  - Version 2.6
+
+- SEO Update (h1 tag based title on home page only)
+
+-------------- January 13 2019 ----------------
+
+13/01/2019  - Version 2.5
+
+- PHP 7.2 compatibility
+- Woocommerce style updates
+- Bug fixes
+
+
+-------------- September 11 2018 ----------------
+
+11/09/2018  - Version 2.4
+
+- Early Gutenberg support
+- New slider design
+- Added Pinterest in top social buttons
+- Added option to have both Logo and Title/Tagline together
+- Bug fixes
+- Bigger touch tap targets for mobile view - as per the Google mobile friendly tool recommendation 
+
+-------------- April 12 2018 ----------------
+
+12/04/2018  - Version 2.2
+
+- Updated Google Font scripts
+
+-------------- February 11 2018 ----------------
+
+11/02/2018 - Version 2.1
+
+- CSS Bug fixes
+
+-------------- January 27 2018 ----------------
+
+27/01/2018 - Version 2.05
+
+- Fixed PHP 7.2 compatibility issues
+
+-------------- December 5 2017 ----------------
+
+05/12/2017 - Version 2.05
+
+- Updated .pot file for translation terms
+
+-------------- November 25 2017 ----------------
+
+25/11/2017 - Version 2.04
+
+- Category button color fix
+- Added Jetpack email subscription styles
+
+-------------- August 22 2017 ----------------
+
+24/08/2017 - Version 2.01
+
+- Bug Fixes (Menu color and Full width header)
+- Added option to hide/display all social icons in one click
+
+
+-------------- August 22 2017 ----------------
+
+22/08/2017 - Version 2
+
+- PHP 7 compatibility
+- Upgraded scripts
+- Speed optimizations
+- Image social icons replaced with font social icons
+
+
+-------------- June 1 2017 ----------------
+
+01/06/2017 - Version 1.9.8
+
+- Fixed Jetpack compatibility issue (Fixes unresponsive Widgets)
+
+-------------- May 19 2017 ----------------
+
+19/05/2017 - Version 1.9.7
+
+- Category display on home page fixed
+- Assistive container renamed to match content container
+- Mailchimp and Aweber widget support added
+
+-------------- December 7 2016 ----------------
+
+07/12/2016 - Version 1.9.6
+
+- Option to display last updated date instead of published date for SEO purpose in live customizer
+- Minor code updates
+
+-------------- November 1 2016 ----------------
+
+01/11/2016  - Version 1.9.5
+
+- Minor style update when using full width pages
+- Added Structured Data support for pages - Added two new page templates for this
+
+-------------- September 2016 ----------------
+
+01/09/2016  - Version 1.9.4
+
+- Added WooCommerce Support
+
+mm/dd/yy
+-------------- July 2016 ----------------
+
+07/12/2016  - Version 1.9.3
+
+- Fixed: No display of Featured image below post title when set in Main Settings
+- Fixed Hfeed class - now it will apply when not on single page/post
+
+07/06/2016  - Version 1.9.2
+
+- Setting Excerpts to default on home, last update didn't work as expected
+
+07/05/2016  - Version 1.9.1
+
+- Setting Excerpts to default on home, fix for v1.9
+
+07/04/2016  - Version 1.9
+
+- Added Post Setting option for disabling excerpts in Live customizer
+- Added option for removing category and tags from home in Live customizer
+- Description area will hide if empty
+
+
+-------------- April 2016 ----------------
+
+04/01/2016  - Version 1.8.9
+
+- Code update
+- Home Page Title sub-heading fix in mobile view
+
+-------------- March 2016 ----------------
+
+03/19/2016  - Version 1.8.8 
+
+* Added Structured Data support on Image attachment pages
+* Removed non existent image url from slider CSS
+* Updated version number in control panel
+
+03/03/2016  - Version 1.8.7 
+
+* Added new page template: No Header With Sidebar
+* WordPress widget compatibility code update
+
+-------------- February 2016 ----------------
+
+02/05/2016  - Version 1.8.6 
+
+* Reverting category.php due to bug
+
+
+02/03/2016  - Version 1.8.5 
+
+* Category slider posts no repeat fix
+* Mobile menu will work even if menu is not set as Primary
+* Header Heading now uniform across theme
+
+-------------- November 2015 ----------------
+
+11/15/15  - Version 1.8.2 (Security update)
+
+* Updated Scripts
+* Small gap under sub-sub-menu fixed
+
+-------------- October 2015 ----------------
+
+
+10/07/15  - Version 1.8.1 (Minor update)
+
+* White space fix in header
+* Darker main menu text color
+
+
+-------------- October 2015 ----------------
+
+
+10/04/15  - Version 1.8
+
+* WordPress Version 4.3.1 compatibility update
+* SEO Improvements
+* Includes style fix for Jetpack popular posts widget
+
+
+-------------- August 2015 ----------------
+
+
+08/04/15  - Version 1.7
+
+* Security update
+* Minor style fixes
+
+-------------- July 2015 ----------------
+
+
+07/02/15  - Version 1.6
+
+* Pagination updated to work on Category and tag pages.
+* Added Sub-menu arrow indicator for Main menu.
+* Minor bug fixes
+
+
+-------------- March 2015 ----------------
+
+
+03/29/15  - Version 1.5
+
+* Updated .pot file for translations
+* Minor bug fixes
+
+-------------- February 2015 ----------------
+
+
+02/04/15  - Version 1.4.9
+
+* Improved responsive features
+* Official support for full width header images with one click
+* Removed hyphens from content
+* Removed breadcrumb from front page
+
+-------------- January 2015 ----------------
+
+
+01/08/15  - Version 1.4.8
+
+* Added support for Social sharing buttons on Pages
+* Added support for Breadcrumb on Pages up-to two levels
+* Added Footer widget title background similar to sidebar widget title
+
+
+01/03/15  - Version 1.4.7
+
+* Code Improvements
+* Category page description now has improved style
+* Uniform spacing between category and tags display below posts
+* Aligned the navigation of slider to center for all devices
+* Tested compatibility with WordPress 4.1
+
+
+-------------- June 2014 ----------------
+
+06/08/14  - Version 1.4.6
+
+* Minor Style fix for feedburner email subscription and search widget for Internet Explorer
+* Updated RTL stylesheet
+* Code Improvements
+* Slider caption margin fix
+* Decreased Excerpt length
+
+-------------- May 2014 ----------------
+
+05/01/14  - Version 1.4.5
+
+* Reverted tag display on small resolution
+* Pages and page templates now support featured image on top of title
+* Google Plus sharing button fix for current URL
+* iPad will now display full menu instead of mobile menu
+
+
+-------------- April 2014 ----------------
+
+04/25/14  - Version 1.4.4
+
+* Added two new options in control panel 1) Show date/comments bar on home page 2) Show social sharing on home page
+* Structured data name/fn support on single post pages
+* Removed the colored bar visible above mobile navigation in iPad
+* Translation text domain fixes inside control panel
+
+
+04/23/14  - Version 1.4.3
+
+* Translation fixes inside control panel
+* Adjusted sidebar width to fit 300 width ads
+
+
+04/21/14  - Version 1.4.2
+
+* Added Support for Structured Data: Rich Snippets Markup Author and Updated
+* Related posts responsive improvement for titles spanning two or more lines
+* Author page responsive improvements
+* Translation fixes
+* Shadow behind images is now removed
+* Code Improvements
+* Limited tags on Home to max 3
+* Fully tested with latest WordPress 3.9
+
+04/14/14  - Version 1.4.1
+
+* Link color is changed to blue
+* Sidebar widgets not appearing in no title template now fixed
+* Custom.css not loading fixed
+
+
+04/11/14  - Version 1.4
+
+* Full bbPress Support with custom premium bbPress theme
+* Title tag is H2 on home, category and tags, no change in single posts display
+* Added no title full width page template
+* Removed active page menu background when using sidebar menu
+* Removed default yellow background behind Ads
+* Code cleanup and minor improvements
+* Conditional loading of slider scripts for improved speed when slider is disabled
+* Central aligned footer text at small screen resolution
+* Minor Responsive improvements for small screens
+* Added slider page template
+
+
+-------------- December 2013 ----------------
+
+
+12/20/13  - Version 1.3
+
+* Footer custom text overflow fix for small screens
+* Validation bug fixes.
+* Responsive improvements.
+* New flatter mobile menu design.
+* Added New Page Template: No Title with Sidebar template.
+* Added New Landing Page Template: No Header template without sidebar and footer.
+
+
+-------------- September 2013 ----------------
+
+
+09/01/13  - Version 1.2
+
+* Added option of circular social buttons with a single click in the live customizer -> Social.
+* Added option of Linkedin and Youtube social buttons
+* Social Media button selection: you can now hide the social buttons that you don't want to show just by making the URL field empty and saving.
+* Added Option to show Featured image automatically below post title. Available in Control Center -> Main Settings.
+* Email subscription box and Search box style fix - for consistent cross browser and mobile experience.
+* Fixed category/tags overlapping issue when large no. of category/tags are present.
+* Fixed undefined index login_logo error in wp admin login screen page.
+* Minor Header Logo text and description style changes, can be seen when logo is yet to be uploaded. 
+* Removed the extra @custom.css import from style.css 
+* Added iconic-one-pro.pot file in /language folder for worldwide translation with a mini tutorial in the same folder.
+* Removed the current page background color from the sidebar
+* Fixed 404 pages width issue
+* Closed the open <span> tag from content.php
+* Fixed social sharing bar bug when there are less number of words in the home page excerpt section (when using manual <--more tag--> ).
+* Better looking Below Title meta backgroud ba, now spans full width of the content container.
+* Added Exclusive Direct Support Forum link in Themonic Framework Control Center.
+
+
+
+-------------- August 2013 ----------------
+
+
+08/04/13  - Version 1.1.2
+
+
+* Added footer Widgets - footer-one, footer-two and footer-three.
+* Added ON/OFF swith for footer widget area in the control panel
+* Added responsive styles for footer Widgets at width below 768px.
+* Added new styling for footer search and email subscription widgets, this is independent from sidebar styling. 
+  In simple terms it means same widgets when placed in footer will have new look.
+
+
+08/02/13  - Version 1.1.1
+
+
+* Fixed a responsive navigation bug for older Internet Exlorer versions IE8 and below.
+
+
+
+
+-------------- JULY 2013 ----------------
+
+
+07/30/13  - Version 1.1
+
+
+* Header width now Auto - Big Logos won't break the header.
+
+* Fixed the Vertical spacing between categories and tags when there are a large no. of tags.
+
+* Sidebar will now show nice looking search bar, recent posts, categories and tag cloud if no widgets are defined.
+
+* Added live customizer link in the Appearance menu for ease of access.
+
+* The Responsive Menu no longer requires setup, Iconic One menu responsiveness will now work automagically.
+
+* Nav menu <li> improvement, removed the background color for child hover.
+
+* Changelog.txt is now included.
+
+* Updated Framework Support Section with new documentation and member login links
+
+* Fixed footer debug notice in the Themonic Framework.
+
+
+07/13/13 - Iconic One PRO Version 1.0
+
+* Initial release!

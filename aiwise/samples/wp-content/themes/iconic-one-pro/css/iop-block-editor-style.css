@@ -1,0 +1,51 @@
+@import url('http://fonts.googleapis.com/css?family=Ubuntu:400,300,700');
+
+body#tinymce.wp-editor { 
+    font-family: Ubuntu, arial, Helvetica, sans-serif; 
+}
+body.block-editor-page, html.wp-toolbar{ 
+    font-family: Ubuntu, arial, Helvetica, sans-serif; 
+}
+.editor-styles-wrapper p {
+    font-family: 'Ubuntu', arial;
+}
+.block-editor-block-list__block[data-type="core/paragraph"] p {
+	margin: 0 0 15px;
+	font-size: 14px;
+}
+.editor-post-title__block .editor-post-title__input {
+	font-family: 'Ubuntu', arial;
+	font-size: 28px;
+    font-weight: normal;
+}
+.edit-post-visual-editor .editor-post-title__block {
+    margin-bottom: 0;
+}
+.editor-styles-wrapper  table {
+	border: 1px solid #dddddd;
+}
+.wp-block-table {
+	font-family: 'Ubuntu', arial;
+}
+.wp-block-table td, .wp-block-table th {
+    border-color: #dddddd;
+    box-shadow: none;
+    border-style: none;
+    border: 1px solid #dddddd;
+}
+h2, h3, h4 {
+    font-family: 'Ubuntu', arial;
+}
+.wp-block {
+    max-width: 686px;
+}
+.wp-block-quote {
+    background: #FAFAFA;
+    border-left: 4px solid #D6D6D6;
+    border-right: 4px solid #D6D6D6;
+    border-radius: 14px;
+    margin-bottom: 24px;
+    padding: 24px;
+    font-style: italic;
+	font-size: 14px;
+}

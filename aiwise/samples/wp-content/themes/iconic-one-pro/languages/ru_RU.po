@@ -1,0 +1,1115 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: io-prov1.4\n"
+"POT-Creation-Date: 2020-06-30 12:07+0530\n"
+"PO-Revision-Date: 2022-08-09 18:46+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.4\n"
+"X-Poedit-KeywordsList: __;_e;esc_attr__();esc_attr_e();esc_attr_x();"
+"esc_html__();esc_html_e();esc_html_x();_n:1,2;_n_noop:1.2;_nx:1,2;"
+"_nx_noop:1,2\n"
+"X-Poedit-Basepath: C:/Users/Shashank/Desktop/iconic-one-pro\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:17
+msgid "Nothing Here!"
+msgstr "Здесь ничего!"
+
+#: 404.php:21 content-none.php:14 index.php:82
+msgid "Kindly search your topic below or browse the recent posts."
+msgstr "Просьба искать вашу тему ниже или просмотреть последние сообщения."
+
+#: archive.php:29
+#, php-format
+msgid "Daily Archives: %s"
+msgstr "Ежедневные архивы: %s"
+
+#: archive.php:31
+#, php-format
+msgid "Monthly Archives: %s"
+msgstr "ежемесячные архивы: %s"
+
+#: archive.php:33
+#, php-format
+msgid "Yearly Archives: %s"
+msgstr "Ежегодный Архив: %s"
+
+#: archive.php:35
+msgid "Archives"
+msgstr "Архив"
+
+#: author.php:72
+#, php-format
+msgid "Author Archives: %s"
+msgstr "Автор Архивы: %s"
+
+#: category.php:41
+#, php-format
+msgid "Category Archives: %s"
+msgstr "Категория Архивы: %s"
+
+#: comments.php:25
+#, php-format
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "Одна мысль на &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s Одна мысль на &ldquo;%2$s&rdquo;"
+
+#: comments.php:36
+msgid "Comment navigation"
+msgstr "Навигация по комментариям"
+
+#: comments.php:37
+msgid "&larr; Older Comments"
+msgstr "Старые комментарии"
+
+#: comments.php:38
+msgid "Newer Comments &rarr;"
+msgstr "Новые Комментарии"
+
+#: comments.php:47
+msgid "Comments are closed."
+msgstr "Комментарии закрыты."
+
+#: content-none.php:10 index.php:78 search.php:34
+msgid "Nothing Found"
+msgstr "Ничего не найдено"
+
+#: content-page.php:24 content.php:62 image.php:88
+#: page-templates/slider-page-template.php:45
+msgid "Pages:"
+msgstr "страницы"
+
+#: content-page.php:55 content.php:105 functions.php:277 image.php:32
+#: page-templates/slider-page-template.php:48
+msgid "Edit"
+msgstr "редактировать"
+
+#: content.php:13
+msgid "Featured Article"
+msgstr "Избранная статья"
+
+#: content.php:21
+#, php-format
+msgid "Permalink to %s"
+msgstr "Постоянная ссылка на %s"
+
+#: content.php:28 page-templates/page-date-bar-fullwidth.php:28
+#: page-templates/page-date-bar.php:28
+msgid "By"
+msgstr "По"
+
+#: content.php:40 page-templates/page-date-bar-fullwidth.php:37
+#: page-templates/page-date-bar.php:37
+msgid "0 Comment"
+msgstr "0 Комментарии"
+
+#: content.php:40 page-templates/page-date-bar-fullwidth.php:37
+#: page-templates/page-date-bar.php:37
+msgid "1 Comment"
+msgstr "1 Комментарии"
+
+#: content.php:40 page-templates/page-date-bar-fullwidth.php:37
+#: page-templates/page-date-bar.php:37
+msgid "% Comments"
+msgstr "% Комментарии"
+
+#: content.php:61
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr "продолжить чтение"
+
+#: content.php:113
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: content.php:129 page-templates/full-width-with-author.php:30
+#, php-format
+msgid "Author: %s"
+msgstr "автор %s"
+
+#: functions.php:40
+msgid "Primary Menu"
+msgstr "основное меню"
+
+#: functions.php:80
+msgid "Read More"
+msgstr "Подробнее"
+
+#: functions.php:165
+msgid "Main Sidebar"
+msgstr "Главная боковая панель"
+
+#: functions.php:167
+msgid ""
+"Appears on posts and pages except the optional Front Page template, which "
+"has its own widgets"
+msgstr ""
+"Появляется на сообщениях и страницах, за исключением необязательного шаблона "
+"Front Page, который"
+
+#: functions.php:176
+msgid "Footer Widget One"
+msgstr "Один нижний колонтитул"
+
+#: functions.php:177
+msgid "Footer widget one, Enable this area from Control Panel >> Main Settings"
+msgstr ""
+"Виджет нижнего колонтитула один, Включить эту область из Панели управления "
+">> Основные настройки"
+
+#: functions.php:185
+msgid "Footer Widget Two"
+msgstr "Виджет нижнего колонтитула два"
+
+#: functions.php:186
+msgid "Footer widget two"
+msgstr "Нижний колонтитул два"
+
+#: functions.php:194
+msgid "Footer Widget Three"
+msgstr "Нижний колонтитул три"
+
+#: functions.php:195
+msgid "Footer widget three"
+msgstr "Нижний колонтитул три"
+
+#: functions.php:218 single.php:62
+msgid "Post navigation"
+msgstr "Почтовая навигация"
+
+#: functions.php:219
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr ""
+
+#: functions.php:220
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Новые сообщения"
+
+#: functions.php:245
+msgid "Pingback:"
+msgstr ""
+
+#: functions.php:245
+msgid "(Edit)"
+msgstr ""
+
+#: functions.php:260
+msgid "Post author"
+msgstr "Автор сообщения"
+
+#: functions.php:266
+#, php-format
+msgid "%1$s"
+msgstr ""
+
+#: functions.php:272
+msgid "Your comment is awaiting moderation."
+msgstr "Ваш комментарий ожидает модерации."
+
+#: functions.php:281
+msgid "Reply"
+msgstr "Ответить"
+
+#: functions.php:300 functions.php:303
+msgid ", "
+msgstr ""
+
+#: functions.php:314
+#, php-format
+msgid "View all posts by %s"
+msgstr "Просмотреть все сообщения от %s"
+
+#: functions.php:320
+#, php-format
+msgid ""
+"This entry was posted in %1$s and tagged %2$s on %3$s<span class=\"by-author"
+"\"> by %4$s</span>."
+msgstr "Эта запись была %1$s опубликована и помечена %2$s на %3$s По %4$s"
+
+#: functions.php:322
+#, php-format
+msgid ""
+"This entry was posted in %1$s on %3$s<span class=\"by-author\"> by %4$s</"
+"span>."
+msgstr ""
+"Эта запись была %1$s опубликована и помечена на %3$s<span class=\"by-author"
+"\"> by %4$s</span>."
+
+#: functions.php:324
+#, php-format
+msgid "This entry was posted on %3$s<span class=\"by-author\"> by %4$s</span>."
+msgstr ""
+"Эта запись была опубликована и помечена на %3$s<span class=\"by-author\"> by "
+"%4$s</span>."
+
+#: header.php:85
+msgid "Skip to content"
+msgstr "перейти к содержанию"
+
+#: image.php:26
+msgid "Published by"
+msgstr "Опубликовано"
+
+#: image.php:37
+msgid "&larr; Previous"
+msgstr "предыдущий"
+
+#: image.php:38
+msgid "Next &rarr;"
+msgstr "следующий"
+
+#: inc/io-pro-functions.php:11
+msgid "Home"
+msgstr "Главная"
+
+#: inc/io-pro-functions.php:63
+msgid "Iconic One Pro User Profile Fields"
+msgstr "Iconic One Pro Поля профиля пользователя"
+
+#: inc/io-pro-functions.php:67
+msgid "LinkedIn"
+msgstr ""
+
+#: inc/io-pro-functions.php:70
+msgid "Please enter your LinkedIn ID."
+msgstr "Пожалуйста введите свой идентификатор"
+
+#: inc/io-pro-functions.php:74
+msgid "Twitter"
+msgstr ""
+
+#: inc/io-pro-functions.php:77
+msgid "Please enter your Twitter ID."
+msgstr "Пожалуйста, введите свой идентификатор"
+
+#: inc/io-pro-functions.php:81
+msgid "Facebook"
+msgstr ""
+
+#: inc/io-pro-functions.php:84
+msgid "Please enter your Facebook ID."
+msgstr "Пожалуйста, введите свой идентификатор Facebook."
+
+#: inc/io-pro-functions.php:88
+msgid "Instagram"
+msgstr ""
+
+#: inc/io-pro-functions.php:91
+msgid "Please enter your Instagram ID."
+msgstr "Пожалуйста введите свой идентификатор"
+
+#: inc/themonic-customizer.php:8
+msgid "Iconic One"
+msgstr ""
+
+#: inc/themonic-customizer.php:9
+msgid "Basic Settings"
+msgstr "Базовые настройки"
+
+#: inc/themonic-customizer.php:53 inc/themonic-customizer.php:59
+msgid "Logo"
+msgstr "логотип"
+
+#: inc/themonic-customizer.php:66
+msgid ""
+"I have uploaded 1040px full width header image(removes white space around "
+"uploaded image)"
+msgstr ""
+
+#: inc/themonic-customizer.php:73
+msgid "Show Logo image along with Title and Description"
+msgstr ""
+
+#: inc/themonic-customizer.php:80
+msgid "Implement Site title as H1 tag for SEO."
+msgstr ""
+
+#: inc/themonic-customizer.php:81
+msgid ""
+"It hides the site title while keeping h1 in source code for SEO purpose, "
+"Only works when the settings above it (logo with title and description) is "
+"checked"
+msgstr ""
+
+#: inc/themonic-customizer.php:108 themonic/themonic-options.php:458
+msgid "Footer"
+msgstr "нижний колонтитул"
+
+#: inc/themonic-customizer.php:134
+msgid "Display Header Social Icons"
+msgstr ""
+
+#: inc/themonic-customizer.php:135
+msgid "Leave respective fields empty to hide individual icons"
+msgstr ""
+
+#: inc/themonic-customizer.php:140 themonic/themonic-options.php:357
+msgid "Social"
+msgstr "Социальное"
+
+#: inc/themonic-customizer.php:195
+msgid "Square Shape Social Icons"
+msgstr ""
+
+#: inc/themonic-customizer.php:196
+msgid "Square shape social icons in the header"
+msgstr ""
+
+#: inc/themonic-customizer.php:202
+msgid "Post Settings"
+msgstr "Настройки сообщений"
+
+#: inc/themonic-customizer.php:211
+msgid ""
+"Show Excerpts on Home Page, remove the check to show full posts on home "
+"page. Info: Excerpts prevents duplicate content and helps with SEO"
+msgstr ""
+
+#: inc/themonic-customizer.php:220
+#, fuzzy
+#| msgid "Show Author ID on Home Page"
+msgid "Show Categories on Home Page"
+msgstr "Показать идентификатор автора на домашней странице"
+
+#: inc/themonic-customizer.php:229
+#, fuzzy
+#| msgid "Show Author ID on Home Page"
+msgid "Show Tags on Home Page"
+msgstr "Показать идентификатор автора на домашней странице"
+
+#: inc/themonic-customizer.php:238
+msgid ""
+"Replace published date with last updated date ( Display Setting of Author/"
+"Date bar is available in Control Panel -> Main Settings )"
+msgstr "Заменить опубликованную дату последней обновленной датой"
+
+#: inc/themonic-customizer.php:247
+msgid "Show Search Bar above header when site is visited on a Mobile phone"
+msgstr ""
+
+#: inc/widget-feed-subscribe.php:22
+msgid "Feedburner Subscription Widget."
+msgstr ""
+
+#: inc/widget-feed-subscribe.php:28
+msgid "Iconic One Pro Email Subscription"
+msgstr ""
+
+#: inc/widget-feed-subscribe.php:96 inc/widget-feed-subscribe.php:276
+#: inc/widget-popular-posts.php:80 inc/widget-recent-thumbnail.php:17
+msgid "Title:"
+msgstr ""
+
+#: inc/widget-feed-subscribe.php:102
+msgid "Feedburner id (https://feeds.feedburner.com/<b>themonic</b>):"
+msgstr ""
+
+#: inc/widget-feed-subscribe.php:116
+msgid "Email Newsletter"
+msgstr "Электронная рассылка"
+
+#: inc/widget-feed-subscribe.php:117
+msgid "Email Subscription Box"
+msgstr ""
+
+#: inc/widget-feed-subscribe.php:280
+msgid "Text:"
+msgstr ""
+
+#: inc/widget-feed-subscribe.php:290
+msgid "MailChimp form action URL:"
+msgstr ""
+
+#: inc/widget-feed-subscribe.php:295
+msgid "Feedburner ID:"
+msgstr ""
+
+#: inc/widget-feed-subscribe.php:299
+msgid "Aweber List ID:"
+msgstr ""
+
+#: inc/widget-popular-posts.php:15
+msgid "A Widget to dispaly Popular Posts With Thumbs"
+msgstr ""
+
+#: inc/widget-popular-posts.php:16
+msgid "Iconic One Pro Popular Posts"
+msgstr "Iconic One Pro популярные посты"
+
+#: inc/widget-popular-posts.php:76
+msgid "Popular Posts "
+msgstr "популярные посты"
+
+#: inc/widget-popular-posts.php:86
+msgid "Number of Posts to Show:"
+msgstr "Количество постов для отображения:"
+
+#: inc/widget-recent-thumbnail.php:18
+msgid "Number of Posts Displayed:"
+msgstr "Количество отображаемых сообщений:"
+
+#: index.php:67
+msgid "No posts to display"
+msgstr ""
+
+#: index.php:71
+#, php-format
+msgid "Ready to publish your first post? <a href=\"%s\">Get started here</a>."
+msgstr "Готовы опубликовать свой первый пост? <a href=\"%s\"> Начните здесь"
+
+#: search.php:18
+#, php-format
+msgid "Search Results for: %s"
+msgstr "Результаты поиска для %s"
+
+#: search.php:38
+msgid ""
+"Sorry, but nothing matched your search criteria. Please try again with some "
+"different keywords."
+msgstr ""
+"Извините, но ничего не соответствует вашим критериям поиска. Пожалуйста, "
+"попробуйте еще раз с некоторыми"
+
+#: sidebar.php:20
+msgid "Recent Posts"
+msgstr "Недавние Посты"
+
+#: sidebar.php:24
+msgid "Pages"
+msgstr "страницы"
+
+#: sidebar.php:29
+msgid "Tag Cloud"
+msgstr "Облако тегов"
+
+#: single.php:38 themonic/themonic-options.php:196
+msgid "Related Posts"
+msgstr "Похожие сообщения"
+
+#: tag.php:19
+#, php-format
+msgid "Tag Archives: %s"
+msgstr "Тег Архивы %s"
+
+#: themonic/options/fields/color_gradient/field_color_gradient.php:28
+#: themonic/options/fields/color_gradient/field_color_gradient.php:33
+msgid "From:"
+msgstr "Из"
+
+#: themonic/options/fields/color_gradient/field_color_gradient.php:29
+msgid "To:"
+msgstr "к"
+
+#: themonic/options/fields/color_gradient/field_color_gradient.php:35
+msgid " To:"
+msgstr "к"
+
+#: themonic/options/fields/google_webfonts/field_google_webfonts.php:25
+msgid ""
+"The fonts provided below are free to use custom fonts from the <a href="
+"\"http://www.google.com/webfonts\" target=\"_blank\">Google Web Fonts "
+"directory</a>"
+msgstr ""
+
+#: themonic/options/fields/multi_text/field_multi_text.php:31
+#: themonic/options/fields/multi_text/field_multi_text.php:35
+#: themonic/options/fields/multi_text/field_multi_text.php:38
+msgid "Remove"
+msgstr ""
+
+#: themonic/options/fields/multi_text/field_multi_text.php:40
+msgid "Add More"
+msgstr ""
+
+#: themonic/options/fields/upload/field_upload.php:30
+msgid "Upload"
+msgstr ""
+
+#: themonic/options/fields/upload/field_upload.php:31
+msgid "Remove Upload"
+msgstr ""
+
+#: themonic/options/themonic-reset.php:52
+#: themonic/options/themonic-reset.php:54
+msgid "Options"
+msgstr "Параметры"
+
+#: themonic/options/themonic-reset.php:65
+#, php-format
+msgid ""
+"<span id=\"footer-thankyou\">Built on <a href=\"%s\" target=\"_blank"
+"\">Themonic Framework</a> v%s</span>"
+msgstr ""
+
+#: themonic/options/themonic-reset.php:239
+#: themonic/options/themonic-reset.php:240
+#: themonic/options/themonic-reset.php:678
+msgid "Import / Export"
+msgstr ""
+
+#: themonic/options/themonic-reset.php:259
+#: themonic/options/themonic-reset.php:260
+#: themonic/options/themonic-reset.php:707
+#: themonic/options/themonic-reset.php:780
+msgid "Dev Mode Info"
+msgstr ""
+
+#: themonic/options/themonic-reset.php:351
+msgid "Are you sure? You will lose all custom values."
+msgstr ""
+
+#: themonic/options/themonic-reset.php:632
+#: themonic/options/themonic-reset.php:806
+msgid "Reset to Defaults"
+msgstr "Сбросить до значений по умолчанию"
+
+#: themonic/options/themonic-reset.php:638
+msgid "<strong>Settings Imported!</strong>"
+msgstr ""
+
+#: themonic/options/themonic-reset.php:640
+msgid "<strong>Settings Saved!</strong>"
+msgstr ""
+
+#: themonic/options/themonic-reset.php:645
+msgid "<strong>Settings have changed, you should save them!</strong>"
+msgstr ""
+
+#: themonic/options/themonic-reset.php:646
+msgid "<strong><span></span> error(s) were found!</strong>"
+msgstr ""
+
+#: themonic/options/themonic-reset.php:647
+msgid "<strong><span></span> warning(s) were found!</strong>"
+msgstr ""
+
+#: themonic/options/themonic-reset.php:725
+msgid "Import / Export Options"
+msgstr ""
+
+#: themonic/options/themonic-reset.php:726
+msgid "Import Options"
+msgstr ""
+
+#: themonic/options/themonic-reset.php:727
+msgid "Import from file"
+msgstr ""
+
+#: themonic/options/themonic-reset.php:727
+msgid "Import from URL"
+msgstr ""
+
+#: themonic/options/themonic-reset.php:732
+msgid ""
+"Input your backup file below and hit Import to restore your sites options "
+"from a backup."
+msgstr ""
+
+#: themonic/options/themonic-reset.php:742
+msgid ""
+"Input the URL to another sites options set and hit Import to load the "
+"options from that site."
+msgstr ""
+
+#: themonic/options/themonic-reset.php:749
+msgid "Import"
+msgstr ""
+
+#: themonic/options/themonic-reset.php:749
+msgid ""
+"WARNING! This will overwrite any existing options, please proceed with "
+"caution!"
+msgstr ""
+
+#: themonic/options/themonic-reset.php:752
+msgid "Export Options"
+msgstr ""
+
+#: themonic/options/themonic-reset.php:754
+msgid ""
+"Here you can copy/download your current option settings. Keep this safe as "
+"you can use it as a backup should anything go wrong, or you can use it to "
+"restore your settings on this site (or any other site)."
+msgstr ""
+
+#: themonic/options/themonic-reset.php:757
+msgid "Copy"
+msgstr ""
+
+#: themonic/options/themonic-reset.php:757
+msgid "Copy Link"
+msgstr ""
+
+#: themonic/options/validation/color/validation_color.php:13
+msgid "This field must be a valid color value."
+msgstr ""
+
+#: themonic/options/validation/comma_numeric/validation_comma_numeric.php:13
+msgid ""
+"You must provide a comma seperated list of numerical values for this option."
+msgstr ""
+
+#: themonic/options/validation/date/validation_date.php:13
+msgid "This field must be a valid date."
+msgstr ""
+
+#: themonic/options/validation/email/validation_email.php:13
+msgid "You must provide a valid email for this option."
+msgstr ""
+
+#: themonic/options/validation/no_html/validation_no_html.php:13
+msgid ""
+"You must not enter any HTML in this field, all HTML tags have been removed."
+msgstr ""
+
+#: themonic/options/validation/no_special_chars/validation_no_special_chars.php:13
+msgid ""
+"You must not enter any special characters in this field, all special "
+"characters have been removed."
+msgstr ""
+
+#: themonic/options/validation/numeric/validation_numeric.php:13
+msgid "You must provide a numerical value for this option."
+msgstr ""
+
+#: themonic/options/validation/url/validation_url.php:13
+msgid "You must provide a valid URL for this option."
+msgstr ""
+
+#: themonic/themonic-options.php:20
+msgid "A Section added by hook"
+msgstr ""
+
+#: themonic/themonic-options.php:21
+msgid ""
+"<p class=\"description\">This is a section created by adding a filter to the "
+"sections array. Can be used by child themes to add/remove sections from the "
+"options.</p>"
+msgstr ""
+
+#: themonic/themonic-options.php:58
+msgid "<p></p>"
+msgstr ""
+
+#: themonic/themonic-options.php:78
+msgid "Iconic One Pro"
+msgstr ""
+
+#: themonic/themonic-options.php:82
+msgid "Iconic One Pro Options"
+msgstr "Параметры Iconic One Pro"
+
+#: themonic/themonic-options.php:105
+msgid "Support and Help"
+msgstr ""
+
+#: themonic/themonic-options.php:106
+msgid ""
+"<p>Visit themonic.com/support or use the contact form for super quick "
+"support</p>"
+msgstr ""
+
+#: themonic/themonic-options.php:110
+msgid "Credit"
+msgstr ""
+
+#: themonic/themonic-options.php:111
+msgid ""
+"<p>Modified NHP/Redux Framework</p> https://github.com/leemason/NHP-Theme-"
+"Options-Framework | https://github.com/ghost1227/Redux-Framework"
+msgstr ""
+
+#: themonic/themonic-options.php:115
+msgid "This is the sidebar content, HTML is allowed."
+msgstr ""
+
+#: themonic/themonic-options.php:126
+msgid "Getting Started"
+msgstr ""
+
+#: themonic/themonic-options.php:127
+msgid ""
+"<p class=\"description\">Kindly read the following section carefully.</p>"
+msgstr ""
+
+#: themonic/themonic-options.php:152
+msgid "Main Settings"
+msgstr "Основные параметры"
+
+#: themonic/themonic-options.php:153
+msgid "<p class=\"description\">Enable or Disable the following features.</p>"
+msgstr "Включите или отключите следующие функции."
+
+#: themonic/themonic-options.php:159
+msgid "Show Author ID on Home Page"
+msgstr "Показать идентификатор автора на домашней странице"
+
+#: themonic/themonic-options.php:160
+msgid "Enables Author ID display on home page with small thumb."
+msgstr ""
+"Включает отображение идентификатора автора на домашней странице маленьким "
+"большим пальцем."
+
+#: themonic/themonic-options.php:161 themonic/themonic-options.php:189
+msgid "Enabled by default"
+msgstr "Включено по умолчанию"
+
+#: themonic/themonic-options.php:169
+msgid "Breadcrumb Option"
+msgstr "Вариант с сухарями"
+
+#: themonic/themonic-options.php:170
+msgid "Enable or Disable Breadcrumb"
+msgstr "Включить или отключить хлебную крошку"
+
+#: themonic/themonic-options.php:171 themonic/themonic-options.php:180
+#: themonic/themonic-options.php:198 themonic/themonic-options.php:207
+#: themonic/themonic-options.php:216 themonic/themonic-options.php:225
+#: themonic/themonic-options.php:284 themonic/themonic-options.php:302
+#: themonic/themonic-options.php:320 themonic/themonic-options.php:338
+#: themonic/themonic-options.php:365 themonic/themonic-options.php:374
+#: themonic/themonic-options.php:383 themonic/themonic-options.php:392
+#: themonic/themonic-options.php:401 themonic/themonic-options.php:410
+#: themonic/themonic-options.php:430 themonic/themonic-options.php:448
+#: themonic/themonic-options.php:467
+msgid "Disabled by default"
+msgstr "Отключено по умолчанию"
+
+#: themonic/themonic-options.php:178
+msgid "Show Featured Images on Single Posts"
+msgstr "Показывать избранные изображения в отдельных сообщениях"
+
+#: themonic/themonic-options.php:179
+msgid "Auto Select Featured Image, shown below title"
+msgstr "Автовыбор выбранного изображения, показанного ниже заголовка"
+
+#: themonic/themonic-options.php:187
+msgid "Pagination Option"
+msgstr "Вариант пагинации"
+
+#: themonic/themonic-options.php:188
+msgid "Enable or Disable Pagination"
+msgstr "Включить или отключить пагинацию"
+
+#: themonic/themonic-options.php:197
+msgid "Enable or Disable Related posts"
+msgstr "Включить или отключить похожие сообщения"
+
+#: themonic/themonic-options.php:205
+msgid "Related Posts Thumbnails"
+msgstr "Похожие сообщения Миниатюры"
+
+#: themonic/themonic-options.php:206
+msgid "Enable or Disable Related posts thumbnails"
+msgstr "Включить или отключить похожие сообщения миниатюры"
+
+#: themonic/themonic-options.php:214
+msgid "Footer Widget Area"
+msgstr "Область виджета нижнего колонтитула"
+
+#: themonic/themonic-options.php:215
+msgid ""
+"Enable 3 Footer Widget sections, go to Appearance  -> Widgets after enabling "
+"this"
+msgstr ""
+"Включите 3 раздела виджетов нижнего колонтитула, перейдите в «Внешний вид» -"
+"> «Виджеты» после включения"
+
+#: themonic/themonic-options.php:223
+msgid "Show Author and Date on Home"
+msgstr "Показать автора и дату дома"
+
+#: themonic/themonic-options.php:224
+msgid "Show author/date/comment bar on Home too"
+msgstr "Показать автора / дату / панель комментариев на Home тоже"
+
+#: themonic/themonic-options.php:236
+msgid "Design Settings"
+msgstr "Настройки дизайна"
+
+#: themonic/themonic-options.php:237
+msgid ""
+"<p class=\"description\">Use these setting to change the appearance of your "
+"website</p>"
+msgstr "Используйте эти настройки, чтобы изменить внешний вид вашего"
+
+#: themonic/themonic-options.php:242
+msgid "Customize Theme Color"
+msgstr "Настроить цвет темы"
+
+#: themonic/themonic-options.php:243
+msgid "Change the main theme color"
+msgstr "Изменить основной цвет темы"
+
+#: themonic/themonic-options.php:244
+msgid ""
+"Use of a bit darker colors is recommended, if you have to use light color -> "
+"make use of the Menu link color setting given below."
+msgstr ""
+"Рекомендуется использовать немного более темные цвета, если вам нужно "
+"использовать светлый цвет"
+
+#: themonic/themonic-options.php:250
+msgid "Menu link color"
+msgstr "Цвет ссылки меню"
+
+#: themonic/themonic-options.php:251
+msgid "Change the link color"
+msgstr "Изменить цвет ссылки"
+
+#: themonic/themonic-options.php:252
+msgid ""
+"Use this setting only if you are going to use light color background in the "
+"above\"Theme Color\" setting, else leave empty."
+msgstr ""
+"Используйте этот параметр, только если вы собираетесь использовать светлый "
+"цвет фона в"
+
+#: themonic/themonic-options.php:259
+msgid "Favicon Upload"
+msgstr "Favicon Загрузить"
+
+#: themonic/themonic-options.php:260
+msgid "Upload your website favicon"
+msgstr "Загрузите ваш сайт favicon"
+
+#: themonic/themonic-options.php:265
+msgid "WP-Login Screen Logo"
+msgstr "Логотип экрана входа в систему WP"
+
+#: themonic/themonic-options.php:266
+msgid "Upload logo for Admin/Author login screen for Branding"
+msgstr ""
+"Загрузить логотип для администратора / автора экрана входа в систему для "
+"брендинга"
+
+#: themonic/themonic-options.php:275
+msgid "Ad Management"
+msgstr "Управление рекламой"
+
+#: themonic/themonic-options.php:276
+msgid ""
+"<p class=\"description\">Ad management console, use to this insert Adsense "
+"ads or html at locations defined. First Activate the area and then place the "
+"code.</p>"
+msgstr "Консоль управления рекламой, используйте для этой вставки Adsense"
+
+#: themonic/themonic-options.php:282
+msgid "Activate Below Title Hook #AD1"
+msgstr "Активировать под заголовком Hook"
+
+#: themonic/themonic-options.php:283
+msgid ""
+"Enable or Disable the following below title hook, after enabling enter the "
+"ad code below"
+msgstr ""
+"Включите или отключите следующий заголовок заголовка, после включения введите"
+
+#: themonic/themonic-options.php:292
+msgid "Below Title Hook #AD1"
+msgstr "Под заголовком Hook\t"
+
+#: themonic/themonic-options.php:293
+msgid ""
+"You could use it to display Adsense ads below the title where it earns the "
+"most"
+msgstr ""
+"Вы можете использовать его для показа рекламы Adsense под заголовком, где он "
+"зарабатывает"
+
+#: themonic/themonic-options.php:300
+msgid "Activate Below Header Hook #AD2"
+msgstr "Активировать под заголовком Hook"
+
+#: themonic/themonic-options.php:301 themonic/themonic-options.php:319
+#: themonic/themonic-options.php:337
+msgid "Enable or Disable the following hook"
+msgstr ""
+"Включите или отключите следующий заголовок заголовка, после включения введите"
+
+#: themonic/themonic-options.php:310
+msgid "Below the Header Hook #AD2"
+msgstr "Под крюком заголовка"
+
+#: themonic/themonic-options.php:311
+msgid "Use it to insert Ad code directly below the navigation"
+msgstr "Используйте его, чтобы вставить рекламный код прямо под навигацией"
+
+#: themonic/themonic-options.php:318
+msgid "Activate Above Header Hook #AD3"
+msgstr "Активировать крюк над заголовком"
+
+#: themonic/themonic-options.php:328
+msgid "Above the Header Hook #AD3"
+msgstr "Над крюком заголовка"
+
+#: themonic/themonic-options.php:329
+msgid "Use it to insert Ad code above Header"
+msgstr "Используйте его, чтобы вставить рекламный код над заголовком"
+
+#: themonic/themonic-options.php:336
+msgid "Activate Below Article Hook #AD4"
+msgstr "Активировать под статьей Hook"
+
+#: themonic/themonic-options.php:346
+msgid "After Article Hook #AD4"
+msgstr "После статьи Крюк"
+
+#: themonic/themonic-options.php:347
+msgid "Use it to insert Ad code after the article"
+msgstr "Используйте его, чтобы вставить рекламный код после статьи"
+
+#: themonic/themonic-options.php:358
+msgid ""
+"<p class=\"description\">First Enable Social Sharing and then select the "
+"buttons to show.</p>"
+msgstr "Сначала включите социальный обмен, а затем выберите"
+
+#: themonic/themonic-options.php:363
+msgid "Social Sharing"
+msgstr "Социальный обмен"
+
+#: themonic/themonic-options.php:364
+msgid "Enable or Disable Social Bookmarking on posts"
+msgstr "Включить или отключить социальные закладки на сообщения"
+
+#: themonic/themonic-options.php:372
+msgid "Social Sharing on Home Page"
+msgstr "Социальный обмен на домашней странице"
+
+#: themonic/themonic-options.php:373
+msgid "Enable or Disable social sharing buttons on home page"
+msgstr "Включить или отключить кнопки общего доступа на главной странице"
+
+#: themonic/themonic-options.php:381
+msgid "Facebook Like Button"
+msgstr ""
+
+#: themonic/themonic-options.php:382
+msgid "Enable or Disable Facebook button"
+msgstr ""
+
+#: themonic/themonic-options.php:390
+msgid "Facebook Share Button"
+msgstr ""
+
+#: themonic/themonic-options.php:391
+#, fuzzy
+#| msgid "Enable or Disable Pagination"
+msgid "Enable or Disable Facebook Share Button"
+msgstr "Включить или отключить пагинацию"
+
+#: themonic/themonic-options.php:399
+msgid "Twitter Share Option"
+msgstr ""
+
+#: themonic/themonic-options.php:400
+msgid "Enable or Disable Twitter button"
+msgstr ""
+
+#: themonic/themonic-options.php:408
+msgid "Pinterest Share Option"
+msgstr ""
+
+#: themonic/themonic-options.php:409
+msgid "Enable or Disable Pinterest button"
+msgstr ""
+
+#: themonic/themonic-options.php:421
+msgid "Slider"
+msgstr ""
+
+#: themonic/themonic-options.php:422
+msgid ""
+"<p class=\"description\">Setup the Homepage Slider and Category Page Slider."
+"</p>"
+msgstr ""
+
+#: themonic/themonic-options.php:428
+msgid "Home Page Slider"
+msgstr "Домашняя страница Слайдер"
+
+#: themonic/themonic-options.php:429
+msgid "Enable or Disable Home Page Slider"
+msgstr "Включить или отключить слайдер домашней страницы"
+
+#: themonic/themonic-options.php:438
+msgid "Select Home Page Slider Category"
+msgstr "Выберите категорию слайдера домашней страницы"
+
+#: themonic/themonic-options.php:439
+msgid "Select the Category from which you want to show slider on Home page."
+msgstr ""
+"Выберите категорию, из которой вы хотите показать слайдер на домашней "
+"странице."
+
+#: themonic/themonic-options.php:446
+msgid "Category Page Slider"
+msgstr "Слайдер страницы категории"
+
+#: themonic/themonic-options.php:447
+msgid ""
+"Enable Category Page slider, it will slide images from its respective "
+"category."
+msgstr ""
+"Включите ползунок категории страницы, он будет скользить изображения из "
+"соответствующих"
+
+#: themonic/themonic-options.php:459
+msgid ""
+"<p class=\"description\">For Tracking codes, it will load in the end to "
+"improve performance</p>"
+msgstr "Для кодов отслеживания он будет загружен в конце"
+
+#: themonic/themonic-options.php:465
+msgid "Enable Footer Analytics Code"
+msgstr "Включить код аналитики нижнего колонтитула"
+
+#: themonic/themonic-options.php:466
+msgid "Check this to activate the area below"
+msgstr "Отметьте это, чтобы активировать область ниже"
+
+#: themonic/themonic-options.php:475
+msgid "Footer Analytics Code"
+msgstr "Аналитический код нижнего колонтитула"
+
+#: themonic/themonic-options.php:476
+msgid "for eg. Google Analytics, Statcounter etc."
+msgstr ""
+
+#: themonic/themonic-options.php:482
+msgid "Credit link"
+msgstr "Кредитная ссылка"
+
+#: themonic/themonic-options.php:483
+msgid "Uncheck this if you want to remove the credit link"
+msgstr "Снимите этот флажок, если вы хотите удалить кредитную ссылку"
+
+#: themonic/themonic-options.php:491
+msgid "Affiliate ID"
+msgstr ""
+
+#: themonic/themonic-options.php:492
+msgid ""
+"Adds your affiliate ID to the footer credit link. Free registeration at "
+"Themonic.com/affiliate"
+msgstr ""
+
+#: themonic/themonic-options.php:493
+#, php-format
+msgid ""
+"Enter your Affiliate ID to  get 50% of all sales referred by you, no hassle "
+"monthly payouts. "
+msgstr ""
+
+#: themonic/themonic-options.php:506
+msgid "Support"
+msgstr "Служба поддержки"

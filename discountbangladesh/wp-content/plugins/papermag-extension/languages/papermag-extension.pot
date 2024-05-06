@@ -1,0 +1,1550 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PaperMag Extension\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-12-13 16:47+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.5.5; wp-5.8.2\n"
+"X-Domain: papermag-extension"
+
+#: inc/options/theme-option.php:576
+msgid "10"
+msgstr ""
+
+#: inc/options/theme-option.php:582
+msgid "20"
+msgstr ""
+
+#: inc/options/theme-option.php:665
+msgid "404"
+msgstr ""
+
+#: inc/options/theme-option.php:676
+msgid "404 Button"
+msgstr ""
+
+#: inc/options/theme-option.php:659
+msgid "404 Page Options"
+msgstr ""
+
+#: inc/options/theme-option.php:670
+msgid "404 Title"
+msgstr ""
+
+#: inc/recent-post-widget/recent-post.php:11
+msgid "A widget that display latest posts from all categories"
+msgstr ""
+
+#: inc/widgets/politice-post-tab.php:36 inc/widgets/post-list-tab.php:59
+msgid "Active Item"
+msgstr ""
+
+#: inc/widgets/contact-info-widget.php:56
+msgid "Add Item"
+msgstr ""
+
+#: inc/widgets/politice-post-tab.php:126 inc/widgets/post-list-tab.php:161
+#: inc/widgets/team.php:74
+msgid "Add Slide"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"After install the PaperMag WordPress Theme, you must need to install this "
+"\"PaperMag Extension\" first to get all functions of PaperMag WP Theme."
+msgstr ""
+
+#: inc/widgets/post-single-video.php:48 inc/widgets/politice-post-tab.php:68
+#: inc/widgets/post-list-item.php:74 inc/widgets/post-list-small.php:49
+#: inc/widgets/post-grid-column-2.php:48 inc/widgets/post-video.php:74
+#: inc/widgets/authore-post-video-popup.php:46
+#: inc/widgets/post-grid-carousel.php:49 inc/widgets/post-overlay.php:50
+#: inc/widgets/post-grid.php:50 inc/widgets/post-list-tab.php:125
+#: inc/widgets/famouse-column.php:50 inc/widgets/post-grid-column.php:50
+#: inc/widgets/post-block-left.php:50 inc/widgets/post-grid-politics.php:50
+msgid "Ascending"
+msgstr ""
+
+#: inc/widgets/politice-post-tab.php:211 inc/widgets/post-grid-column-2.php:118
+#: inc/widgets/post-video.php:111 inc/widgets/authore-post-video-popup.php:83
+#: inc/widgets/post-overlay.php:87 inc/widgets/post-grid.php:87
+#: inc/widgets/post-list-tab.php:235 inc/widgets/famouse-column.php:87
+#: inc/widgets/post-grid-column.php:87 inc/widgets/post-block-left.php:87
+#: inc/widgets/post-grid-politics.php:87
+msgid "Author"
+msgstr ""
+
+#: inc/widgets/politice-post-tab.php:223 inc/widgets/post-grid-column-2.php:130
+#: inc/widgets/post-video.php:123 inc/widgets/authore-post-video-popup.php:95
+#: inc/widgets/post-overlay.php:99 inc/widgets/post-grid.php:99
+#: inc/widgets/post-list-tab.php:247 inc/widgets/famouse-column.php:99
+#: inc/widgets/post-grid-column.php:99 inc/widgets/post-block-left.php:99
+#: inc/widgets/post-grid-politics.php:99
+msgid "Author Avater"
+msgstr ""
+
+#: inc/widgets/politice-post-tab.php:236 inc/widgets/post-grid-column-2.php:143
+#: inc/widgets/post-video.php:136 inc/widgets/authore-post-video-popup.php:108
+#: inc/widgets/post-overlay.php:112 inc/widgets/post-grid.php:112
+#: inc/widgets/post-list-tab.php:260 inc/widgets/famouse-column.php:112
+#: inc/widgets/post-grid-column.php:112 inc/widgets/post-block-left.php:112
+#: inc/widgets/post-grid-politics.php:112
+msgid "Authore Avater Size"
+msgstr ""
+
+#: inc/widgets/authore-post-video-popup.php:255
+#: inc/widgets/authore-quote.php:58
+msgid "Authore Box Style"
+msgstr ""
+
+#: inc/widgets/authore-quote.php:136 inc/widgets/post-item-list.php:376
+#: inc/widgets/post-list-left-img.php:378
+msgid "Authore Color"
+msgstr ""
+
+#: inc/widgets/authore-post-video-popup.php:237
+msgid "Authore Content"
+msgstr ""
+
+#: inc/widgets/authore-post-video-popup.php:337
+msgid "Authore Date Style"
+msgstr ""
+
+#: inc/widgets/authore-post-video-popup.php:244
+#: inc/widgets/authore-quote.php:33
+msgid "Authore Image"
+msgstr ""
+
+#: inc/widgets/authore-post-video-popup.php:297
+#: inc/widgets/authore-quote.php:89
+msgid "Authore Info Style"
+msgstr ""
+
+#: inc/widgets/post-overlay.php:353 inc/widgets/post-grid.php:395
+#: inc/widgets/post-block-left.php:375
+msgid "Authore Meta"
+msgstr ""
+
+#: inc/widgets/authore-quote.php:47
+msgid "Authore Name"
+msgstr ""
+
+#: inc/widgets/post-overlay.php:368 inc/widgets/post-grid.php:410
+#: inc/widgets/famouse-column.php:274 inc/widgets/famouse-column.php:300
+#: inc/widgets/post-block-left.php:390
+msgid "Authore Name Color"
+msgstr ""
+
+#: inc/widgets/authore-quote.php:129
+msgid "Authore Name Style"
+msgstr ""
+
+#: inc/widgets/authore-post-video-popup.php:306
+msgid "Authore Namme Style"
+msgstr ""
+
+#: inc/widgets/authore-quote.php:10
+msgid "Authore Quote"
+msgstr ""
+
+#: inc/widgets/authore-post-video-popup.php:10
+msgid "Authore Quote Video Popup"
+msgstr ""
+
+#: inc/widgets/post-grid-carousel.php:250
+msgid "Autoplay"
+msgstr ""
+
+#: inc/widgets/post-grid-carousel.php:273
+msgid "Autoplay Timeout"
+msgstr ""
+
+#: inc/widgets/post-grid-carousel.php:295
+msgid "autoplayHoverPause"
+msgstr ""
+
+#: inc/widgets/authore-post-video-popup.php:275 inc/widgets/info-box.php:93
+#: inc/widgets/authore-quote.php:78 inc/widgets/team.php:116
+msgid "Background"
+msgstr ""
+
+#: inc/options/theme-option.php:765
+msgid "Backup"
+msgstr ""
+
+#: inc/options/theme-option.php:393
+msgid "Blog"
+msgstr ""
+
+#: inc/options/theme-option.php:399
+msgid "Blog Layout"
+msgstr ""
+
+#: inc/options/theme-option.php:415
+msgid "Blog Options"
+msgstr ""
+
+#: inc/recent-post-widget/recent-post.php:145
+msgid "Blog Posts"
+msgstr ""
+
+#: inc/options/theme-option.php:460
+msgid "Blog Read More Button"
+msgstr ""
+
+#: inc/options/theme-option.php:345
+msgid "Body"
+msgstr ""
+
+#: inc/widgets/info-box.php:103 inc/widgets/team.php:126
+msgid "Border"
+msgstr ""
+
+#: inc/widgets/politice-post-tab.php:365 inc/widgets/post-grid-column-2.php:272
+#: inc/widgets/post-video.php:327 inc/widgets/post-grid-carousel.php:351
+#: inc/widgets/info-box.php:81 inc/widgets/post-overlay.php:259
+#: inc/widgets/post-grid.php:305 inc/widgets/post-list-tab.php:419
+#: inc/widgets/team.php:104 inc/widgets/post-grid-column.php:305
+#: inc/widgets/post-block-left.php:271 inc/widgets/post-grid-politics.php:258
+msgid "Border Radius"
+msgstr ""
+
+#: inc/widgets/famouse-column.php:213
+msgid "Bottom Space"
+msgstr ""
+
+#: inc/widgets/authore-post-video-popup.php:263 inc/widgets/info-box.php:70
+#: inc/widgets/authore-quote.php:66 inc/widgets/team.php:93
+msgid "Box Padding"
+msgstr ""
+
+#: inc/widgets/post-single-video.php:180
+#: inc/widgets/authore-post-video-popup.php:284
+msgid "Box Round"
+msgstr ""
+
+#: inc/widgets/breadcrumb.php:126
+msgid "Breadcrumb BG Color"
+msgstr ""
+
+#: inc/options/theme-option.php:503
+msgid "Breadcrumb ON/OFF"
+msgstr ""
+
+#: inc/widgets/breadcrumb.php:26
+msgid "Breadcrumb Options"
+msgstr ""
+
+#: inc/widgets/post-single-video.php:85 inc/widgets/post-list-item.php:111
+#: inc/widgets/post-list-small.php:86 inc/widgets/post-video.php:145
+#: inc/widgets/authore-post-video-popup.php:118
+#: inc/widgets/post-grid-carousel.php:85 inc/widgets/post-overlay.php:122
+#: inc/widgets/post-grid.php:122 inc/widgets/post-list-left-img.php:85
+#: inc/widgets/post-grid-column.php:122 inc/widgets/post-block-left.php:122
+#: inc/widgets/post-grid-politics.php:122 inc/options/theme-option.php:469
+msgid "Category"
+msgstr ""
+
+#: inc/widgets/post-single-video.php:254
+msgid "Category Color"
+msgstr ""
+
+#: inc/options/theme-option.php:581
+msgid "Category Excerpt Length"
+msgstr ""
+
+#: inc/options/theme-option.php:475
+msgid "Category Layout"
+msgstr ""
+
+#: inc/options/theme-option.php:575
+msgid "Category Title Length"
+msgstr ""
+
+#: inc/widgets/post-grid-carousel.php:239
+msgid "Center"
+msgstr ""
+
+#: inc/options/theme-option.php:491
+msgid "Choose Category Column"
+msgstr ""
+
+#: inc/widgets/post-tab.php:369 inc/widgets/post-tab.php:387
+#: inc/widgets/contact-info-widget.php:146
+#: inc/widgets/contact-info-widget.php:177 inc/widgets/section-title.php:119
+#: inc/widgets/info-box.php:171 inc/widgets/team.php:194
+msgid "Color"
+msgstr ""
+
+#: inc/widgets/politice-post-tab.php:295 inc/widgets/post-list-item.php:179
+#: inc/widgets/post-video.php:261 inc/widgets/post-grid-carousel.php:152
+#: inc/widgets/post-grid.php:239 inc/widgets/post-list-tab.php:341
+#: inc/widgets/post-grid-column.php:239
+msgid "Comment"
+msgstr ""
+
+#: inc/widgets/post-single-video.php:66 inc/widgets/politice-post-tab.php:86
+#: inc/widgets/post-list-item.php:92 inc/widgets/post-list-small.php:67
+#: inc/widgets/post-grid-column-2.php:66 inc/widgets/post-video.php:92
+#: inc/widgets/authore-post-video-popup.php:64
+#: inc/widgets/post-grid-carousel.php:66 inc/widgets/post-overlay.php:68
+#: inc/widgets/post-grid.php:68 inc/widgets/post-list-tab.php:143
+#: inc/widgets/famouse-column.php:68 inc/widgets/post-grid-column.php:68
+#: inc/widgets/post-block-left.php:68 inc/widgets/post-grid-politics.php:68
+msgid "Comment count"
+msgstr ""
+
+#: inc/widgets/contact-info-widget.php:48
+msgid "Contact Info"
+msgstr ""
+
+#: inc/options/theme-option.php:505
+msgid "Control Your Category Breadcrumb ON/OFF"
+msgstr ""
+
+#: inc/options/theme-option.php:736
+msgid "Copyright Area Text"
+msgstr ""
+
+#: inc/recent-post-widget/recent-post.php:202
+msgid "Count of Latest Post"
+msgstr ""
+
+#: inc/widgets/authore-quote.php:26
+msgid "CTA Content"
+msgstr ""
+
+#: inc/widgets/post-single-video.php:35 inc/widgets/politice-post-tab.php:55
+#: inc/widgets/post-list-item.php:61 inc/widgets/post-list-small.php:36
+#: inc/widgets/post-grid-column-2.php:35 inc/widgets/post-video.php:61
+#: inc/widgets/authore-post-video-popup.php:33
+#: inc/widgets/post-grid-carousel.php:36 inc/widgets/post-overlay.php:37
+#: inc/widgets/post-grid.php:37 inc/widgets/post-list-tab.php:112
+#: inc/widgets/famouse-column.php:37 inc/widgets/post-grid-column.php:37
+#: inc/widgets/post-block-left.php:37 inc/widgets/post-grid-politics.php:37
+msgid "Custom Order"
+msgstr ""
+
+#: inc/widgets/breadcrumb.php:45
+msgid "Custom Title"
+msgstr ""
+
+#: inc/widgets/post-single-video.php:63 inc/widgets/politice-post-tab.php:83
+#: inc/widgets/politice-post-tab.php:248 inc/widgets/politice-post-tab.php:264
+#: inc/widgets/post-list-item.php:89 inc/widgets/post-list-small.php:64
+#: inc/widgets/post-grid-column-2.php:63 inc/widgets/post-grid-column-2.php:153
+#: inc/widgets/post-grid-column-2.php:169 inc/widgets/post-video.php:89
+#: inc/widgets/post-video.php:190 inc/widgets/post-video.php:206
+#: inc/widgets/authore-post-video-popup.php:61
+#: inc/widgets/authore-post-video-popup.php:164
+#: inc/widgets/authore-post-video-popup.php:180
+#: inc/widgets/post-grid-carousel.php:64 inc/widgets/post-overlay.php:65
+#: inc/widgets/post-overlay.php:168 inc/widgets/post-overlay.php:184
+#: inc/widgets/post-grid.php:65 inc/widgets/post-grid.php:168
+#: inc/widgets/post-grid.php:184 inc/widgets/post-list-tab.php:140
+#: inc/widgets/post-list-tab.php:270 inc/widgets/post-list-tab.php:286
+#: inc/widgets/famouse-column.php:65 inc/widgets/famouse-column.php:155
+#: inc/widgets/famouse-column.php:171 inc/widgets/post-grid-column.php:65
+#: inc/widgets/post-grid-column.php:168 inc/widgets/post-grid-column.php:184
+#: inc/widgets/post-block-left.php:65 inc/widgets/post-block-left.php:168
+#: inc/widgets/post-block-left.php:184 inc/widgets/post-grid-politics.php:65
+#: inc/widgets/post-grid-politics.php:168
+#: inc/widgets/post-grid-politics.php:184
+msgid "Date"
+msgstr ""
+
+#: inc/widgets/politice-post-tab.php:265 inc/widgets/post-grid-column-2.php:170
+#: inc/widgets/post-video.php:207 inc/widgets/authore-post-video-popup.php:181
+#: inc/widgets/post-overlay.php:185 inc/widgets/post-grid.php:185
+#: inc/widgets/post-list-tab.php:287 inc/widgets/famouse-column.php:172
+#: inc/widgets/post-grid-column.php:185 inc/widgets/post-block-left.php:185
+#: inc/widgets/post-grid-politics.php:185
+msgid "Date & Time"
+msgstr ""
+
+#: inc/widgets/authore-post-video-popup.php:344
+#: inc/widgets/post-overlay.php:394 inc/widgets/post-grid.php:436
+#: inc/widgets/post-block-left.php:416
+msgid "Date Color"
+msgstr ""
+
+#: inc/widgets/post-overlay.php:379 inc/widgets/post-grid.php:421
+#: inc/widgets/post-block-left.php:401
+msgid "Date Meta"
+msgstr ""
+
+#: inc/widgets/politice-post-tab.php:260 inc/widgets/post-grid-column-2.php:165
+#: inc/widgets/post-video.php:202 inc/widgets/authore-post-video-popup.php:176
+#: inc/widgets/post-overlay.php:180 inc/widgets/post-grid.php:180
+#: inc/widgets/post-list-tab.php:282 inc/widgets/famouse-column.php:167
+#: inc/widgets/post-grid-column.php:180 inc/widgets/post-block-left.php:180
+#: inc/widgets/post-grid-politics.php:180
+msgid "Date Type"
+msgstr ""
+
+#: inc/widgets/post-single-video.php:49 inc/widgets/politice-post-tab.php:69
+#: inc/widgets/post-list-item.php:75 inc/widgets/post-list-small.php:50
+#: inc/widgets/post-grid-column-2.php:49 inc/widgets/post-video.php:75
+#: inc/widgets/authore-post-video-popup.php:47
+#: inc/widgets/post-grid-carousel.php:50 inc/widgets/post-overlay.php:51
+#: inc/widgets/post-grid.php:51 inc/widgets/post-list-tab.php:126
+#: inc/widgets/famouse-column.php:51 inc/widgets/post-grid-column.php:51
+#: inc/widgets/post-block-left.php:51 inc/widgets/post-grid-politics.php:51
+msgid "Descending"
+msgstr ""
+
+#: inc/options/theme-option.php:93
+msgid "Do You want to Show Dark Mode"
+msgstr ""
+
+#: inc/options/theme-option.php:705
+msgid "Do You want to Show Footer CTA Bar"
+msgstr ""
+
+#: inc/options/theme-option.php:86
+msgid "Do You want to Show Header Search"
+msgstr ""
+
+#: inc/options/theme-option.php:58
+msgid "Do You want to Show Header Social Icon"
+msgstr ""
+
+#: inc/options/theme-option.php:51
+msgid "Do You want to Show Header Top Bar"
+msgstr ""
+
+#: inc/widgets/post-grid-carousel.php:228
+msgid "Dots"
+msgstr ""
+
+#: inc/options/theme-option.php:314
+msgid "Dropdown BG Color"
+msgstr ""
+
+#: inc/options/theme-option.php:304
+msgid "Dropdown Menu Typography"
+msgstr ""
+
+#: inc/options/theme-option.php:713
+msgid "Elementor Footer Widget"
+msgstr ""
+
+#: inc/options/theme-option.php:95
+msgid "Enable Header Dark Mode"
+msgstr ""
+
+#: inc/options/theme-option.php:88
+msgid "Enable Header Search"
+msgstr ""
+
+#: inc/options/theme-option.php:60
+msgid "Enable Header Social Icon"
+msgstr ""
+
+#: inc/options/theme-option.php:53
+msgid "Enable Header Top Bar"
+msgstr ""
+
+#: inc/options/theme-option.php:707
+msgid "Enable or Disable CTA Bar"
+msgstr ""
+
+#: inc/options/theme-option.php:220
+msgid "Enable or Disable Preloader"
+msgstr ""
+
+#: inc/options/theme-option.php:218
+msgid "Enable Preloader"
+msgstr ""
+
+#: inc/options/theme-option.php:149
+msgid "Enable Sticky Header"
+msgstr ""
+
+#: inc/options/theme-option.php:714
+msgid "Enter Shortcode Here"
+msgstr ""
+
+#: inc/options/theme-metabox.php:81
+msgid "Enter Video Link Here"
+msgstr ""
+
+#: inc/options/theme-option.php:178
+msgid "Enter Your Email"
+msgstr ""
+
+#: inc/options/theme-option.php:173
+msgid "Enter Your Email Text"
+msgstr ""
+
+#: inc/options/theme-option.php:664
+msgid "Error Code"
+msgstr ""
+
+#: inc/widgets/post-grid-column-2.php:202 inc/widgets/post-video.php:239
+#: inc/widgets/authore-post-video-popup.php:213 inc/widgets/post-grid.php:217
+#: inc/widgets/post-list-tab.php:319 inc/widgets/post-grid-column.php:217
+#: inc/widgets/post-block-left.php:217
+msgid "Excerpt"
+msgstr ""
+
+#: inc/widgets/post-grid-column-2.php:335
+#: inc/widgets/post-grid-column-2.php:361
+#: inc/widgets/authore-post-video-popup.php:406
+#: inc/widgets/post-item-list.php:350 inc/widgets/post-list-left-img.php:352
+#: inc/widgets/post-block-left.php:364
+msgid "Excerpt Color"
+msgstr ""
+
+#: inc/widgets/post-grid-column-2.php:214 inc/widgets/post-video.php:251
+#: inc/widgets/authore-post-video-popup.php:225 inc/widgets/post-grid.php:229
+#: inc/widgets/post-list-tab.php:331 inc/widgets/post-grid-column.php:229
+#: inc/widgets/post-block-left.php:229
+msgid "Excerpt Length"
+msgstr ""
+
+#: inc/widgets/info-box.php:151 inc/widgets/team.php:174
+msgid "Excerpt Style"
+msgstr ""
+
+#: inc/widgets/post-block-left.php:338
+msgid "Excerpt Top Space"
+msgstr ""
+
+#: inc/widgets/breadcrumb.php:10
+msgid "Exodus Breadcrumb"
+msgstr ""
+
+#: inc/widgets/contact-info-widget.php:10
+msgid "Exodus Contact Info Widget"
+msgstr ""
+
+#: inc/widgets/famouse-column.php:13
+msgid "Exodus Famouse Post"
+msgstr ""
+
+#: inc/widgets/info-box.php:10
+msgid "Exodus Infobox"
+msgstr ""
+
+#: inc/recent-post-widget/recent-post.php:20
+msgid "Exodus Latest Posts With Thumbnail"
+msgstr ""
+
+#: inc/widgets/post-grid.php:13
+msgid "exodus Post Grid"
+msgstr ""
+
+#: inc/widgets/post-grid-politics.php:13
+msgid "exodus Post Grid Politics"
+msgstr ""
+
+#: inc/widgets/post-block-left.php:13
+msgid "Exodus Post Grid Two"
+msgstr ""
+
+#: inc/widgets/post-overlay.php:13
+msgid "Exodus Post Image Overlay"
+msgstr ""
+
+#: inc/widgets/post-list-item.php:13
+msgid "exodus Post List"
+msgstr ""
+
+#: inc/widgets/post-list-small.php:13
+msgid "Exodus Post List Small"
+msgstr ""
+
+#: inc/widgets/section-title.php:10
+msgid "Exodus Section Title"
+msgstr ""
+
+#: inc/widgets/politice-post-tab.php:48 inc/widgets/post-list-tab.php:71
+msgid "exodus Tab Title"
+msgstr ""
+
+#: inc/widgets/team.php:10
+msgid "Exodus Team"
+msgstr ""
+
+#: inc/widgets/section-title.php:35
+msgid "fal fa-galaxy"
+msgstr ""
+
+#: inc/recent-post-widget/recent-post.php:190
+msgid "Filter by Categories"
+msgstr ""
+
+#: inc/options/theme-option.php:695
+msgid "Footer"
+msgstr ""
+
+#: inc/options/theme-option.php:731
+msgid "Footer Copyright Area Options"
+msgstr ""
+
+#: inc/options/theme-option.php:738
+msgid "Footer Copyright Text"
+msgstr ""
+
+#: inc/options/theme-option.php:744 inc/options/theme-option.php:754
+msgid "Footer Link"
+msgstr ""
+
+#: inc/options/theme-option.php:749
+msgid "Footer Link Text"
+msgstr ""
+
+#: inc/options/theme-option.php:719
+msgid "Footer Logo Tag"
+msgstr ""
+
+#: inc/options/theme-option.php:725
+msgid "Footer Logo Text"
+msgstr ""
+
+#: inc/options/theme-option.php:701
+msgid "Footer Options"
+msgstr ""
+
+#: inc/options/theme-option.php:677
+msgid "Go Back Home"
+msgstr ""
+
+#: inc/widgets/politice-post-tab.php:431
+msgid "Grid Post Typography"
+msgstr ""
+
+#: inc/widgets/politice-post-tab.php:438
+msgid "Grid Title Color"
+msgstr ""
+
+#: inc/widgets/politice-post-tab.php:285
+msgid "Grid Title Length"
+msgstr ""
+
+#: inc/options/theme-option.php:106
+msgid "Header"
+msgstr ""
+
+#: inc/options/theme-option.php:131
+msgid "Header Layout"
+msgstr ""
+
+#: inc/options/theme-option.php:188
+msgid "Header Podcast Text"
+msgstr ""
+
+#: inc/options/theme-option.php:193
+msgid "Header Podcast URL"
+msgstr ""
+
+#: inc/options/theme-option.php:183
+msgid "Header Search Text"
+msgstr ""
+
+#: inc/options/theme-option.php:41
+msgid "Header Top"
+msgstr ""
+
+#: inc/options/theme-option.php:47
+msgid "Header Top Infos"
+msgstr ""
+
+#: inc/options/theme-option.php:155
+msgid "Header Two Options"
+msgstr ""
+
+#: inc/options/theme-option.php:198
+msgid "Header Video Text"
+msgstr ""
+
+#: inc/options/theme-option.php:203
+msgid "Header Video URL"
+msgstr ""
+
+#: inc/widgets/section-title.php:48 inc/options/theme-option.php:357
+msgid "Heading"
+msgstr ""
+
+#: inc/widgets/post-video.php:295 inc/widgets/post-block-left.php:250
+msgid "Height"
+msgstr ""
+
+#: inc/widgets/post-single-video.php:88 inc/widgets/post-single-video.php:111
+#: inc/widgets/post-single-video.php:134 inc/widgets/politice-post-tab.php:39
+#: inc/widgets/politice-post-tab.php:108 inc/widgets/politice-post-tab.php:214
+#: inc/widgets/politice-post-tab.php:226 inc/widgets/politice-post-tab.php:251
+#: inc/widgets/politice-post-tab.php:298 inc/widgets/politice-post-tab.php:310
+#: inc/widgets/post-list-item.php:114 inc/widgets/post-list-item.php:138
+#: inc/widgets/post-list-item.php:159 inc/widgets/post-list-item.php:182
+#: inc/widgets/post-list-item.php:194 inc/widgets/post-list-item.php:206
+#: inc/widgets/post-list-small.php:89 inc/widgets/post-list-small.php:113
+#: inc/widgets/post-list-small.php:134 inc/widgets/post-grid-column-2.php:100
+#: inc/widgets/post-grid-column-2.php:121
+#: inc/widgets/post-grid-column-2.php:133
+#: inc/widgets/post-grid-column-2.php:156
+#: inc/widgets/post-grid-column-2.php:183
+#: inc/widgets/post-grid-column-2.php:205 inc/widgets/post-video.php:114
+#: inc/widgets/post-video.php:126 inc/widgets/post-video.php:148
+#: inc/widgets/post-video.php:171 inc/widgets/post-video.php:193
+#: inc/widgets/post-video.php:220 inc/widgets/post-video.php:242
+#: inc/widgets/post-video.php:264 inc/widgets/post-video.php:276
+#: inc/widgets/authore-post-video-popup.php:86
+#: inc/widgets/authore-post-video-popup.php:98
+#: inc/widgets/authore-post-video-popup.php:121
+#: inc/widgets/authore-post-video-popup.php:145
+#: inc/widgets/authore-post-video-popup.php:167
+#: inc/widgets/authore-post-video-popup.php:194
+#: inc/widgets/authore-post-video-popup.php:216
+#: inc/widgets/post-grid-carousel.php:88 inc/widgets/post-grid-carousel.php:112
+#: inc/widgets/post-grid-carousel.php:133
+#: inc/widgets/post-grid-carousel.php:155
+#: inc/widgets/post-grid-carousel.php:167
+#: inc/widgets/post-grid-carousel.php:209
+#: inc/widgets/post-grid-carousel.php:220
+#: inc/widgets/post-grid-carousel.php:231
+#: inc/widgets/post-grid-carousel.php:242
+#: inc/widgets/post-grid-carousel.php:253
+#: inc/widgets/post-grid-carousel.php:298 inc/widgets/post-overlay.php:90
+#: inc/widgets/post-overlay.php:102 inc/widgets/post-overlay.php:125
+#: inc/widgets/post-overlay.php:149 inc/widgets/post-overlay.php:171
+#: inc/widgets/post-overlay.php:198 inc/widgets/post-grid.php:90
+#: inc/widgets/post-grid.php:102 inc/widgets/post-grid.php:125
+#: inc/widgets/post-grid.php:149 inc/widgets/post-grid.php:171
+#: inc/widgets/post-grid.php:198 inc/widgets/post-grid.php:220
+#: inc/widgets/post-grid.php:242 inc/widgets/post-grid.php:254
+#: inc/widgets/post-list-tab.php:62 inc/widgets/post-list-tab.php:93
+#: inc/widgets/post-list-tab.php:238 inc/widgets/post-list-tab.php:250
+#: inc/widgets/post-list-tab.php:273 inc/widgets/post-list-tab.php:300
+#: inc/widgets/post-list-tab.php:322 inc/widgets/post-list-tab.php:344
+#: inc/widgets/post-list-tab.php:356 inc/widgets/post-list-tab.php:368
+#: inc/widgets/famouse-column.php:90 inc/widgets/famouse-column.php:102
+#: inc/widgets/famouse-column.php:136 inc/widgets/famouse-column.php:158
+#: inc/widgets/famouse-column.php:185 inc/widgets/post-list-left-img.php:88
+#: inc/widgets/post-grid-column.php:90 inc/widgets/post-grid-column.php:102
+#: inc/widgets/post-grid-column.php:125 inc/widgets/post-grid-column.php:149
+#: inc/widgets/post-grid-column.php:171 inc/widgets/post-grid-column.php:198
+#: inc/widgets/post-grid-column.php:220 inc/widgets/post-grid-column.php:242
+#: inc/widgets/post-grid-column.php:254 inc/widgets/post-block-left.php:90
+#: inc/widgets/post-block-left.php:102 inc/widgets/post-block-left.php:125
+#: inc/widgets/post-block-left.php:149 inc/widgets/post-block-left.php:171
+#: inc/widgets/post-block-left.php:198 inc/widgets/post-block-left.php:220
+#: inc/widgets/post-grid-politics.php:90 inc/widgets/post-grid-politics.php:102
+#: inc/widgets/post-grid-politics.php:125
+#: inc/widgets/post-grid-politics.php:149
+#: inc/widgets/post-grid-politics.php:171
+#: inc/widgets/post-grid-politics.php:198
+msgid "Hide"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://gossipthemes.com"
+msgstr ""
+
+#. URI of the plugin
+msgid "https://themeforest.net/user/itcroc"
+msgstr ""
+
+#: inc/widgets/team.php:66
+msgid "Icon Link"
+msgstr ""
+
+#: inc/widgets/post-single-video.php:62 inc/widgets/politice-post-tab.php:82
+#: inc/widgets/post-list-item.php:88 inc/widgets/post-list-small.php:63
+#: inc/widgets/post-grid-column-2.php:62 inc/widgets/post-video.php:88
+#: inc/widgets/authore-post-video-popup.php:60
+#: inc/widgets/post-grid-carousel.php:63 inc/widgets/post-overlay.php:64
+#: inc/widgets/post-grid.php:64 inc/widgets/post-list-tab.php:139
+#: inc/widgets/famouse-column.php:64 inc/widgets/post-grid-column.php:64
+#: inc/widgets/post-block-left.php:64 inc/widgets/post-grid-politics.php:64
+msgid "ID"
+msgstr ""
+
+#: inc/widgets/post-single-video.php:162 inc/widgets/post-list-item.php:225
+#: inc/widgets/post-list-small.php:163 inc/widgets/post-grid-column-2.php:233
+#: inc/widgets/post-grid-carousel.php:315
+msgid "Image Height"
+msgstr ""
+
+#: inc/widgets/post-grid-column-2.php:254
+#: inc/widgets/post-grid-carousel.php:333
+msgid "Image Width"
+msgstr ""
+
+#: inc/widgets/info-box.php:26
+msgid "Info Box"
+msgstr ""
+
+#: inc/widgets/info-box.php:63 inc/widgets/team.php:86
+msgid "Info Box Style"
+msgstr ""
+
+#: inc/widgets/info-box.php:112 inc/widgets/team.php:135
+msgid "Info Content Style"
+msgstr ""
+
+#: inc/widgets/info-box.php:51
+msgid "Info Excerpt"
+msgstr ""
+
+#: inc/widgets/info-box.php:34
+msgid "Info Image"
+msgstr ""
+
+#: inc/widgets/info-box.php:44
+msgid "Info Title"
+msgstr ""
+
+#: inc/widgets/post-list-item.php:243
+msgid "Item Bottom Space"
+msgstr ""
+
+#: inc/widgets/politice-post-tab.php:329 inc/widgets/post-list-tab.php:387
+msgid "Left Image Height"
+msgstr ""
+
+#: inc/options/theme-option.php:124
+msgid "Light Logo"
+msgstr ""
+
+#: inc/widgets/team.php:60
+msgid "List Icon"
+msgstr ""
+
+#: inc/widgets/post-video.php:375 inc/widgets/post-list-tab.php:449
+msgid "List Post Typography"
+msgstr ""
+
+#: inc/options/theme-option.php:720
+msgid "Logo Tagline"
+msgstr ""
+
+#: inc/options/theme-option.php:726
+msgid "Logo Text"
+msgstr ""
+
+#: inc/options/theme-option.php:671
+msgid "Look’s like here is nothing"
+msgstr ""
+
+#: inc/widgets/post-grid-carousel.php:217
+msgid "Loop"
+msgstr ""
+
+#: inc/options/theme-option.php:117
+msgid "Main Logo"
+msgstr ""
+
+#: inc/widgets/post-grid-carousel.php:262
+msgid "Margin"
+msgstr ""
+
+#: inc/options/theme-option.php:297
+msgid "Menu Hover/active Color"
+msgstr ""
+
+#: inc/options/theme-option.php:286
+msgid "Menu Typography"
+msgstr ""
+
+#: inc/widgets/post-grid-column.php:377
+msgid "Meta Name Color"
+msgstr ""
+
+#: inc/widgets/post-grid-carousel.php:407
+msgid "Meta Typography"
+msgstr ""
+
+#: inc/widgets/post-single-video.php:64 inc/widgets/politice-post-tab.php:84
+#: inc/widgets/post-list-item.php:90 inc/widgets/post-list-small.php:65
+#: inc/widgets/post-grid-column-2.php:64 inc/widgets/post-video.php:90
+#: inc/widgets/authore-post-video-popup.php:62 inc/widgets/post-overlay.php:66
+#: inc/widgets/post-grid.php:66 inc/widgets/post-list-tab.php:141
+#: inc/widgets/famouse-column.php:66 inc/widgets/team.php:51
+#: inc/widgets/post-grid-column.php:66 inc/widgets/post-block-left.php:66
+#: inc/widgets/post-grid-politics.php:66
+msgid "Name"
+msgstr ""
+
+#: inc/widgets/post-grid-carousel.php:206
+msgid "Nav"
+msgstr ""
+
+#: inc/options/theme-metabox.php:33
+msgid "Nav Menu Option"
+msgstr ""
+
+#: inc/widgets/breadcrumb.php:88
+msgid "Navigation Style"
+msgstr ""
+
+#: inc/widgets/breadcrumb.php:37
+msgid "NO"
+msgstr ""
+
+#: inc/widgets/post-single-video.php:61 inc/widgets/politice-post-tab.php:81
+#: inc/widgets/post-list-item.php:87 inc/widgets/post-list-small.php:62
+#: inc/widgets/post-grid-column-2.php:61 inc/widgets/post-video.php:87
+#: inc/widgets/authore-post-video-popup.php:59
+#: inc/widgets/post-grid-carousel.php:62 inc/widgets/post-overlay.php:63
+#: inc/widgets/post-grid.php:63 inc/widgets/post-list-tab.php:138
+#: inc/widgets/famouse-column.php:63 inc/widgets/post-grid-column.php:63
+#: inc/widgets/post-block-left.php:63 inc/widgets/post-grid-politics.php:63
+msgid "None"
+msgstr ""
+
+#: inc/recent-post-widget/recent-post.php:164
+msgid "Order By"
+msgstr ""
+
+#: inc/widgets/post-single-video.php:191 inc/widgets/post-video.php:316
+#: inc/widgets/post-overlay.php:248 inc/widgets/post-grid.php:294
+#: inc/widgets/post-list-tab.php:408 inc/widgets/post-grid-column.php:294
+#: inc/widgets/post-grid-politics.php:247
+msgid "Padding"
+msgstr ""
+
+#: inc/widgets/breadcrumb.php:48
+msgid "Page Custom Title"
+msgstr ""
+
+#: inc/options/theme-metabox.php:38
+msgid "Page Logo"
+msgstr ""
+
+#: inc/widgets/breadcrumb.php:34
+msgid "Page Title/Custom Title"
+msgstr ""
+
+#: inc/elementor_extension.php:151
+msgid "papermag"
+msgstr ""
+
+#. Name of the plugin
+msgid "PaperMag Extension"
+msgstr ""
+
+#: inc/options/theme-option.php:75
+msgid "Pick Up Social Icon"
+msgstr ""
+
+#: inc/widgets/politice-post-tab.php:12
+msgid "Politics Post Tab"
+msgstr ""
+
+#: inc/widgets/team.php:44
+msgid "Position"
+msgstr ""
+
+#: inc/widgets/post-list-tab.php:12
+msgid "Post  List Tab"
+msgstr ""
+
+#: inc/widgets/famouse-column.php:259
+msgid "Post Authore"
+msgstr ""
+
+#: inc/widgets/post-single-video.php:155 inc/widgets/politice-post-tab.php:322
+#: inc/widgets/post-list-item.php:218 inc/widgets/post-list-small.php:156
+#: inc/widgets/post-grid-column-2.php:226 inc/widgets/post-video.php:288
+#: inc/widgets/post-grid-carousel.php:308 inc/widgets/post-overlay.php:220
+#: inc/widgets/post-grid.php:266 inc/widgets/post-list-tab.php:380
+#: inc/widgets/post-grid-column.php:266 inc/widgets/post-block-left.php:243
+#: inc/widgets/post-grid-politics.php:219
+msgid "Post Box Style"
+msgstr ""
+
+#: inc/widgets/post-list-left-img.php:404
+msgid "Post Category Color"
+msgstr ""
+
+#: inc/widgets/post-list-item.php:203 inc/widgets/post-list-tab.php:365
+msgid "Post Count"
+msgstr ""
+
+#: inc/widgets/famouse-column.php:285
+msgid "Post Date"
+msgstr ""
+
+#: inc/widgets/post-block-left.php:331
+msgid "Post Excerpt"
+msgstr ""
+
+#: inc/widgets/authore-post-video-popup.php:399
+msgid "Post Excerpt Style"
+msgstr ""
+
+#: inc/widgets/post-grid-column-2.php:12
+msgid "Post Grid 2"
+msgstr ""
+
+#: inc/widgets/post-grid-column.php:13
+msgid "Post Grid Column"
+msgstr ""
+
+#: inc/widgets/politice-post-tab.php:376
+msgid "Post Grid Radius"
+msgstr ""
+
+#: inc/widgets/post-grid-carousel.php:12
+msgid "Post Grid Slide"
+msgstr ""
+
+#: inc/widgets/post-tab.php:27 inc/widgets/post-tab.php:42
+#: inc/widgets/post-list-item.php:29 inc/widgets/post-list-item.php:44
+#: inc/widgets/post-video.php:29 inc/widgets/post-video.php:44
+#: inc/widgets/post-list-tab.php:27 inc/widgets/post-list-tab.php:42
+msgid "Post Heading"
+msgstr ""
+
+#: inc/widgets/post-list-item.php:301 inc/widgets/post-list-small.php:229
+#: inc/widgets/post-grid-carousel.php:399 inc/widgets/post-grid.php:379
+#: inc/widgets/post-grid-column.php:361
+msgid "Post Meta"
+msgstr ""
+
+#: inc/options/theme-option.php:626
+msgid "Post Navigation"
+msgstr ""
+
+#: inc/widgets/post-single-video.php:27 inc/widgets/politice-post-tab.php:192
+#: inc/widgets/post-list-item.php:53 inc/widgets/post-list-small.php:28
+#: inc/widgets/post-grid-column-2.php:27 inc/widgets/post-video.php:53
+#: inc/widgets/authore-post-video-popup.php:25
+#: inc/widgets/post-grid-carousel.php:28 inc/widgets/post-overlay.php:29
+#: inc/widgets/post-grid.php:29 inc/widgets/post-list-tab.php:227
+#: inc/widgets/famouse-column.php:29 inc/widgets/post-grid-column.php:29
+#: inc/widgets/post-block-left.php:29 inc/widgets/post-grid-politics.php:29
+msgid "Post Options"
+msgstr ""
+
+#: inc/widgets/post-single-video.php:44 inc/widgets/politice-post-tab.php:64
+#: inc/widgets/post-list-item.php:70 inc/widgets/post-list-small.php:45
+#: inc/widgets/post-grid-column-2.php:44 inc/widgets/post-video.php:70
+#: inc/widgets/authore-post-video-popup.php:42
+#: inc/widgets/post-grid-carousel.php:45 inc/widgets/post-overlay.php:46
+#: inc/widgets/post-grid.php:46 inc/widgets/post-list-tab.php:121
+#: inc/widgets/famouse-column.php:46 inc/widgets/post-grid-column.php:46
+#: inc/widgets/post-block-left.php:46 inc/widgets/post-grid-politics.php:46
+msgid "Post Order"
+msgstr ""
+
+#: inc/widgets/post-single-video.php:57 inc/widgets/politice-post-tab.php:77
+#: inc/widgets/post-list-item.php:83 inc/widgets/post-list-small.php:58
+#: inc/widgets/post-grid-column-2.php:57 inc/widgets/post-video.php:83
+#: inc/widgets/authore-post-video-popup.php:55
+#: inc/widgets/post-grid-carousel.php:58 inc/widgets/post-overlay.php:59
+#: inc/widgets/post-grid.php:59 inc/widgets/post-list-tab.php:134
+#: inc/widgets/famouse-column.php:59 inc/widgets/post-grid-column.php:59
+#: inc/widgets/post-block-left.php:59 inc/widgets/post-grid-politics.php:59
+msgid "Post Order By"
+msgstr ""
+
+#: inc/widgets/post-single-video.php:12
+msgid "Post Single Video"
+msgstr ""
+
+#: inc/widgets/post-video.php:367
+msgid "Post Small Video"
+msgstr ""
+
+#: inc/widgets/post-single-video.php:205 inc/widgets/politice-post-tab.php:389
+#: inc/widgets/post-list-item.php:267 inc/widgets/post-list-small.php:195
+#: inc/widgets/post-grid-column-2.php:286 inc/widgets/post-video.php:341
+#: inc/widgets/post-grid-carousel.php:365 inc/widgets/post-overlay.php:273
+#: inc/widgets/post-grid.php:319 inc/widgets/post-list-tab.php:433
+#: inc/widgets/famouse-column.php:206 inc/widgets/post-grid-column.php:319
+#: inc/widgets/post-block-left.php:285 inc/widgets/post-grid-politics.php:272
+msgid "Post Style"
+msgstr ""
+
+#: inc/widgets/post-tab.php:34 inc/widgets/post-list-item.php:36
+#: inc/widgets/post-video.php:36 inc/widgets/post-list-tab.php:34
+msgid "Post Sub Heading"
+msgstr ""
+
+#: inc/widgets/politice-post-tab.php:28 inc/widgets/post-list-tab.php:51
+msgid "Post Tab Item"
+msgstr ""
+
+#: inc/widgets/post-list-item.php:275 inc/widgets/post-list-small.php:203
+#: inc/widgets/post-grid-carousel.php:373 inc/widgets/famouse-column.php:233
+#: inc/widgets/post-block-left.php:294
+msgid "Post Title"
+msgstr ""
+
+#: inc/recent-post-widget/recent-post.php:208
+msgid "Post Title Crop:"
+msgstr ""
+
+#: inc/widgets/authore-post-video-popup.php:368
+msgid "Post Title Style"
+msgstr ""
+
+#: inc/widgets/post-video.php:12
+msgid "Post Video"
+msgstr ""
+
+#: inc/widgets/politice-post-tab.php:307 inc/widgets/post-list-item.php:191
+#: inc/widgets/post-video.php:273 inc/widgets/post-grid-carousel.php:164
+#: inc/widgets/post-grid.php:251 inc/widgets/post-list-tab.php:353
+#: inc/widgets/post-grid-column.php:251
+msgid "Post View"
+msgstr ""
+
+#: inc/widgets/post-single-video.php:75 inc/widgets/politice-post-tab.php:201
+#: inc/widgets/post-list-item.php:101 inc/widgets/post-list-small.php:76
+#: inc/widgets/post-grid-column-2.php:75 inc/widgets/post-video.php:101
+#: inc/widgets/authore-post-video-popup.php:73
+#: inc/widgets/post-grid-carousel.php:75 inc/widgets/post-overlay.php:77
+#: inc/widgets/post-grid.php:77 inc/widgets/post-list-tab.php:152
+#: inc/widgets/famouse-column.php:77 inc/widgets/post-grid-column.php:77
+#: inc/widgets/post-block-left.php:77 inc/widgets/post-grid-politics.php:77
+msgid "Posts Per Page"
+msgstr ""
+
+#: inc/options/theme-option.php:226
+msgid "Preloader background"
+msgstr ""
+
+#: inc/widgets/authore-quote.php:40
+msgid "Quates"
+msgstr ""
+
+#: inc/widgets/authore-post-video-popup.php:313
+#: inc/widgets/authore-quote.php:105
+msgid "Quote Color"
+msgstr ""
+
+#: inc/widgets/authore-quote.php:98
+msgid "Quote Style"
+msgstr ""
+
+#: inc/widgets/post-single-video.php:67 inc/widgets/politice-post-tab.php:87
+#: inc/widgets/post-list-item.php:93 inc/widgets/post-list-small.php:68
+#: inc/widgets/post-grid-column-2.php:67 inc/widgets/post-video.php:93
+#: inc/widgets/authore-post-video-popup.php:65
+#: inc/widgets/post-grid-carousel.php:67 inc/widgets/post-overlay.php:69
+#: inc/widgets/post-grid.php:69 inc/widgets/post-list-tab.php:144
+#: inc/widgets/famouse-column.php:69 inc/widgets/post-grid-column.php:69
+#: inc/widgets/post-block-left.php:69 inc/widgets/post-grid-politics.php:69
+msgid "Random"
+msgstr ""
+
+#. Author of the plugin
+msgid "Raziul Islam"
+msgstr ""
+
+#: inc/options/theme-option.php:461
+msgid "Read More"
+msgstr ""
+
+#: inc/widgets/politice-post-tab.php:347
+msgid "Right Image Height"
+msgstr ""
+
+#: inc/widgets/breadcrumb.php:119
+msgid "Section BG Style"
+msgstr ""
+
+#: inc/widgets/politice-post-tab.php:138 inc/widgets/post-list-tab.php:173
+msgid "Section Heading"
+msgstr ""
+
+#: inc/widgets/contact-info-widget.php:26 inc/widgets/section-title.php:26
+msgid "Section Title"
+msgstr ""
+
+#: inc/widgets/contact-info-widget.php:69 inc/widgets/section-title.php:60
+msgid "Section Title Style"
+msgstr ""
+
+#: inc/options/theme-option.php:404 inc/options/theme-option.php:480
+msgid "Select Blog Layout"
+msgstr ""
+
+#: inc/widgets/post-single-video.php:98 inc/widgets/politice-post-tab.php:96
+#: inc/widgets/post-list-item.php:124 inc/widgets/post-list-small.php:99
+#: inc/widgets/post-grid-column-2.php:86 inc/widgets/post-video.php:158
+#: inc/widgets/authore-post-video-popup.php:131
+#: inc/widgets/post-grid-carousel.php:98 inc/widgets/post-overlay.php:135
+#: inc/widgets/post-grid.php:135 inc/widgets/post-list-tab.php:79
+#: inc/widgets/famouse-column.php:123 inc/widgets/post-grid-column.php:135
+#: inc/widgets/post-block-left.php:135 inc/widgets/post-grid-politics.php:135
+msgid "Select Categories"
+msgstr ""
+
+#: inc/options/theme-metabox.php:48
+msgid "Select Header Navigation Style"
+msgstr ""
+
+#: inc/options/theme-option.php:137
+msgid "Select Header Style"
+msgstr ""
+
+#: inc/options/theme-option.php:531
+msgid "Set Category Post Image Height in px."
+msgstr ""
+
+#: inc/options/theme-option.php:519
+msgid "Set Category Post Image Height in px. Default Height 200px."
+msgstr ""
+
+#: inc/options/theme-option.php:329
+msgid "Set Dropdown Menu Width in px. Default Height 215px."
+msgstr ""
+
+#: inc/options/theme-option.php:244
+msgid "Set Loader Spinign Height 200px."
+msgstr ""
+
+#: inc/options/theme-option.php:260
+msgid "Set Loader Spinign Width 200px."
+msgstr ""
+
+#: inc/widgets/post-single-video.php:87 inc/widgets/post-single-video.php:110
+#: inc/widgets/post-single-video.php:133 inc/widgets/politice-post-tab.php:38
+#: inc/widgets/politice-post-tab.php:107 inc/widgets/politice-post-tab.php:213
+#: inc/widgets/politice-post-tab.php:225 inc/widgets/politice-post-tab.php:250
+#: inc/widgets/politice-post-tab.php:297 inc/widgets/politice-post-tab.php:309
+#: inc/widgets/post-list-item.php:113 inc/widgets/post-list-item.php:137
+#: inc/widgets/post-list-item.php:158 inc/widgets/post-list-item.php:181
+#: inc/widgets/post-list-item.php:193 inc/widgets/post-list-item.php:205
+#: inc/widgets/post-list-small.php:88 inc/widgets/post-list-small.php:112
+#: inc/widgets/post-list-small.php:133 inc/widgets/post-grid-column-2.php:99
+#: inc/widgets/post-grid-column-2.php:120
+#: inc/widgets/post-grid-column-2.php:132
+#: inc/widgets/post-grid-column-2.php:155
+#: inc/widgets/post-grid-column-2.php:182
+#: inc/widgets/post-grid-column-2.php:204 inc/widgets/post-video.php:113
+#: inc/widgets/post-video.php:125 inc/widgets/post-video.php:147
+#: inc/widgets/post-video.php:170 inc/widgets/post-video.php:192
+#: inc/widgets/post-video.php:219 inc/widgets/post-video.php:241
+#: inc/widgets/post-video.php:263 inc/widgets/post-video.php:275
+#: inc/widgets/authore-post-video-popup.php:85
+#: inc/widgets/authore-post-video-popup.php:97
+#: inc/widgets/authore-post-video-popup.php:120
+#: inc/widgets/authore-post-video-popup.php:144
+#: inc/widgets/authore-post-video-popup.php:166
+#: inc/widgets/authore-post-video-popup.php:193
+#: inc/widgets/authore-post-video-popup.php:215
+#: inc/widgets/post-grid-carousel.php:87 inc/widgets/post-grid-carousel.php:111
+#: inc/widgets/post-grid-carousel.php:132
+#: inc/widgets/post-grid-carousel.php:154
+#: inc/widgets/post-grid-carousel.php:166
+#: inc/widgets/post-grid-carousel.php:208
+#: inc/widgets/post-grid-carousel.php:219
+#: inc/widgets/post-grid-carousel.php:230
+#: inc/widgets/post-grid-carousel.php:241
+#: inc/widgets/post-grid-carousel.php:252
+#: inc/widgets/post-grid-carousel.php:297 inc/widgets/post-overlay.php:89
+#: inc/widgets/post-overlay.php:101 inc/widgets/post-overlay.php:124
+#: inc/widgets/post-overlay.php:148 inc/widgets/post-overlay.php:170
+#: inc/widgets/post-overlay.php:197 inc/widgets/post-grid.php:89
+#: inc/widgets/post-grid.php:101 inc/widgets/post-grid.php:124
+#: inc/widgets/post-grid.php:148 inc/widgets/post-grid.php:170
+#: inc/widgets/post-grid.php:197 inc/widgets/post-grid.php:219
+#: inc/widgets/post-grid.php:241 inc/widgets/post-grid.php:253
+#: inc/widgets/post-list-tab.php:61 inc/widgets/post-list-tab.php:92
+#: inc/widgets/post-list-tab.php:237 inc/widgets/post-list-tab.php:249
+#: inc/widgets/post-list-tab.php:272 inc/widgets/post-list-tab.php:299
+#: inc/widgets/post-list-tab.php:321 inc/widgets/post-list-tab.php:343
+#: inc/widgets/post-list-tab.php:355 inc/widgets/post-list-tab.php:367
+#: inc/widgets/famouse-column.php:89 inc/widgets/famouse-column.php:101
+#: inc/widgets/famouse-column.php:135 inc/widgets/famouse-column.php:157
+#: inc/widgets/famouse-column.php:184 inc/widgets/post-list-left-img.php:87
+#: inc/widgets/post-grid-column.php:89 inc/widgets/post-grid-column.php:101
+#: inc/widgets/post-grid-column.php:124 inc/widgets/post-grid-column.php:148
+#: inc/widgets/post-grid-column.php:170 inc/widgets/post-grid-column.php:197
+#: inc/widgets/post-grid-column.php:219 inc/widgets/post-grid-column.php:241
+#: inc/widgets/post-grid-column.php:253 inc/widgets/post-block-left.php:89
+#: inc/widgets/post-block-left.php:101 inc/widgets/post-block-left.php:124
+#: inc/widgets/post-block-left.php:148 inc/widgets/post-block-left.php:170
+#: inc/widgets/post-block-left.php:197 inc/widgets/post-block-left.php:219
+#: inc/widgets/post-grid-politics.php:89 inc/widgets/post-grid-politics.php:101
+#: inc/widgets/post-grid-politics.php:124
+#: inc/widgets/post-grid-politics.php:148
+#: inc/widgets/post-grid-politics.php:170
+#: inc/widgets/post-grid-politics.php:197
+msgid "Show"
+msgstr ""
+
+#: inc/options/theme-option.php:428 inc/options/theme-option.php:430
+msgid "Show Author"
+msgstr ""
+
+#: inc/options/theme-option.php:436 inc/options/theme-option.php:438
+#: inc/options/theme-option.php:551 inc/options/theme-option.php:553
+msgid "Show Category"
+msgstr ""
+
+#: inc/options/theme-option.php:567 inc/options/theme-option.php:569
+msgid "Show Comment"
+msgstr ""
+
+#: inc/options/theme-option.php:444 inc/options/theme-option.php:446
+msgid "Show Comment Count"
+msgstr ""
+
+#: inc/options/theme-option.php:624
+msgid "Show Navigation"
+msgstr ""
+
+#: inc/options/theme-option.php:642
+msgid "Show Post Share Icon"
+msgstr ""
+
+#: inc/options/theme-option.php:634
+msgid "Show Post Tags"
+msgstr ""
+
+#: inc/options/theme-option.php:559 inc/options/theme-option.php:561
+msgid "Show Post View"
+msgstr ""
+
+#: inc/options/theme-option.php:640
+msgid "Show Share Option"
+msgstr ""
+
+#: inc/options/theme-option.php:632
+msgid "Show Tags"
+msgstr ""
+
+#: inc/options/theme-option.php:451 inc/options/theme-option.php:453
+msgid "Show View"
+msgstr ""
+
+#: inc/options/theme-option.php:590
+msgid "Single"
+msgstr ""
+
+#: inc/options/theme-option.php:596 inc/options/theme-option.php:601
+msgid "Single Post Layout"
+msgstr ""
+
+#: inc/options/theme-option.php:611
+msgid "Single Post Option"
+msgstr ""
+
+#: inc/options/theme-option.php:112
+msgid "Site Logo"
+msgstr ""
+
+#: inc/widgets/post-single-video.php:120 inc/widgets/politice-post-tab.php:117
+#: inc/widgets/post-list-item.php:147 inc/widgets/post-list-small.php:122
+#: inc/widgets/post-grid-column-2.php:109 inc/widgets/post-video.php:180
+#: inc/widgets/authore-post-video-popup.php:154
+#: inc/widgets/post-grid-carousel.php:121 inc/widgets/post-overlay.php:158
+#: inc/widgets/post-grid.php:158 inc/widgets/post-list-tab.php:102
+#: inc/widgets/famouse-column.php:145 inc/widgets/post-grid-column.php:158
+#: inc/widgets/post-block-left.php:158 inc/widgets/post-grid-politics.php:158
+msgid "Skip Post Count"
+msgstr ""
+
+#: inc/widgets/post-single-video.php:108 inc/widgets/politice-post-tab.php:105
+#: inc/widgets/post-list-item.php:135 inc/widgets/post-list-small.php:110
+#: inc/widgets/post-grid-column-2.php:97 inc/widgets/post-video.php:168
+#: inc/widgets/authore-post-video-popup.php:142
+#: inc/widgets/post-grid-carousel.php:109 inc/widgets/post-overlay.php:146
+#: inc/widgets/post-grid.php:146 inc/widgets/post-list-tab.php:90
+#: inc/widgets/famouse-column.php:133 inc/widgets/post-grid-column.php:146
+#: inc/widgets/post-block-left.php:146 inc/widgets/post-grid-politics.php:146
+msgid "Skip Post Enable?"
+msgstr ""
+
+#: inc/widgets/post-grid-carousel.php:188
+msgid "Slider Control Settings"
+msgstr ""
+
+#: inc/widgets/post-grid-carousel.php:195
+msgid "Slider Grid Item"
+msgstr ""
+
+#: inc/widgets/post-grid-carousel.php:179
+msgid "Slider Settings"
+msgstr ""
+
+#: inc/widgets/post-video.php:383 inc/widgets/post-item-list.php:402
+msgid "Small Title Color"
+msgstr ""
+
+#: inc/widgets/post-grid-carousel.php:284
+msgid "Smart Speed"
+msgstr ""
+
+#: inc/options/theme-option.php:147
+msgid "Sticky Header"
+msgstr ""
+
+#: inc/widgets/section-title.php:41
+msgid "Sub Heading"
+msgstr ""
+
+#: inc/widgets/contact-info-widget.php:126 inc/widgets/section-title.php:99
+msgid "Sub Title"
+msgstr ""
+
+#: inc/widgets/team.php:26
+msgid "Team"
+msgstr ""
+
+#: inc/widgets/team.php:34
+msgid "Team Image"
+msgstr ""
+
+#: inc/widgets/contact-info-widget.php:157
+msgid "Text"
+msgstr ""
+
+#: inc/widgets/politice-post-tab.php:266 inc/widgets/post-grid-column-2.php:171
+#: inc/widgets/post-video.php:208 inc/widgets/authore-post-video-popup.php:182
+#: inc/widgets/post-overlay.php:186 inc/widgets/post-grid.php:186
+#: inc/widgets/post-list-tab.php:288 inc/widgets/famouse-column.php:173
+#: inc/widgets/post-grid-column.php:186 inc/widgets/post-block-left.php:186
+#: inc/widgets/post-grid-politics.php:186
+msgid "Time"
+msgstr ""
+
+#: inc/widgets/politice-post-tab.php:267 inc/widgets/post-grid-column-2.php:172
+#: inc/widgets/post-video.php:209 inc/widgets/authore-post-video-popup.php:183
+#: inc/widgets/post-overlay.php:187 inc/widgets/post-grid.php:187
+#: inc/widgets/post-list-tab.php:289 inc/widgets/famouse-column.php:174
+#: inc/widgets/post-grid-column.php:187 inc/widgets/post-block-left.php:187
+#: inc/widgets/post-grid-politics.php:187
+msgid "Time Ago"
+msgstr ""
+
+#: inc/widgets/post-single-video.php:65 inc/widgets/post-single-video.php:131
+#: inc/widgets/politice-post-tab.php:46 inc/widgets/politice-post-tab.php:85
+#: inc/widgets/post-list-item.php:91 inc/widgets/post-list-item.php:156
+#: inc/widgets/post-list-small.php:66 inc/widgets/post-list-small.php:131
+#: inc/widgets/post-grid-column-2.php:65 inc/widgets/post-grid-column-2.php:180
+#: inc/widgets/post-video.php:91 inc/widgets/post-video.php:217
+#: inc/widgets/authore-post-video-popup.php:63
+#: inc/widgets/authore-post-video-popup.php:191
+#: inc/widgets/contact-info-widget.php:95 inc/widgets/section-title.php:68
+#: inc/widgets/post-grid-carousel.php:65 inc/widgets/post-grid-carousel.php:130
+#: inc/widgets/info-box.php:120 inc/widgets/post-overlay.php:67
+#: inc/widgets/post-overlay.php:195 inc/widgets/post-grid.php:67
+#: inc/widgets/post-grid.php:195 inc/widgets/post-list-tab.php:69
+#: inc/widgets/post-list-tab.php:142 inc/widgets/post-list-tab.php:297
+#: inc/widgets/famouse-column.php:67 inc/widgets/famouse-column.php:182
+#: inc/widgets/team.php:143 inc/widgets/post-grid-column.php:67
+#: inc/widgets/post-grid-column.php:195 inc/widgets/post-block-left.php:67
+#: inc/widgets/post-block-left.php:195 inc/widgets/post-grid-politics.php:67
+#: inc/widgets/post-grid-politics.php:195
+msgid "Title"
+msgstr ""
+
+#: inc/widgets/post-block-left.php:320
+msgid "Title Background Color"
+msgstr ""
+
+#: inc/widgets/post-single-video.php:228 inc/widgets/breadcrumb.php:77
+#: inc/widgets/breadcrumb.php:108 inc/widgets/politice-post-tab.php:412
+#: inc/widgets/post-list-item.php:290 inc/widgets/post-list-small.php:218
+#: inc/widgets/post-grid-column-2.php:309 inc/widgets/post-video.php:356
+#: inc/widgets/authore-post-video-popup.php:375
+#: inc/widgets/contact-info-widget.php:115 inc/widgets/section-title.php:88
+#: inc/widgets/post-grid-carousel.php:388 inc/widgets/info-box.php:140
+#: inc/widgets/post-overlay.php:314 inc/widgets/post-overlay.php:341
+#: inc/widgets/post-grid.php:368 inc/widgets/famouse-column.php:248
+#: inc/widgets/post-item-list.php:324 inc/widgets/post-list-left-img.php:326
+#: inc/widgets/team.php:163 inc/widgets/post-grid-column.php:350
+#: inc/widgets/post-block-left.php:310 inc/widgets/post-grid-politics.php:296
+msgid "Title Color"
+msgstr ""
+
+#: inc/widgets/post-single-video.php:143 inc/widgets/politice-post-tab.php:276
+#: inc/widgets/post-list-item.php:168 inc/widgets/post-list-small.php:143
+#: inc/widgets/post-grid-column-2.php:192 inc/widgets/post-video.php:229
+#: inc/widgets/authore-post-video-popup.php:203
+#: inc/widgets/post-grid-carousel.php:142 inc/widgets/post-overlay.php:207
+#: inc/widgets/post-grid.php:207 inc/widgets/post-list-tab.php:309
+#: inc/widgets/famouse-column.php:194 inc/widgets/post-grid-column.php:207
+#: inc/widgets/post-block-left.php:207 inc/widgets/post-grid-politics.php:207
+msgid "Title Length"
+msgstr ""
+
+#: inc/widgets/breadcrumb.php:57
+msgid "Title Style"
+msgstr ""
+
+#: inc/recent-post-widget/recent-post.php:158
+msgid "Title:"
+msgstr ""
+
+#: inc/options/theme-option.php:462
+msgid "Type Blog Read More Button Text Here"
+msgstr ""
+
+#: inc/options/theme-option.php:80
+msgid "Type Social Profile URL"
+msgstr ""
+
+#: inc/widgets/post-single-video.php:221 inc/widgets/post-single-video.php:247
+#: inc/widgets/breadcrumb.php:65 inc/widgets/breadcrumb.php:96
+#: inc/widgets/politice-post-tab.php:171 inc/widgets/politice-post-tab.php:405
+#: inc/widgets/post-list-item.php:283 inc/widgets/post-list-item.php:309
+#: inc/widgets/post-list-small.php:211 inc/widgets/post-list-small.php:237
+#: inc/widgets/post-grid-column-2.php:302
+#: inc/widgets/post-grid-column-2.php:328
+#: inc/widgets/post-grid-column-2.php:354 inc/widgets/post-video.php:349
+#: inc/widgets/authore-post-video-popup.php:324
+#: inc/widgets/authore-post-video-popup.php:355
+#: inc/widgets/authore-post-video-popup.php:386
+#: inc/widgets/authore-post-video-popup.php:417
+#: inc/widgets/contact-info-widget.php:103
+#: inc/widgets/contact-info-widget.php:134
+#: inc/widgets/contact-info-widget.php:165 inc/widgets/section-title.php:76
+#: inc/widgets/section-title.php:107 inc/widgets/post-grid-carousel.php:381
+#: inc/widgets/info-box.php:128 inc/widgets/info-box.php:159
+#: inc/widgets/post-overlay.php:307 inc/widgets/post-overlay.php:333
+#: inc/widgets/post-overlay.php:361 inc/widgets/post-overlay.php:387
+#: inc/widgets/authore-quote.php:116 inc/widgets/authore-quote.php:147
+#: inc/widgets/post-grid.php:361 inc/widgets/post-grid.php:387
+#: inc/widgets/post-grid.php:403 inc/widgets/post-grid.php:429
+#: inc/widgets/post-list-tab.php:206 inc/widgets/post-list-tab.php:441
+#: inc/widgets/famouse-column.php:241 inc/widgets/famouse-column.php:267
+#: inc/widgets/famouse-column.php:293 inc/widgets/team.php:151
+#: inc/widgets/team.php:182 inc/widgets/post-grid-column.php:343
+#: inc/widgets/post-grid-column.php:369 inc/widgets/post-block-left.php:302
+#: inc/widgets/post-block-left.php:357 inc/widgets/post-block-left.php:383
+#: inc/widgets/post-block-left.php:409 inc/widgets/post-grid-politics.php:289
+#: inc/options/theme-option.php:338
+msgid "Typography"
+msgstr ""
+
+#: inc/options/theme-metabox.php:42
+msgid "Upload Logo Here"
+msgstr ""
+
+#: inc/options/theme-option.php:127
+msgid "Upload Your Light Logo of your Dark Theme"
+msgstr ""
+
+#: inc/options/theme-option.php:120
+msgid "Upload Your Static Logo Image on Header Static"
+msgstr ""
+
+#: inc/options/theme-metabox.php:80
+msgid "Video Link"
+msgstr ""
+
+#: inc/widgets/contact-info-widget.php:33
+msgid "Widget Heading"
+msgstr ""
+
+#: inc/widgets/breadcrumb.php:36
+msgid "YES"
+msgstr ""

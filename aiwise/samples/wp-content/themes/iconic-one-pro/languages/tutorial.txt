@@ -1,0 +1,18 @@
+--- Iconic One PRO version Pot File Released on August 28, 2013 ----------
+
+-- Last Updated in March, 2015 --- 
+
+
+We have already created the translation pot file for you.
+
+Example: For doing French translation.
+
+Open this file in free poedit software http://www.poedit.net/.
+
+Enter your french language terms in the poedit software and then save as fr_FR.po and put it in the /languages directory
+
+Now Open up your WordPress wp-config.php file and add the following:
+
+define (‘WPLANG’, ‘fr_FR’);
+
+That's it.

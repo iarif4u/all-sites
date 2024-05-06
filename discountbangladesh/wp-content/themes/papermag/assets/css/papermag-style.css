@@ -1,0 +1,4205 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 4 version
+*/
+
+/**** 
+CSS Indexing
+
+1. Common CSS
+2. Top Bar CSS
+3. Header CSS
+4. Search CSS
+5. Menu CSS
+6. Post Grid CSS
+7. Post Overlay CSS
+8. Post List CSS
+9. Section Heading CSS
+10.Post Carouse CSS
+11.Post Hover Animation
+12.Post Video CSS
+13.Social Counter CSS
+14.Post Tab CSS
+15.Mail Subscribe CSS
+16.Post Column Grid CSS
+17.Widgets CSS
+18.Footer CSS
+19.Authore Quote CSS
+20.Post List Two CSS
+21.Blog Post CSS
+22.Post Single CSS
+23.Page CSS
+24.Comments CSS
+25.Breadcrumb CSS
+26.Info Box Style CSS
+27.Team Style CSS
+28.Dark Moded CSS
+29.404 CSS
+30.Preloader CSS
+
+****/
+
+/*======= Common CSS =======*/
+body {
+	color: #777777;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 24px;
+	overflow-x: hidden !important;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+img {
+	max-width: 100%;
+	-webkit-transition: all 0.3s ease-out 0s;
+	-o-transition: all 0.3s ease-out 0s;
+	transition: all 0.3s ease-out 0s;
+}
+
+.slick-slide img {
+	display: inline-block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+    line-height: 1.25;
+	color: #111111;
+	margin: 0px;
+}
+
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+	color: #111111;
+}
+
+h1 {
+    font-size: 40px;
+    line-height: 50px;
+}
+
+h2 {
+    font-size: 30px;
+    line-height: 38px;
+}
+
+h3 {
+    font-size: 24px;
+    line-height: 34px;
+}
+
+h4 {
+    font-size: 18px;
+    line-height: 26px;
+}
+
+h5 {
+    font-size: 14px;
+    line-height: 24px;
+}
+
+h6 {
+    font-size: 14px;
+    line-height: 28px;
+}
+ul,
+ol {
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+
+p {
+	margin: 0px;
+}
+
+a {
+	display: inline-block;
+	-webkit-transition: all 0.3s ease-out 0s;
+	-o-transition: all 0.3s ease-out 0s;
+	transition: all 0.3s ease-out 0s;
+}
+
+a:hover {
+	text-decoration: none;
+    color: inherit;
+}
+
+a,
+span {
+	display: inline-block;
+}
+.section-border {
+    border-bottom: 1px solid #f0f0f0;
+}
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="tel"]:focus,
+input[type="url"]:focus,
+input[type="password"]:focus,
+input[type="search"]:focus{
+    outline: none;
+}
+.papermag-main-content {
+    padding: 60px 0;
+}
+.papermag-btn-color{
+    background: -webkit-gradient(
+linear, left top, right top, from(#2130FF), to(#0090FF));
+    background: -o-linear-gradient(
+left, #2130FF 0%, #0090FF 100%);
+    background: linear-gradient(
+90deg, #2130FF 0%, #0090FF 100%);
+    color: #fff;
+    border: none;
+    padding: 18px 30px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+.papermag-btn-color:hover {
+    color: #fff;
+    background-color: #111;
+}
+.papermag-btn-color i {
+    margin-right: 5px;
+}
+/*======= Top Bar CSS =======*/
+.header-social a {
+    display: inline-block;
+    color: #FFFFFF;
+    padding-left: 16px;
+}
+.header-two-top-left span.location {
+    color: #999999;
+}
+
+.header-two-top-left span:not(:last-child) {
+    padding-right: 30px;
+}
+.papermag-top-bar ul#menu-top-nav li {
+    display: inline-block;
+    padding-right: 30px;
+}
+.papermag-top-bar {
+    background: #111111;
+    padding: 13px 0;
+}
+.papermag-top-bar ul#menu-top-nav li a {
+    color: #fff;
+    font-size: 12px;
+}
+.papermag-header-2 .papermag-darkmode {
+    padding-right: 0;
+    padding-left: 30px;
+}
+.mailus a {
+    color: #999999;
+}
+.mailus a span{
+    text-decoration: underline;
+    margin-left: 3px;
+}
+
+
+
+.papermag-top-ba-3 .ticket-box li {
+    display: inline-block;
+    padding-right: 50px;
+    position: relative;
+}
+
+.papermag-top-ba-3 .ticket-box li a {
+    color: #777;
+    font-size: 12px;
+}
+.papermag-top-ba-3 .ticket-box li a i {
+    background: -webkit-gradient(linear, left top, right top, from(#2130FF), to(#0090FF));
+    background: -o-linear-gradient(left, #2130FF 0%, #0090FF 100%);
+    background: linear-gradient(
+90deg, #2130FF 0%, #0090FF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.papermag-top-ba-3 .ticket-box li a i {
+    background: -webkit-gradient(linear, left top, right top, from(#2130FF), to(#0090FF));
+    background: -o-linear-gradient(left, #2130FF 0%, #0090FF 100%);
+    background: linear-gradient(
+90deg, #2130FF 0%, #0090FF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.papermag-top-ba-3 .ticket-box li:after {
+    position: absolute;
+    left: -25px;
+    top: 0;
+    width: 2px;
+    height: 80%;
+    content: "";
+    background: #DDDDDD;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.papermag-top-ba-3 .ticket-box li:not(:last-child):after {background: transparent;}
+
+.papermag-top-ba-3 {
+    padding: 13px 0;
+    background-color: #F5F5F5;
+}
+.papermag-top-ba-3 .header-social a {
+    color: #000000;
+    font-size: 12px;
+}
+
+
+/*======= Header CSS =======*/
+.papermag-dark-mode-logo{
+    display: none;
+}
+.papermag-header-3 .site-logo {
+    position: absolute;
+    top: -10px;
+    left: 0;
+    z-index: 2;
+    width: 100%;
+    height: auto;
+}
+
+.papermag-header-3 .header-main {
+    position: relative;
+}
+header.header-area{
+    border-bottom: 1px solid #EBEBEB;
+}
+header.header-area.papermag-header-2 {
+    padding-bottom: 20px;
+}
+.papermag-header-2 .papermag-head-top {
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+.primary-menu ul>li>a {
+    line-height: 80px;    
+    position: relative;
+}
+div#papermag_mobile_menu {
+    display: none;
+}
+.papermag-brodacust-item {
+    padding-left: 30px;
+}
+
+.papermag-brodacust-item a:not(:first-child) {
+    padding-left: 30px;
+}
+.papermag-search-two {
+    color: #999;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.papermag-search-two span {
+    text-decoration: underline;
+}
+.papermag-brodacust-item a {
+    color: #999999;
+    font-size: 14px;
+    line-height: normal;
+}
+
+.papermag-brodacust-item a span {
+    margin-left: 3px;
+    text-decoration: underline;
+}
+.papermag-header-2 .primary-menu ul>li>a {
+    line-height: 14px;
+}
+.papermag-header-2 .primary-menu ul li a {
+    font-size: 16px;
+    padding: 0;
+    padding-right: 55px;
+    font-weight: 400;
+}
+.primary-menu ul>li>a:before {
+    content: "";
+    bottom: 0;
+    left: 0;
+    height: 1px;
+    background: -webkit-gradient(linear, left top, right top, from(#2130FF), to(#0090FF));
+    background: -o-linear-gradient(left, #2130FF 0%, #0090FF 100%);
+    background: linear-gradient(90deg, #2130FF 0%, #0090FF 100%);
+    position: absolute;
+    -webkit-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    visibility: hidden;
+    opacity: 0;
+    width: 20%;
+}
+.papermag-header-2 .primary-menu ul>li>a:before {
+    position: inherit;
+}
+.primary-menu ul>li>a:hover:before {
+    width: 100%;
+    visibility: visible;
+    opacity: 1;
+}
+
+.primary-menu ul>li>a:hover {
+    color: #000;
+}
+.primary-menu ul#primary-menu>li.menu-item-has-children>a:after {
+    content: "\f107";
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-family: "Font Awesome 5 Pro";
+}
+.primary-menu ul#primary-menu li {
+    position: relative;
+}
+
+.primary-menu ul#primary-menu li ul {
+    position: absolute;
+    top: 120%;
+    left: 0;
+    background: #fff;
+    width: 215px;
+    -webkit-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+    visibility: hidden;
+    opacity: 0;
+    z-index: 2;
+    -webkit-box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 7%);
+            box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 7%);
+}
+.primary-menu ul#primary-menu li:hover ul {
+    visibility: visible;
+    opacity: 1;
+    top: 100%;
+}
+
+.primary-menu ul#primary-menu li ul li a {
+    line-height: normal;
+    padding: 15px 20px;
+}
+
+.primary-menu ul#primary-menu li ul li:not(:last-child) {
+    border-bottom: 1px solid #EBEBEB;
+}
+.primary-menu ul#primary-menu li ul li ul {
+    position: absolute;
+    left: 102%;
+    top: 0 !important;
+    visibility: hidden !important;
+    opacity: 0 !important;
+}
+.primary-menu ul#primary-menu li ul li:hover ul {
+    visibility: visible !important;
+    opacity: 1 !important;
+}
+.primary-menu ul#primary-menu li ul li {
+    display: block;
+}
+.papermag-search input[type="search"] {
+    border: none;
+    border-bottom: 1px solid #EEEEEE;
+    background: transparent;
+}
+.papermag-search i {
+    color: #111111;
+}
+.papermag-search button {
+    border: none;
+    background: transparent;
+}
+
+
+.papermag-darkmode span {
+    border: 1px solid #EFEFEF;
+    display: inline-block;
+    width: 61px;
+    border-radius: 13px;
+    line-height: 26px;
+    text-align: center;
+    position: relative;
+    padding-left: 14px;
+    cursor: pointer;
+}
+.papermag-darkmode span:after {
+    background: -webkit-gradient(linear, left top, right top, from(#2130FF), to(#0090FF));
+    background: -o-linear-gradient(left, #2130FF 0%, #0090FF 100%);
+    background: linear-gradient(90deg, #2130FF 0%, #0090FF 100%);
+    width: 12px;
+    height: 12px;
+    left: 6px;
+    content: "";
+    position: absolute;
+    border-radius: 50%;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+}
+.papermag-darkmode span.light-mode:after {
+    left: auto;
+    right: 6px;
+}
+.papermag-darkmode.active .dark-mode {
+    display: none;
+}
+
+.papermag-darkmode.active .light-mode {
+    display: block;
+    color: #fff;
+    border-color: #fff;
+}
+.papermag-darkmode span.light-mode {
+    padding-left: 0;
+    padding-right: 14px;
+    display: none;
+}
+.papermag-darkmode {
+    padding-right: 20px;
+}
+
+/*======= Search CSS =======*/
+.papermag-search-popup {
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    width: 100%;
+    z-index: 99999;
+    margin-top: -540px;
+    -webkit-transform: translateY(-100%);
+    -ms-transform: translateY(-100%);
+        transform: translateY(-100%);
+    background-color: rgba(0, 0, 0, 0.90);
+}
+
+.sidenav-bar-visible .papermag-search-popup {
+    width: 80%;
+}
+
+.papermag-search-popup:before {
+    position: absolute;
+    left: 0;
+    top: 100%;
+    width: 100%;
+    height: 560px;
+    margin-top: 0px;
+    content: "";
+}
+
+.search-active .papermag-search-popup {
+    -webkit-transform: translateY(0%);
+    -ms-transform: translateY(0%);
+        transform: translateY(0%);
+    margin-top: 0;
+}
+
+.papermag-search-popup .close-search {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 75%;
+    margin: 0 auto;
+    margin-top: -160px;
+    border-radius: 50%;
+    text-align: center;
+    background:-webkit-gradient(linear, left top, right top, from(#2130FF), to(#0090FF));
+    background:-o-linear-gradient(left, #2130FF 0%, #0090FF 100%);
+    background:linear-gradient(90deg, #2130FF 0%, #0090FF 100%);
+    min-width: 52px;
+    cursor: pointer;
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    visibility: hidden;
+    min-height: 60px;
+    overflow: hidden;
+    width: 60px;
+    border: none;
+    color: #fff;
+}
+
+.search-active .papermag-search-popup .close-search {
+    visibility: visible;
+    opacity: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    top: 50%;
+    border-radius: 50%;
+}
+
+.papermag-search-popup form {
+    position: absolute;
+    max-width: 700px;
+    top: 50%;
+    left: 15px;
+    right: 15px;
+    margin: -35px auto 0;
+    -webkit-transform: scaleX(0);
+    -ms-transform: scaleX(0);
+        transform: scaleX(0);
+    -webkit-transform-origin: center;
+    -ms-transform-origin: center;
+        transform-origin: center;
+    background-color: #111111;
+    -webkit-transition: all 300ms ease;
+    -o-transition: all 300ms ease;
+    transition: all 300ms ease;
+}
+
+.search-active .papermag-search-popup form {
+    -webkit-transform: scaleX(1);
+    -ms-transform: scaleX(1);
+        transform: scaleX(1);
+}
+
+.papermag-search-popup .form-group {
+    position: relative;
+    margin: 0px;
+    overflow: hidden;
+}
+
+.papermag-search-popup .form-group input[type="text"],
+.papermag-search-popup .form-group input[type="search"] {
+    position: relative;
+    display: block;
+    font-size: 18px;
+    line-height: 60px;
+    color: #fff;
+    height: 60px;
+    width: 100%;
+    padding: 10px 30px;
+    padding-right: 65px;
+    background-color: transparent;
+    border: 1px solid #fff;
+    border-radius: 30px;
+}
+.search-active .papermag-search-popup .close-search i {
+    font-size: 18px;
+}
+.papermag-search-popup .form-group input[type="text"]:focus-visible, .papermag-search-popup .form-group input[type="search"]:focus-visible {
+    outline: inherit;
+}
+.papermag-search-popup .form-group input[type="submit"],
+.papermag-search-popup .form-group button {
+    position: absolute;
+    right: 30px;
+    top: 0px;
+    height: 70px;
+    line-height: 70px;
+    background: transparent;
+    text-align: center;
+    font-size: 24px;
+    color: #000000;
+    padding: 0;
+    cursor: pointer;
+}
+
+.papermag-search-popup .form-group input[type="submit"]:hover,
+.papermag-search-popup .form-group button:hover {
+    color: #fff;
+}
+
+.papermag-search-popup input::-webkit-input-placeholder,
+.papermag-search-popup textarea::-webkit-input-placeholder {
+    color: #fff;
+}
+
+.papermag-search-popup input::-moz-placeholder,
+.papermag-search-popup textarea::-moz-placeholder {
+    color: #fff;
+}
+
+.papermag-search-popup input:-ms-input-placeholder,
+.papermag-search-popup textarea:-ms-input-placeholder {
+    color: #fff;
+}
+
+.papermag-search-popup input::-webkit-input-placeholder, .papermag-search-popup textarea::-webkit-input-placeholder {
+    color: #fff;
+}
+
+.papermag-search-popup input::-moz-placeholder, .papermag-search-popup textarea::-moz-placeholder {
+    color: #fff;
+}
+
+.papermag-search-popup input:-ms-input-placeholder, .papermag-search-popup textarea:-ms-input-placeholder {
+    color: #fff;
+}
+
+.papermag-search-popup input::-ms-input-placeholder, .papermag-search-popup textarea::-ms-input-placeholder {
+    color: #fff;
+}
+
+.papermag-search-popup input::placeholder,
+.papermag-search-popup textarea::placeholder {
+    color: #fff;
+}
+
+.papermag-search-popup .close-search.style-two {
+    position: absolute;
+    right: 25px;
+    left: auto;
+    color: #ffffff;
+    width: auto;
+    height: auto;
+    top: 25px;
+    margin: 0px;
+    border: none;
+    background: none !important;
+    -webkit-box-shadow: none !important;
+            box-shadow: none !important;
+}
+.papermag-search-popup {
+    -webkit-transition: all 1500ms cubic-bezier(0.860, 0.000, 0.070, 1.000);
+    -o-transition: all 1500ms cubic-bezier(0.860, 0.000, 0.070, 1.000);
+    transition: all 1500ms cubic-bezier(0.860, 0.000, 0.070, 1.000);
+    -webkit-transition-timing-function: cubic-bezier(0.860, 0.000, 0.070, 1.000);
+    -o-transition-timing-function: cubic-bezier(0.860, 0.000, 0.070, 1.000);
+       transition-timing-function: cubic-bezier(0.860, 0.000, 0.070, 1.000);
+}
+
+.search-active .papermag-search-popup form, .close-search {
+    -webkit-transition-delay: 1200ms;
+    -o-transition-delay: 1200ms;
+       transition-delay: 1200ms;
+}
+.papermag-search-popup .close-search.style-two span {
+    font-size: 20px;
+    color: #ffffff;
+}
+/*======= Menu CSS =======*/
+.primary-menu ul li {
+    position: relative;
+    display: inline-block;
+}
+
+.primary-menu ul li a {
+    color: #777777;
+    font-weight: 500;
+    display: block;
+    padding: 0 18px;
+}
+.primary-menu ul>li>a {
+    line-height: 80px;
+}
+
+/*======= Post Grid CSS =======*/
+.papermag-post_image {
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.papermag-post__item {
+    position: relative;
+}
+
+.papermag-post-content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 50px;
+}
+
+.papermag-post_image:after {
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(#000000));
+    background: -o-linear-gradient(top, rgba(0, 0, 0, 0) 0%, #000000 100%);
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 100%);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+    opacity: .5;
+}
+.papermag-post-title a {
+    color: inherit;
+}
+
+.papermag-post-title {
+    color: #fff;
+}
+
+.cate-badge .papermag-cate-name {
+    font-weight: 500;
+    font-size: 12px;
+    color: #fff;
+}
+.papermag-post-content .top-meta {
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin-bottom: 16px;
+}
+
+.papermag-post-content .top-meta div {
+    padding-right: 12px;
+    margin-right: 12px;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.papermag-post-content .top-meta div a {
+    color: #fff;
+    text-transform: uppercase;
+}
+.post-bottom-meta {
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.auth-avater {
+    margin-right: 10px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.auth-info-date span {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.papermag-post-date {
+    color: #fff;
+    font-size: 14px;
+}
+.papermag-authore-quote .papermag-post-date, .famous-post-item .papermag-post-date, .papermag_bloc_post .papermag-post-date{
+    color: #999;
+}
+.papermag-post__item .papermag-post-date {
+    color: rgb(255 255 255 / 90%);
+}
+.post__bloc_img a {
+    height: 408px;
+    display: block;
+    background-size: cover;
+    background-position: center;
+}
+.papermag_bloc_post {
+    position: relative;
+}
+
+.papermag_bloc_post .post__title {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 610px;
+    line-height: 50px;
+}
+
+.papermag_bloc_post .post__title a {
+    color: #000;
+    background-color: #fff;
+    -webkit-box-shadow: 0.5em 0 0 #fff, -0.5em 0 0 #fff;
+            box-shadow: 0.5em 0 0 #fff, -0.5em 0 0 #fff;
+    display: inline;
+    padding: 5px 0;
+}
+.papermag_bloc_post .auth-info-date span {
+    color: #111;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.post__bloc_content {
+    margin-top: 200px;
+}
+.post-colum-two .post-content-col-grid a {
+    color: #777777;
+    margin-bottom: 7px;
+}
+.post-colum-two .post-content-col-grid h4 a {
+    color: #111;
+}
+.post-colum-two .post-content-col-grid h4{
+    margin-bottom: 13px;
+}
+.post-colum-two .post-content-col-grid i {
+    margin-right: 5px;
+}
+
+.post-colum-item.post-colum-two .post-grid-thumb img {
+    height: 180px;
+}
+
+.post-colum-two .post-grid-thumb img {
+    height: 180px;
+}
+.papermag-post__item.papermag-post__item_pol .papermag-post-content {
+    bottom: auto;
+    top: 4px;
+    padding: 0;
+    left: 12px;
+}
+
+.papermag-post__item.papermag-post__item_pol.papermag-common-hover .papermag-post-title a {
+    color: #000;
+    background-color: #fff;
+    -webkit-box-shadow: 0.5em 0 0 #fff, -0.5em 0 0 #fff;
+            box-shadow: 0.5em 0 0 #fff, -0.5em 0 0 #fff;
+    display: inline;
+    padding: 5px 0;
+}
+.papermag-post__item.papermag-post__item_pol .papermag-post_image:after {
+    background: transparent;
+}
+
+/*======= Post Overlay CSS =======*/
+.post-overlay-img img {
+    width: 100%;
+    height: auto;
+    -o-object-fit: cover;
+       object-fit: cover;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+}
+
+.post-overlay-img img {
+    height: 189px;
+}
+.post__overlay_item {
+    position: relative;
+    overflow: hidden;
+}
+
+.post__overlay_item:after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(#000000));
+    background: -o-linear-gradient(top, rgba(0, 0, 0, 0) 0%, #000000 100%);
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 100%);
+    opacity: .7;
+}
+
+.post__overlay_item .post-overlay-content {
+    position: absolute;
+    bottom: -9px;
+    left: 0;
+    padding: 30px;
+    z-index: 1;
+}
+
+.post__overlay_item .post-overlay-content h4 a {
+    color: #fff;
+}
+
+.post__overlay_item .post-overlay-content .post-cat a {
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 2px;
+}
+
+/*======= Post List CSS =======*/
+.post-list-thumb-one img {
+    width: 100%;
+    height: auto;
+    -o-object-fit: cover;
+       object-fit: cover;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+}
+.post-tarading__wrap .post-list-thumb-one {
+    min-width: 140px;
+    width: 140px;
+    padding-right: 20px;
+    position: relative;
+}
+.post-list-thumb-one span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #fff;
+    color: #000000;
+    width: 24px;
+    height: 24px;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 500;
+}
+.post-list-content-one .post-meta-info {
+    margin-bottom: 8px;
+}
+.post-list-content-one .post-meta-info div:not(:last-child){
+    padding-right: 24px;
+}
+.post-list-content-one .post-cat a {
+    background: -webkit-gradient(linear, left top, right top, from(#2130FF), to(#0090FF));
+    background: -o-linear-gradient(left, #2130FF 0%, #0090FF 100%);
+    background: linear-gradient(90deg, #2130FF 0%, #0090FF 100%);
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 500;
+    -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.post-list-content-one .post-meta-info i {
+    color: #BDBDBD;
+}
+.post-list-item-one:not(:last-child) {
+    margin-bottom: 20px;
+}
+.post-list-slm .post-list-img.post-common-img-style {
+    width: 80px;
+    min-width: 80px;
+    margin-left: 40px;
+}
+.post-list-slm .post-list-item:not(:last-child) {
+    border-bottom: 1px solid #F0F0F0;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+.post-list-slm .post-list-img.post-common-img-style img {
+    height: 60px;
+}
+.post-list-slm .post-list-img.post-common-img-style a {
+    display: block;
+}
+.post-colum-item.post-item-lst.post-colum-two {
+    border-bottom: 1px solid #F0F0F0;
+    padding-bottom: 30px;
+    margin-bottom: 20px;
+}
+/*======= Section Heading CSS =======*/
+.section-heading span {
+    color: #999999;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+.section-heading {
+    border-bottom: 1px solid #EBEBEB;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.section-heading i {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    border: 1px solid #E8E8E8;
+    width: 32px;
+    height: 32px;
+    text-align: center;
+    border-radius: 50%;
+    line-height: 32px;
+    color: #111111;
+    -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+}
+.section-heading.white-title h4 {
+    color: #fff;
+}
+
+.section-heading.white-title i {
+    color: #fff;
+}
+.section-heading.white-title {
+    border-bottom: 1px solid #333333;
+}
+.papermag-post-tap-area.post-politic-tab h4 {
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+/*======= Post Carouse CSS =======*/
+.post-grid-item-two .post-grid-thumb img {
+    width: 100%;
+    height: auto;
+    -o-object-fit: cover;
+       object-fit: cover;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+}
+.common-style-meta div:not(:last-child) {
+    padding-right: 24px;
+}
+.post-list-bottom .post-auth {
+    color: #000000;
+}
+
+.post-list-bottom .post-auth i {
+    margin-right: 3px;
+}
+.common-style-meta .papermag-cate-name {
+    background: -webkit-gradient(
+linear, left top, right top, from(#2130FF), to(#0090FF));
+    background: -o-linear-gradient(
+left, #2130FF 0%, #0090FF 100%);
+    background: linear-gradient(
+90deg, #2130FF 0%, #0090FF 100%);
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 500;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.post-grid-item-two .post-grid-thumb {
+    margin-bottom: 24px;
+}
+.common-style-meta i {
+    color: #BDBDBD;
+}
+
+.common-style-meta {
+    margin-bottom: 8px;
+}
+
+.post-grid-thumb img {
+    display: inline-block !important;
+}
+.papermag-post-carousel-grid-wraper .papermag-post-carousel .owl-nav button {
+    border: 1px solid #E8E8E8;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 50%;
+    color: #000;
+}
+
+.papermag-post-carousel-grid-wraper .papermag-post-carousel .owl-nav button {
+    position: absolute;
+    top: 40%;
+    -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+    left: 0;
+}
+
+.papermag-post-carousel-grid-wraper .papermag-post-carousel .owl-nav .owl-next {
+    left: auto;
+    right: 0;
+}
+
+/*======= Post Hover Animation =======*/
+.papermag-common-hover .hover-title a {
+    background: -webkit-gradient(linear, left top, right top, from(currentColor), to(currentColor));
+    background: -o-linear-gradient(left, currentColor 0%, currentColor 100%);
+    background: linear-gradient(to right, currentColor 0%, currentColor 100%);
+    background-size: 0px 6%;
+    background-repeat: no-repeat;
+    background-position: left 100%;
+    -webkit-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+       transition-duration: 0.5s;
+    display: inline;
+}
+
+.papermag-common-hover:hover .hover-title a {
+    background-size: 100% 6%;
+}
+
+/*======= Post Video =======*/
+.post__list_video .post-list-thumb-one {
+    min-width: 100px;
+    width: 100px;
+    margin-right: 20px;
+    position: relative;
+}
+
+.post__list_video .post-list-thumb-one img {
+    height: 100px;
+}
+.post__list_video .post-list-thumb-one img {
+    border-radius: 0;
+}
+.post__list_video .post-list-thumb-one a {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background: #fff;
+    color: #111111;
+    width: 40px;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+    -webkit-transform: translateY(-50%) translateX(-50%);
+        -ms-transform: translateY(-50%) translateX(-50%);
+            transform: translateY(-50%) translateX(-50%);
+}
+.video-popup a {
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    background: #fff;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    line-height: 70px;
+    border-radius: 50%;
+    color: #111111;
+}
+.papermag-post-video-area {
+    background: #111111;
+    padding: 50px;
+}
+.post__list_video h4 a {
+    color: #fff;
+}
+
+.post__list_video .post-list-content-one .post-meta-info div {
+    color: #fff;
+}
+
+.post__list_video .post-list-content-one .post-cat a {
+    background: transparent;
+    -webkit-background-clip: inherit;
+    -webkit-text-fill-color: inherit;
+    color: #fff;
+}
+.papermag-post-video-area .col-lg-6:first-child {
+    padding-right: 10px;
+}
+
+.papermag-post-video-area .col-lg-6:last-child {
+    padding-left: 10px;
+}
+.post-video-popup-item {
+    position: relative;
+    overflow: hidden;
+}
+
+.post-video-popup-item:after {
+    position: absolute;
+    background: #000000;
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+}
+
+.post-video-popup {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    padding: 30px;
+}
+.post-video-popup-item .post-popup-btn a {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #fff;
+    text-align: center;
+    color: #fff;
+    line-height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.post-video-popup-item .post-popup-info h5 a {
+    color: #fff;
+}
+.post-video-popup-item .post-popup-info .papermag-cate-name {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 6px;
+}
+
+/*======= Social Counter CSS =======*/
+.apsc-icons-wrapper .apsc-each-profile {
+    border: 1px solid #F3F3F3;
+    padding: 15px 20px;
+    position: relative;
+    padding-left: 60px;
+    margin-right: 10px;
+    width: 47%;
+    margin-bottom: 10px;
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s;
+}
+.apsc-each-profile span {
+    line-height: 16px;
+}
+
+.apsc-icons-wrapper .apsc-each-profile:hover {
+    background: -webkit-gradient(linear, left top, right top, from(#2130FF), to(#0090FF));
+    background: -o-linear-gradient(left, #2130FF 0%, #0090FF 100%);
+    background: linear-gradient(90deg, #2130FF 0%, #0090FF 100%);
+}
+.apsc-icons-wrapper .apsc-each-profile i {
+    margin-right: 18px;
+    font-size: 30px;
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+}
+
+.apsc-icons-wrapper .apsc-each-profile .apsc-count {
+    display: inline-block;
+}
+
+.apsc-icons-wrapper .apsc-each-profile .social-icon {display: block;
+    color: #111;
+    font-size: 14px;
+    font-weight: 500;}
+
+.apsc-icons-wrapper .apsc-each-profile a {
+    display: block;
+}
+.apsc-icons-wrapper.clearfix.apsc-theme-4.apsc-font-awesome-five {display: -webkit-box;display: -ms-flexbox;display: flex;-webkit-box-orient: horizontal;-webkit-box-direction: normal;-ms-flex-direction: row;flex-direction: row;-ms-flex-wrap: wrap;flex-wrap: wrap;width: 100%;}
+.apsc-icons-wrapper .apsc-each-profile i.fa-facebook-f:before {
+    content: "\f09a";
+}
+.apsc-icons-wrapper .apsc-each-profile .apsc-media-type {
+    margin-left: 5px;
+}
+.apsc-icons-wrapper .apsc-each-profile .apsc-count, .apsc-icons-wrapper .apsc-each-profile .apsc-media-type {
+    color: #999999;
+    font-size: 10px;
+}
+.apsc-icons-wrapper .apsc-each-profile:hover i {
+    color: #fff;
+}
+
+.apsc-icons-wrapper .apsc-each-profile:hover .media-name {
+    color: #fff;
+}
+
+.apsc-icons-wrapper .apsc-each-profile:hover .apsc-count, .apsc-icons-wrapper .apsc-each-profile:hover .apsc-media-type {
+    color: #729FFF;
+}
+
+/*======= Post Tab CSS =======*/
+.post-grid-item-two.post-list-two-lg .post-thumb img {
+    height: 200px;
+}
+.post-grid-thumb a{
+    display: block;
+}
+.post-grid-item-two.post-list-two-lg .post-grid-thumb img {
+    height: 200px;
+}
+.post-grid-item-two.post-grid-tb .auth-info-date span {
+    color: #111111;
+}
+.post-grid-item-two.post-list-two-lg h4 {
+    font-size: 20px;
+    line-height: 30px;
+}
+.post-grid-item-two.post-list-two-lg:not(:last-child) {
+    margin-bottom: 30px;
+}
+
+.papermag-post-tap-area {
+    position: relative;
+}
+
+.papermag-post-tap-area .papermag-tabs {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.papermag-post-tap-area.post-politic-tab .papermag-tabs {
+    top: -6px;
+}
+.papermag-post-tap-area.post-politic-tab .post-content-col-grid h4{
+    margin-bottom:15px
+}
+.papermag-post-tap-area .papermag-tabs li a {
+    color: #999;
+    font-size: 12px;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+.papermag-post-tap-area.post-politic-tab .nav-pills .nav-link.active:after {
+    position: relative;
+}
+.papermag-post-tap-area .nav-pills .nav-link.active, .papermag-post-tap-area .nav-pills .show>.nav-link {
+    background: transparent;
+    color: #000;
+    position: relative;
+}
+
+.papermag-post-tap-area .nav-pills .nav-link.active:after {
+    position: absolute;
+    bottom: 0;
+    width: 78px;
+    height: 1px;
+    content: "";
+    left: 0;
+    background: -webkit-gradient(
+linear, left top, right top, from(#2130FF), to(#0090FF));
+    background: -o-linear-gradient(
+left, #2130FF 0%, #0090FF 100%);
+    background: linear-gradient(
+90deg, #2130FF 0%, #0090FF 100%);
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+            transform: translateX(-50%);
+}
+.section-heading.icon-left i {
+    left: 0;
+}
+.section-heading.icon-left {
+    padding-left: 45px;
+}
+.papermag-post-tap-area .papermag-tabs {
+    position: absolute;
+    top: 10px;
+    right: 0;
+    margin-bottom: 0 !important;
+}
+.post-overlay-tab-itm {
+    position: relative;
+}
+
+.post-overlay-tab-itm .post-tab-info-content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    padding: 50px;
+}
+
+.post-overlay-tab-itm .post-tab-info-content h3 a {
+    color: #fff;
+}
+.post-tab-info-content .papermag-cate-name {
+    text-transform: uppercase;
+    color: #fff;
+    margin-bottom: 4px;
+}
+.post-colum-two.post-tab-col .post-content-col-grid a, .post-tab-col .common-style-meta{
+    margin-bottom: 0;
+}
+/*======= Mail Subscribe CSS =======*/
+.papermag-subscribe-box {
+    border: 1px solid #F2F2F2;
+    padding: 40px 30px;
+}
+.subscribe-text h4 {
+    margin-bottom: 20px;
+}
+.subscribe-form input[type="email"] {
+    border: 1px solid #F2F2F2;
+    padding: 18px 24px;
+    width: 100%;
+}
+
+.subscribe-form input[type="submit"] {
+    background: -webkit-gradient(linear, left top, right top, from(#2130FF), to(#0090FF));
+    background: -o-linear-gradient(left, #2130FF 0%, #0090FF 100%);
+    background: linear-gradient(90deg, #2130FF 0%, #0090FF 100%);
+    color: #fff;
+    border: none;
+    padding: 18px 30px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+.papermag-subscribe-box h4 {
+    margin-bottom: 24px;
+}
+.post-list-item-one.post-list-tab-item .post-list-thumb-one img {
+    height: 100px;
+    width: 100px;
+}
+.post-list-item-one.post-list-tab-item .post-list-thumb-one {
+    min-width: 100px;
+    padding: 0;
+    margin-right: 20px;
+    width: 100px;
+}
+.post-tarading__wrap {
+    position: relative;
+}
+
+.papermag-tabs-list {
+    position: absolute;
+    top: 6px;
+    right: 0;
+    margin-bottom: 0 !important;
+}
+
+.papermag-tabs-list.nav-pills .nav-link.active {
+    color: #111;
+    background: transparent;
+    position: relative;
+}
+.papermag-tabs-list.nav-pills .nav-link.active:after {
+    position: absolute;
+    background: -webkit-gradient(linear, left top, right top, from(#2130FF), to(#0090FF));
+    background: -o-linear-gradient(left, #2130FF 0%, #0090FF 100%);
+    background: linear-gradient(90deg, #2130FF 0%, #0090FF 100%);
+    content: "";
+    bottom: 0;
+    width: 61px;
+    height: 1px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+            transform: translateX(-50%);
+}
+.papermag-tabs-list.nav-pills .nav-link {
+    color: #999;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+/*======= Post Column Grid CSS =======*/
+.post-colum-item .post-grid-thumb img {
+    height: 234px;
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+    display: block;
+}
+.post-colum-item .post-grid-thumb a {
+    display: block;
+}
+.papermag-category-page .post-colum-item .post-grid-thumb img {
+    height: 200px;
+}
+.post-colum-item .post-grid-thumb {
+    margin-bottom: 24px;
+}
+
+.post-content-col-grid h4 {
+    margin-bottom: 11px;
+}
+.post-colum-item {
+    margin-bottom: 30px;
+}
+.famous-post-item .auth-info-date span {
+    color: #111;
+    margin-bottom: 0;
+}
+.famous-post-item .post-bottom-meta {
+    margin-top: 15px;
+}
+.famous-post-item {
+    margin-bottom: 50px;
+}
+/*======= Widgets CSS =======*/
+.home_category_widget ul li a {
+    border: 1px solid #F3F3F3;
+    display: block;
+    padding: 18px 24px;
+    color: #111;
+    position: relative;
+}
+.widget.widget_media_gallery img {
+    height: auto;
+}
+
+.widget.widget_media_gallery .gallery-item {margin-bottom: 0;}
+.home_category_widget ul li:not(:last-child) {
+    margin-bottom: 6px;
+}
+
+.home_category_widget h5 {
+    display: none;
+}
+.home_category_widget .item-count {
+    position: absolute;
+    top: 17px;
+    right: 24px;
+}
+.home-gallery .gallery {
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -7.5px;
+    margin-left: -7.5px;
+    grid-gap: 0;
+}
+
+.home-gallery .gallery figure.gallery-item {
+    -ms-flex: 0 0 33.333333%;
+    -webkit-box-flex: 0;
+            flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+    padding-left: 7.5px;
+    padding-right: 7.5px;
+    margin-bottom: 15px !important;
+}
+
+
+/*======= Footer CSS =======*/
+.footer-bottom {
+    background: #111;
+    padding: 25px 0;
+}
+
+.footer-nav li a {
+    color: #999;
+    font-size: 12px;
+}
+
+.footer-nav li {
+    display: inline-block;
+    padding-left: 30px;
+}
+
+.footer-nav {
+    margin-bottom: 10px;
+}
+
+.footer-btm-left h1 {
+    color: #fff;
+    font-size: 30px;
+}
+.copyright a{
+    color: #fff;
+}
+.footer-top h5 {
+    color: #111;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+.footer-1 .footer-top ul li a {
+    color: #777777;
+    line-height: 40px;
+    display: block;
+    position: relative;
+}
+.footer-top {
+    border-top: 1px solid #E7E7E7;
+}
+.footer-1 .footer-top .item-count {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.con-item-list {
+    position: relative;
+    padding-left: 26px;
+    line-height: 40px;
+    color: #777777;
+}
+
+.con-item-list i {
+    position: absolute;
+    top: 13px;
+    left: 0;
+}
+.recent-posts-widget .post-thumb a {
+    height: 78px;
+    width: 78px;
+    display: block;
+    background-size: cover;
+    background-position: center;
+    margin-right: 20px;
+}
+.recent-posts-widget h5.papermag__post-title {
+    font-size: 14px;
+    margin-bottom: 0;
+}
+.recent-posts-widget .common-style-meta {
+    margin-bottom: 0;
+}
+.recent-posts-widget .papermag__post-content:not(:last-child) {
+    border-bottom: 1px solid #EEEEEE;
+    margin-bottom: 14px;
+    padding-bottom: 14px;
+}
+
+/*======= Authore Quote CSS =======*/
+.papermag-authore-quote {
+    background: #F2F2F2;
+    padding: 25px;
+    padding-right: 80px;
+    overflow: hidden;
+    position: relative;
+}
+
+.papermag-authore-quote .quote-auth-img {
+    position: absolute;
+    bottom: 0;
+    right: 20px;
+    max-width: 110px;
+    z-index: 1;
+}
+.quote-auth-img:after {
+    position: absolute;
+    background: #fff;
+    width: 107px;
+    height: 107px;
+    content: "";
+    right: 0;
+    z-index: -1;
+    border-radius: 50%;
+    bottom: -22px;
+}
+.quote-info span {
+    color: #777777;
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+.papermag-authore-quote.with-popup .quote-auth-img {
+    max-width: 500px;
+    right: 0;
+}
+.papermag-authore-quote.with-popup {
+    padding: 50px;
+    overflow: inherit;
+}
+.papermag-authore-quote.with-popup .quote-auth-img:after {
+    position: absolute;
+    background: #fff;
+    width: 284px;
+    height: 284px;
+    content: "";
+    top: 64px;
+    z-index: -1;
+    border-radius: 50%;
+    right: 36px;
+}
+.papermag-authore-quote.with-popup .quote-info .popup-video {
+    background: #fff;
+    color: #000;
+    font-size: 12px;
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    line-height: 80px;
+    border-radius: 50%;
+    margin-bottom: 50px;
+}
+.papermag-authore-quote.with-popup .quote-info {
+    width: 390px;
+}
+.papermag-authore-quote.with-popup .quote-info h3 {
+    margin-bottom: 15px;
+}
+/*======= Post List Two CSS =======*/
+.post_list__wrap .col-lg-3 {
+    -ms-flex: 0 0 25%;
+    -webkit-box-flex: 0;
+            flex: 0 0 20%;
+    max-width: 20%;
+}
+.post-list-item-sm .post-list-thumb-one img {
+    width: 100%;
+    height: auto;
+    -o-object-fit: cover;
+       object-fit: cover;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+}
+
+.post-list-item-sm .post-list-thumb-one img {
+    height: 70px;
+    width: 70px;
+}
+
+.post-list-item-sm .post-list-thumb-one {
+    width: 70px;
+    min-width: 70px;
+    margin-right: 20px;
+}
+.post-list-item-sm .post-list-content-one .post-meta-info {
+    margin-bottom: 4px;
+}
+.post-list-item-sm .post-list-content-one .post-meta-info a {
+    line-height: normal;
+}
+.post-list-wrap .post-list-top .post-list-img {
+    width: 160px;
+    min-width: 160px;
+}
+.post-list-wrap .post-list-top .post-list-info {
+    padding-right: 50px;
+}
+.post-list-wrap .post-list-top .post-list-img img {
+    height: 110px;
+}
+.post-list-wrap .post-list-top .post-list-img a {
+    display: block;
+}
+.post-list-wrap .post-list-top .post-list-info {
+    padding-right: 50px;
+}
+
+.post-list-wrap .post-list-item:not(:last-child) {
+    margin-bottom: 50px;
+}
+.post-list-info .post-cat a {
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 12px;
+    margin-bottom: 0;
+    line-height: normal;
+    margin-bottom: 10px;
+}
+.post-list-info .post-cat a {
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 12px;
+    margin-bottom: 0;
+    line-height: normal;
+    margin-bottom: 10px;
+    background: -webkit-gradient( 
+linear, left top, right top, from(#2130FF), to(#0090FF));
+    background: -o-linear-gradient( 
+left, #2130FF 0%, #0090FF 100%);
+    background: linear-gradient( 
+90deg, #2130FF 0%, #0090FF 100%);
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 500;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.post-list-wrap .post-list-item .post-list-bottom .post-meta-info {
+    margin-bottom: 0;
+    margin-top: 15px;
+}
+.post-list-wrap .post-list-item .post-list-bottom {
+    margin-top: 15px;
+}
+.post-common-img-style img{
+    width: 100%;
+    height: auto;
+    -o-object-fit: cover;
+       object-fit: cover;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+}
+
+/*======= Blog Post CSS =======*/
+.papermag-blog-main-content {
+    padding: 60px 0;
+}
+
+.papermag-blog-main-content .col-lg-9, .papermag-single-post-section .col-lg-9{
+    padding-right: 50px;
+}
+.papermag-blog-main-content.papermag-category-page .col-lg-9 {
+    padding-right: 15px;
+}
+.papermag-blog-content {
+    background: #FFFFFF;
+    border: 1px solid #EDEDED;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    -webkit-box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.04);
+            box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.04);
+    padding: 50px;
+    border-top: 0;
+    padding-top: 45px;
+}
+.papermag-post-gall-item {
+    height: 400px;
+    background-size: cover;
+    background-position: center center;
+}
+
+.papermag-blog-gallery .owl-nav button {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+}
+
+.papermag-blog-gallery .owl-nav button.owl-next, .papermag-blog-gallery .owl-nav button.owl-prev {
+    background: -webkit-gradient(linear, left top, right top, from(#2130FF), to(#0090FF));
+    background: -o-linear-gradient(left, #2130FF 0%, #0090FF 100%);
+    background: linear-gradient(90deg, #2130FF 0%, #0090FF 100%);
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    font-size: 16px;
+    color: #fff;
+}
+
+.papermag-blog-gallery .owl-nav button.owl-next {
+    left: auto;
+    right: 0;
+}
+.no-thumbnail .papermag-blog-content {
+    border: 1px solid #EDEDED;
+}
+.papermag-blog-main-content .papermag-blog-item:not(:last-child) {
+    margin-bottom: 30px;
+}
+.papermag-blog-content h1 {
+    margin-bottom: 20px;
+    word-wrap: break-word;
+    word-break: break-word;
+}
+
+.papermag-btn {
+    background: #FFFFFF;
+    border: 2px solid #F3F3F3;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 18px 40px;
+    font-weight: 700;
+    color: #222222;
+    margin-top: 25px;
+}
+.papermag-blog-thumb .blog-authore {
+    position: absolute;
+    bottom: 0;
+    right: 50px;
+}
+
+.papermag-blog-thumb {
+    position: relative;
+}
+
+.blog-authore {
+    background: #fff;
+    padding: 10px 20px;
+    color: #000000;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.blog-authore img {
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.papermag-post-pagination ul li {
+    display: inline-block;
+    margin-right: 8px;
+}
+.papermag-post-pagination {
+    margin-top: 40px;
+}
+.papermag-post-pagination ul li a, .papermag-post-pagination ul li span.current {
+    border: 1px solid #DCDCDC;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    color: #777777;
+}
+
+.papermag-post-pagination ul li span.current, .papermag-post-pagination ul li a:hover {
+    background: -webkit-gradient(linear, left top, right top, from(#2130FF), to(#0090FF));
+    background: -o-linear-gradient(left, #2130FF 0%, #0090FF 100%);
+    background: linear-gradient(90deg, #2130FF 0%, #0090FF 100%);
+    color: #fff;
+}
+.sticky .papermag-blog-content {
+    background:  -webkit-gradient(linear, left top, right top, from(#2130FF), to(#0090FF));
+    background:  -o-linear-gradient(left, #2130FF 0%, #0090FF 100%);
+    background:  linear-gradient(90deg, #2130FF 0%, #0090FF 100%);
+}
+.papermag-blog-item.sticky a.papermag-cate-name {
+    color: #fff;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: inherit;
+}
+
+.papermag-blog-item a.papermag-cate-name {
+    margin-right: 15px;
+}
+
+.papermag-blog-item.sticky .post-meta-info .post-cmt, .papermag-blog-item.sticky .post-meta-info .post-view {
+    color: #fff;
+}
+.sticky .papermag-blog-content h1 a, .sticky .papermag-blog-content p {
+    color: #fff;
+}
+
+.papermag-blog-item.sticky:after {color: #fff;content: "\f08d";font-family: 'Font Awesome 5 Pro';height: 55px;position: absolute;right: 7px;text-align: center;top: 17px;z-index: 2;font-size: 30px;}
+
+.papermag-blog-item.sticky {
+    position: relative;
+}
+.papermag-blog-item .post-meta-info div:not(:last-child) {
+    padding-right: 24px;
+}
+
+.papermag-blog-item .papermag-cate-name {
+    background: -webkit-gradient(
+linear, left top, right top, from(#2130FF), to(#0090FF));
+    background: -o-linear-gradient(
+left, #2130FF 0%, #0090FF 100%);
+    background: linear-gradient(
+90deg, #2130FF 0%, #0090FF 100%);
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 500;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.papermag-blog-item .post-meta-info {
+    margin-bottom: 20px;
+}
+
+.papermag-blog-item .post-meta-info i {
+    color: #BDBDBD;
+}
+.papermag-blog-item.sticky:before {
+    border-left: 76px solid transparent;
+    border-top: 80px solid #111;
+    content: "";
+    height: 0;
+    position: absolute;
+    right: 0;
+    top: 1px;
+    width: 0;
+    z-index: 1;
+}
+.papermag-blog-thumb.video-post {
+    position: relative;
+}
+
+.papermag-blog-thumb.video-post .papermag-popup-video {
+    background: -webkit-gradient(linear, left top, right top, from(#2130FF), to(#0090FF));
+    background: -o-linear-gradient(left, #2130FF 0%, #0090FF 100%);
+    background: linear-gradient(90deg, #2130FF 0%, #0090FF 100%);
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translateY(-50%) translateX(-50%);
+        -ms-transform: translateY(-50%) translateX(-50%);
+            transform: translateY(-50%) translateX(-50%);
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    border-radius: 50%;
+    font-size: 25px;
+}
+
+/*======= Post Single CSS =======*/
+.papermag-single-post-section {
+    padding: 60px 0;
+}
+.papermag-single-content .blog-post-thumbnail {
+    margin-bottom: 48px;
+}
+.papermag-single-content .entry-header .entry-title {
+    line-height: 48px;
+    font-size: 40px;
+    margin-bottom: 30px;
+    word-break: break-word;
+}
+.papermag-single-content .post-bottom-meta .papermag-post-date span {
+    color: #111;
+    font-weight: 500;
+}
+.papermag-single-content .papermag-post-date {
+    color: #999;
+}
+.post-single-meta-item {
+    display: inline-block;
+}
+
+.post-single-meta-item span {
+    display: block;
+    text-align: center;
+}
+.papermag-single-content .post-bottom-meta {
+    margin-top: 0;
+}
+.papermag-single-content .entry-meta-top {
+    margin-bottom: 20px;
+}
+.papermag-single-content .entry-content p {
+    color: #777777;
+    font-size: 16px;
+    line-height: 1.8;
+    margin-bottom: 25px;
+}
+blockquote {
+    position: relative;
+    padding-left: 100px;
+    margin-bottom: 30px;
+    display: inline-block;
+    width: 100%;
+}
+
+blockquote p {
+    font-size: 30px !important;
+    font-weight: 300;
+    line-height: 50px !important;
+}
+
+blockquote:after {
+    content: "\f10d";
+    background: -webkit-gradient(linear, left top, right top, from(#2C44FF), to(#0CA6FF));background: -o-linear-gradient(left, #2C44FF 0%, #0CA6FF 100%);background: linear-gradient(90deg, #2C44FF 0%, #0CA6FF 100%);top: 0;left: 0;position: absolute;width: 60px;height: 60px;color: #fff;text-align: center;line-height: 60px;border-radius: 50%;font-family: "Font Awesome 5 Pro";font-size: 30px;}
+.papermag-single-post-section blockquote cite {
+    color: #222222;
+    font-size: 18px;
+}
+.papermag-single-content .entry-footer .tags-links {
+    color: #000;
+    font-size: 16px;
+}
+
+.papermag-single-content .entry-footer .tags-links a {
+    color: #777777;
+    margin-left: 3px;
+}
+.papermag-single-content .entry-footer {
+    border-top: 1px solid #EFEFEF;
+    border-bottom: 1px solid #EFEFEF;
+    padding: 25px 0;
+}
+.nav-post-item img {
+    width: 100px;
+}
+
+.nav-post-item.prev-post-item .post_nav_thumb {
+    margin-right: 20px;
+}
+.post_nav_inner a {
+    line-height: normal;
+    word-break: break-all;
+}
+.nav-post-item.next-post-item .post_nav_thumb {
+    margin-left: 20px;
+}
+.blog-post-thumbnail img {
+    height: auto;
+}
+.post-next-prev {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #EFEFEF;
+}
+.papermag-single-content .page-links a, .papermag-single-content .page-links .current {
+    border: 1px solid #DCDCDC;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    color: #777777;
+}
+
+.papermag-single-content .page-links {
+    margin-bottom: 30px;
+}
+
+.papermag-single-content .page-links .current {
+    background: -webkit-gradient(
+linear, left top, right top, from(#2130FF), to(#0090FF));
+    background: -o-linear-gradient(
+left, #2130FF 0%, #0090FF 100%);
+    background: linear-gradient(
+90deg, #2130FF 0%, #0090FF 100%);
+    color: #fff;
+    color: #fff;
+}
+table th, table td {
+    border: 1px solid #EBEBEB;
+    padding: 8px;
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    background: #ffffff;
+    margin-bottom: 30px;
+}
+.papermag-single-content .entry-content h1, .papermag-single-content .entry-content h2, .papermag-single-content .entry-content h3, .papermag-single-content .entry-content h4, .papermag-single-content .entry-content h5, .papermag-single-content .entry-content h6 {
+    margin-bottom: 20px;
+}
+.papermag-single-post-section dd {
+    margin: 0 1rem 1rem;
+    font-size: 15px;
+    line-height: 26px;
+}
+
+dt {
+    color: #111;
+}
+dd {
+    margin: 0 1rem 1rem;
+    font-size: 15px;
+    line-height: 26px;
+}
+
+dt {
+    color: #111;
+}
+
+.papermag-single-content ul, .papermag-page-content ul {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    list-style: disc;
+    padding-left: 20px;
+}
+
+.papermag-single-content ul li, .papermag-page-content ul li {
+    list-style: disc;
+    line-height: 1.8;
+    margin-bottom: 15px;
+}
+
+.papermag-single-content ul li ul, .papermag-page-content ul li ul {
+    margin: 10px 0 0;
+    list-style: circle;
+}
+
+.papermag-single-content ul li ul li, .papermag-page-content ul li ul li{
+    list-style-type: circle;
+}
+.papermag-single-content ol, .papermag-page-content ol{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    list-style: auto;
+    padding-left: 20px;
+}
+
+.papermag-single-content ol li, .papermag-page-content ol li{
+    line-height: 1.8;
+    margin-bottom: 10px;
+}
+.post-meta-right .post-single-meta-item i {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+.post-single-meta-item {
+    margin-left: 10px;
+}
+.post-meta-right .post-single-meta-item.meta-cmt i, .post-meta-right .post-single-meta-item.meta-view i {
+    background: transparent;
+    border: 1px solid #ECECEC;
+    color: #000;
+}
+.papermag-single-content ol li ol, .papermag-page-content ol li ol{
+    margin: 10px 0 0;
+}
+pre {
+    background: #F5F5F5;
+    font-family: "Courier 10 Pitch", Courier, monospace;
+    font-size: 16px;
+    line-height: 1.7142857143;
+    margin-bottom: 20px;
+    max-width: 100%;
+    overflow: auto;
+    padding: 30px;
+    color: #111;
+    white-space: pre-wrap;
+    margin: 20px 0;
+}
+address {
+    margin: 20px 0;
+    font-style: italic;
+    line-height: 30px;
+}
+.papermag-single-content .wp-block-group__inner-container {
+    padding: 1.25em 2.375em;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.wp-block-gallery .blocks-gallery-grid, .wp-block-gallery {
+    padding: 0;
+    margin: 0;
+}
+.blocks-gallery-caption {
+    margin-bottom: 15px;
+    text-align: center;
+}
+.papermag-single-content .wp-block-button {
+    margin-bottom: 25px;
+}
+.papermag-single-content .wp-block-media-text__media img, .wp-block-media-text__media video {
+    height: auto;
+}
+.wp-block-media-text {
+    margin-bottom: 30px;
+}
+ul.wp-block-archives-list.extraclass.wp-block-archives a {
+    color: #111;
+}
+.papermag-single-content select {
+    width: 50%;
+    border: 1px solid #ddd;
+    padding: 12px;
+    margin-bottom: 20px;
+}
+p.wp-block-tag-cloud .tag-cloud-link {
+    color: #777;
+    border: 1px solid #F3F3F3;
+    padding: 7px 15px;
+    font-size: 16px !important;
+    margin-bottom: 5px;
+}
+
+form.wp-block-search__button-outside.wp-block-search__text-button.wp-block-search {
+    margin-bottom: 19px;
+}
+
+form.wp-block-search__button-outside.wp-block-search__text-button.wp-block-search input[type="search"] {
+    border: 1px solid #EEEEEE;
+    padding: 9px 15px;
+    width: 100%;
+}
+.wp-block-image img {
+    max-width: 100%;
+    height: auto;
+}
+.wp-block-search button.wp-block-search__button {
+    background: -webkit-gradient(
+linear, left top, right top, from(#2130FF), to(#0090FF));
+    background: -o-linear-gradient(
+left, #2130FF 0%, #0090FF 100%);
+    background: linear-gradient(
+90deg, #2130FF 0%, #0090FF 100%);
+    border: none;
+    padding: 10px 15px;
+    color: #fff;
+}
+ul.wp-block-rss li a {
+    color: #111;
+}
+.papermag-single-content iframe {
+    width: 100%;
+}
+p.has-text-color.has-background.has-very-light-gray-color {
+    color: #fff;
+}
+.wp-block-cover p.wp-block-cover-text {
+    color: #fff;
+    font-size: 32px;
+    line-height: 42px;
+}
+.papermag-single-content .entry-content, .papermag-single-content .entry-content .wp-block-image {
+    overflow: hidden;
+}
+.social-box a {
+    color: #DEDEDE;
+    padding-left: 15px;
+    font-size: 14px;
+    -webkit-transition: .4s;
+    -o-transition: .4s;
+    transition: .4s;
+}
+.social-box a:hover {
+    background: -webkit-gradient(
+linear, left top, right top, from(#2C44FF), to(#0CA6FF));
+    background: -o-linear-gradient(
+left, #2C44FF 0%, #0CA6FF 100%);
+    background: linear-gradient(
+90deg, #2C44FF 0%, #0CA6FF 100%);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.post-password-form input[type="submit"] {
+    background: -webkit-gradient(linear, left top, right top, from(#2130FF), to(#0090FF));
+    background: -o-linear-gradient(left, #2130FF 0%, #0090FF 100%);
+    background: linear-gradient(
+90deg, #2130FF 0%, #0090FF 100%);
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+.post-password-form input[type="password"] {
+    padding: 9px 10px;
+    display: block;
+    margin-top: 5px;
+    border: 1px solid #d8d2d2;
+}
+img,
+figure {
+    -ms-interpolation-mode: bicubic;
+    border: 0;
+    height: auto;
+    max-width: 100%;
+    vertical-align: middle;
+}
+/*--------------------------------------------------------------
+# Page Css
+--------------------------------------------------------------*/
+.papermag-page-content p {
+    color: #777777;
+    font-size: 16px;
+    line-height: 1.8;
+    margin-bottom: 25px;
+}
+.papermag-page-content .page-links {
+    clear: both;
+    padding-top: 10px;
+    display: block;
+    margin-bottom: 15px;
+}
+
+.papermag-page-content .page-links a, .papermag-page-content .page-links span {
+    border: 1px solid #DCDCDC;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    color: #777777;
+    margin-left: 5px;
+}
+
+.papermag-page-content .page-links .current {
+    background: -webkit-gradient(linear, left top, right top, from(#2130FF), to(#0090FF));
+    background: -o-linear-gradient(left, #2130FF 0%, #0090FF 100%);
+    background: linear-gradient(
+90deg, #2130FF 0%, #0090FF 100%);
+    color: #fff;
+}
+.papermag-page-content .entry-content h1, .papermag-page-content .entry-content h2, .papermag-page-content .entry-content h3, .papermag-page-content .entry-content h4, .papermag-page-content .entry-content h5, .papermag-page-content .entry-content h6 {
+    margin-bottom: 20px;
+}
+.papermag-page-content p:last-child {
+    clear: both;
+}
+
+body.page .papermag-page-content p:last-child img {
+    margin-top: 23px;
+}
+.papermag-page-content .entry-content {
+    overflow: hidden;
+}
+/* Comments
+--------------------------------------------- */
+.comment-content a {
+    word-wrap: break-word;
+}
+
+.bypostauthor {
+    display: block;
+}
+
+/* Widgets
+--------------------------------------------- */
+
+.widget select {
+    max-width: 100%;
+}
+
+/* Media
+--------------------------------------------- */
+.page-content .wp-smiley,
+.entry-content .wp-smiley,
+.comment-content .wp-smiley {
+    border: none;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding: 0;
+}
+
+/* Make sure logo link wraps around logo image. */
+.custom-logo-link {
+    display: inline-block;
+}
+
+/* Captions
+--------------------------------------------- */
+.wp-caption {
+    margin-bottom: 1.5em;
+    max-width: 100%;
+}
+
+.wp-caption img[class*="wp-image-"] {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.wp-caption .wp-caption-text {
+    margin: 0.8075em 0;
+}
+
+.wp-caption-text {
+    text-align: center;
+}
+
+/* Galleries
+--------------------------------------------- */
+.gallery {
+    margin-bottom: 1.5em;
+    display: -ms-grid;
+    display: grid;
+    grid-gap: 1.5em;
+}
+
+.gallery-item {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+}
+
+.gallery-columns-2 {
+    -ms-grid-columns: (1fr)[2];
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.gallery-columns-3 {
+    -ms-grid-columns: (1fr)[3];
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.gallery-columns-4 {
+    -ms-grid-columns: (1fr)[4];
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.gallery-columns-5 {
+    -ms-grid-columns: (1fr)[5];
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.gallery-columns-6 {
+    -ms-grid-columns: (1fr)[6];
+    grid-template-columns: repeat(6, 1fr);
+}
+
+.gallery-columns-7 {
+    -ms-grid-columns: (1fr)[7];
+    grid-template-columns: repeat(7, 1fr);
+}
+
+.gallery-columns-8 {
+    -ms-grid-columns: (1fr)[8];
+    grid-template-columns: repeat(8, 1fr);
+}
+
+.gallery-columns-9 {
+    -ms-grid-columns: (1fr)[9];
+    grid-template-columns: repeat(9, 1fr);
+}
+
+.gallery-caption {
+    display: block;
+}
+
+/*--------------------------------------------------------------
+# Plugins
+--------------------------------------------------------------*/
+
+/* Jetpack infinite scroll
+--------------------------------------------- */
+
+/* Hide the Posts Navigation and the Footer when Infinite Scroll is in use. */
+.infinite-scroll .posts-navigation,
+.infinite-scroll.neverending .site-footer {
+    display: none;
+}
+
+/* Re-display the Theme Footer when Infinite Scroll has reached its end. */
+.infinity-end.neverending .site-footer {
+    display: block;
+}
+
+/*--------------------------------------------------------------
+# Utilities
+--------------------------------------------------------------*/
+
+/* Accessibility
+--------------------------------------------- */
+
+/* Text meant only for screen readers. */
+.screen-reader-text {
+    border: 0;
+    clip: rect(1px, 1px, 1px, 1px);
+    -webkit-clip-path: inset(50%);
+            clip-path: inset(50%);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute !important;
+    width: 1px;
+    word-wrap: normal !important;
+}
+
+.screen-reader-text:focus {
+    background-color: #f1f1f1;
+    border-radius: 3px;
+    -webkit-box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+            box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+    clip: auto !important;
+    -webkit-clip-path: none;
+            clip-path: none;
+    color: #21759b;
+    display: block;
+    font-size: 0.875rem;
+    font-weight: 700;
+    height: auto;
+    left: 5px;
+    line-height: normal;
+    padding: 15px 23px 14px;
+    text-decoration: none;
+    top: 5px;
+    width: auto;
+    z-index: 100000;
+}
+
+/* Do not show the outline on the skip link target. */
+#primary[tabindex="-1"]:focus {
+    outline: 0;
+}
+
+/* Alignments
+--------------------------------------------- */
+.alignleft {
+
+    /*rtl:ignore*/
+    float: left;
+
+    /*rtl:ignore*/
+    margin-right: 1.5em;
+    margin-bottom: 1.5em;
+}
+
+.alignright {
+
+    /*rtl:ignore*/
+    float: right;
+
+    /*rtl:ignore*/
+    margin-left: 1.5em;
+    margin-bottom: 1.5em;
+}
+
+.aligncenter {
+    clear: both;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1.5em;
+}
+.aligncenter, div.aligncenter {
+    display: block;
+    margin: 15px auto 15px auto;
+}
+.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+.alignnone {
+    display: block;
+    margin-bottom: 15px;
+}
+/*======= Comments CSS =======*/
+.comments-area {
+    padding-top: 60px;
+}
+.comments-title {
+    color: #222222;
+    font-size: 20px;
+    line-height: 16px;
+    margin-bottom: 30px;
+}
+.comments-area .comment-body {
+    position: relative;
+    padding-left: 80px;
+}
+
+.comments-area .author-thumb {
+    margin-right: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.comments-area .comment-date {
+    display: block;
+    color: #777777;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 3px;
+}
+.comments-area .comment-list li {
+    background: #FAFAFA;
+    padding: 40px;
+}
+.comments-area .comment-respond {
+    margin-top: 40px;
+}
+.comments-area .comment-list>li:not(:first-child) {
+    margin-top: 40px;
+}
+.comments-area .comment-body ul li {
+    list-style: disc;
+    line-height: 1.8;
+    margin-bottom: 15px;
+    padding: 0;
+}
+
+.comments-area .comment-body ul {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    list-style: disc;
+    padding-left: 20px;
+}
+
+.comments-area .comment-body ol {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    list-style: auto;
+    padding-left: 20px;
+}
+
+.comments-area .comment-body ol li {
+    line-height: 1.8;
+    margin-bottom: 10px;
+    padding: 0;
+}
+.comment-content img {
+    margin: 5px 0;
+}
+.comments-area .comment-body ol ol {
+    margin: 10px 0 0;
+}
+
+.comments-area .comment-body ul li ul {
+    margin: 10px 0 0;
+    list-style: circle;
+}
+.comments-area .comment-list .children {
+    padding-left: 40px;
+    margin-top: 40px;
+}
+.comment-footer {
+    margin-top: 20px;
+}
+.comments-area .comment-content .name {
+    margin-bottom: 15px;
+}
+.comments-area .comment-footer a {
+    position: relative;
+    padding-left: 20px;
+    color: #999999;
+}
+
+.comments-area .comment-footer a:after {
+    content: "\f064";
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-family: "Font Awesome 5 Pro";
+    color: #D8D8D8;
+}
+.comment-form input[type="text"], 
+.comment-form input[type="email"], 
+.comment-form input[type="url"],
+.comment-form textarea{
+    width: 100%;
+    border: 1px solid #EAEAEA;
+    padding: 18px 30px;
+    margin-bottom: 18px;
+}
+.form-submit input[type="submit"] {
+    background: -webkit-gradient(linear, left top, right top, from(#2130FF), to(#0090FF));
+    background: -o-linear-gradient(left, #2130FF 0%, #0090FF 100%);
+    background: linear-gradient(90deg, #2130FF 0%, #0090FF 100%);
+    border: none;
+    color: #fff;
+    padding: 18px 40px;
+    font-size: 16px;
+    font-weight: 600;
+}
+.comment-form textarea {
+    margin-bottom: 12px;
+}
+.comment-reply-title {
+    color: #222222;
+    font-size: 20px;
+    line-height: 16px;
+    margin-bottom: 15px;
+}
+.comment-reply-title small {
+    padding-left: 10px;
+    font-size: 70%;
+}
+.logged-in-as a {
+    color: #111;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+.comment-form-cookies-consent {
+    display: none;
+}
+.comment-notes {
+    margin-bottom: 30px;
+}
+.comment-content h1, 
+.comment-content h2, 
+.comment-content h3, 
+.comment-content h4, 
+.comment-content h5, 
+.comment-content h6 {
+    margin-bottom: 20px;
+}
+.comment-content p {
+    color: #777777;
+    font-size: 16px;
+    line-height: 1.8;
+    margin-bottom: 25px;
+}
+.comment-content table{
+    border-collapse: collapse;
+    width: 100%;
+    background: #ffffff;
+    margin-bottom: 30px;
+}
+.comment-content table th, .comment-content table td {
+    border: 1px solid #EBEBEB;
+    padding: 8px;
+    text-align: center;
+}
+
+/* Widget Style */
+.widget-area .widget-title {
+    font-weight: 500;
+    border-bottom: 1px solid #EBEBEB;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+}
+.widget-area .widget:not(:last-child) {
+    margin-bottom: 40px;
+}
+.widget-area .widget.widget_categories ul li:not(:last-child),
+.widget.widget_pages ul li:not(:last-child),
+.widget.widget_meta ul li:not(:last-child),
+.widget-area .widget.widget_recent_comments ul li:not(:last-child){
+    margin-bottom: 6px;
+}
+.widget-area .widget.widget_categories .item-count, 
+.widget.widget_archive .item-count {
+    position: absolute;
+    top: 17px;
+    right: 24px;
+}
+.widget ul li .children {
+    padding-left: 10px;
+    margin-top: 6px;
+}
+
+.widget ul li .sub-menu {
+    padding-left: 10px;
+    margin-top: 6px;
+}
+.widget ul li .sub-menu li {
+    margin-bottom: 6px;
+}
+.widget-area .widget.widget_categories ul li a, 
+.widget-area .widget.widget_pages ul li a,
+.widget-area .widget.widget_meta ul li a,
+.widget-area .widget.widget_archive ul li a,
+.widget-area .widget.widget_nav_menu ul li a{
+    border: 1px solid #F3F3F3;
+    display: block;
+    padding: 18px 24px;
+    color: #111;
+    position: relative;
+}
+.widget-area .widget.widget_tag_cloud .tagcloud a {
+    color: #777;
+    border: 1px solid #F3F3F3;
+    padding: 7px 15px;
+    font-size: 16px !important;
+    margin-bottom: 5px;
+}
+.widget-area .widget.widget_recent_comments ul li a{
+    color: #111;
+}
+.widget.widget_text strong {
+    display: block;
+    margin: 6px 0;
+}
+.widget.widget_text img {
+    height: auto;
+    margin: 10px 0;
+}
+.widget select {
+    border: 1px solid #EAEAEA;
+    width: 100%;
+    padding: 15px;
+}
+.widget table{
+    border-collapse: collapse;
+    width: 100%;
+    background: #ffffff;
+}
+.widget table th, .widget table td {
+    border: 1px solid #EBEBEB;
+    padding: 8px;
+    text-align: center;
+}
+td#today {
+    background: -webkit-gradient( linear, left top, right top, from(#2130FF), to(#0090FF));
+    background: -o-linear-gradient( left, #2130FF 0%, #0090FF 100%);
+    background: linear-gradient( 
+90deg, #2130FF 0%, #0090FF 100%);
+    text-transform: uppercase;
+    font-weight: 500;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.widget caption {
+    text-align: left;
+    caption-side: top;
+    background: -webkit-gradient( linear, left top, right top, from(#2130FF), to(#0090FF));
+    background: -o-linear-gradient( left, #2130FF 0%, #0090FF 100%);
+    background: linear-gradient( 
+90deg, #2130FF 0%, #0090FF 100%);
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 500;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding: 0 0 5px 0;
+}
+.wp-calendar-nav-prev {
+    margin-top: 6px;
+}
+.wp-calendar-table th {
+    background: #ddd;
+    border: 1px solid #ddd !important;
+}
+.widget table a {
+    font-weight: 500;
+}
+.widget.widget_text strong {
+    display: block;
+    margin: 6px 0;
+}
+
+.widget.widget_search .search-form input[type="submit"] {
+    background: -webkit-gradient(linear, left top, right top, from(#2130FF), to(#0090FF));
+    background: -o-linear-gradient(left, #2130FF 0%, #0090FF 100%);
+    background: linear-gradient(90deg, #2130FF 0%, #0090FF 100%);
+    border: none;
+    padding: 10px 15px;
+    color: #fff;
+}
+
+.widget.widget_search .search-form input[type="search"] {
+    border: 1px solid #EEEEEE;
+    padding: 9px 15px;
+    width: 100%;
+}
+
+.widget.widget_search .search-form label {
+    width: 80%;
+    float: left;
+}
+.widget.widget_rss .rss-date {
+    font-size: 13px;
+    margin: 3px 0 10px;
+    display: block;
+}
+
+.widget.widget_rss .rsswidget {
+    display: block;
+    color: #222222;
+    font-weight: bold;
+    font-size: 16px;
+}
+.widget.widget_recent_entries ul li a {
+    color: #111;
+}
+
+.widget.widget_recent_entries ul li:not(:last-child) {
+    margin-bottom: 15px;
+}
+.widget-area .widget.widget_recent_comments #recentcomments li:not(:last-child) {
+    margin-bottom: 15px;
+}
+.widget.widget_rss .widget-title .rsswidget {
+    display: inline-block;
+}
+.widget-area .widget.widget_recent_comments .comment-author-link {
+    font-weight: 700;
+}
+.widget.widget_rss ul li:not(:last-child) {
+    margin-bottom: 20px;
+}
+.widget-area .widget.widget_block h1,
+.widget-area .widget.widget_block h2,
+.widget-area .widget.widget_block h3,
+.widget-area .widget.widget_block h4,
+.widget-area .widget.widget_block h5,
+.widget-area .widget.widget_block h6 {
+    font-weight: 500;
+    border-bottom: 1px solid #EBEBEE;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    font-size: 18px;
+    line-height: 26px;
+}
+.widget-area .widget.widget_block ul li a {
+    border: 1px solid #F3F3F3;
+    display: block;
+    padding: 18px 26px;
+    color: #111;
+    position: relative;
+}
+/*======= Breadcrumb CSS =======*/
+.papermag-breadcrumb-area {
+    background: #F5F5F5;
+    padding: 30px 0;
+}
+.papermag-breadcrumb-area span:first-child {
+    margin-left: 0;
+}
+.papermag-breadcrumb-area .page-title span {
+    color: #111;
+    font-size: 18px;
+    line-height: 26px;
+}
+.papermag-breadcrumb-area span {
+    color: #999999;
+    font-size: 14px;
+    margin: 0 5px;
+}
+.papermag-breadcrumb-area .current-item {
+    color: #000;
+}
+
+.papermag-breadcrumb-area .col-lg-12 {
+    color: #CFCFCF;
+}
+
+/*======= Info Box Style CSS =======*/
+.ex-info-box {
+    border: 1px solid #DADADA;
+    background: #fff;
+    padding: 60px;
+    margin-top: 30px;
+    position: relative;
+}
+.ex-info-box:after {
+    background: -webkit-gradient(linear, left top, right top, from(#2130FF), to(#0090FF));
+    background: -o-linear-gradient(left, #2130FF 0%, #0090FF 100%);
+    background: linear-gradient(90deg, #2130FF 0%, #0090FF 100%);
+    height: 2px;
+    content: "";
+    width: 40%;
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    -webkit-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.ex-info-box:hover:after {
+    width: 100%;
+    visibility: visible;
+    opacity: 1;
+}
+.ex-info-icon img {
+    max-width: 70px;
+    margin-bottom: 30px;
+}
+
+.ex-info-content h3 {
+    margin-bottom: 20px;
+}
+/*======= Team Style CSS =======*/
+.ex-team-img {
+    position: relative;
+}
+
+.social-link {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    z-index: 1;
+    visibility: hidden;
+    opacity: 0;
+    -webkit-transition: all 0.62s ease-in-out;
+    -o-transition: all 0.62s ease-in-out;
+    transition: all 0.62s ease-in-out;
+}
+.ex-team-box:hover .social-link{
+    visibility: visible;
+    opacity: 1;
+}
+.social-link a {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #FFFFFF;
+    text-align: center;
+    line-height: 40px;
+    display: block;
+    color: #fff;
+}
+
+.social-link a:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.ex-team-box {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+.ex-team-box .ex-team-img img {
+    width: 100%;
+}
+.ex-team-content {
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+    z-index: 1;
+    visibility: hidden;
+    opacity: 0;
+    -webkit-transition: all 0.6s ease-in-out;
+    -o-transition: all 0.6s ease-in-out;
+    transition: all 0.6s ease-in-out;
+}
+
+.ex-team-box:after {
+    background: -webkit-gradient(
+        linear, left top, right top, from(#2130FF), to(#0090FF));
+    background: -o-linear-gradient(
+        left, #2130FF 0%, #0090FF 100%);
+    background: linear-gradient(
+        90deg, #2130FF 0%, #0090FF 100%);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 10%;
+    content: "";
+    position: absolute;
+    visibility: hidden;
+    opacity: 0;
+    -webkit-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+.ex-team-content h3 {
+    margin-bottom: 0;
+    color: #FFFFFF;
+    font-weight: 500;
+    line-height: 24px;
+}
+.ex-team-box:hover:after {
+    visibility: visible;
+    opacity: 1;
+    height: 100%;
+}
+
+.ex-team-box:hover .ex-team-content {
+    opacity: 1;
+    visibility: visible;
+}
+.ex-team-content span {
+    font-weight: 500;
+    color: #fff;
+    line-height: 14px;
+    margin-bottom: 8px;
+}
+
+/*======= Dark Moded CSS =======*/
+body.papermag-dark-mode .header-area.papermag-header-1 {
+    background: #111111;
+    border-bottom: 1px solid #3F3F3F;
+}
+body.papermag-dark-mode .section-heading-sports h4 {
+    border-bottom: 1px solid #3F3F3F;
+}
+body.papermag-dark-mode .site-logo{
+    display: none;
+}
+body.papermag-dark-mode .papermag-subscribe-box{
+    border: 1px solid #3F3F3F;
+}
+body.papermag-dark-mode .widget-area .widget.widget_categories ul li a, 
+body.papermag-dark-mode .widget-area .widget.widget_pages ul li a, 
+body.papermag-dark-mode .widget-area .widget.widget_meta ul li a, 
+body.papermag-dark-mode .widget-area .widget.widget_archive ul li a, 
+body.papermag-dark-mode .widget-area .widget.widget_nav_menu ul li a{
+    border: 1px solid #3F3F3F;
+}
+body.papermag-dark-mode .apsc-icons-wrapper .apsc-each-profile{
+    border: 1px solid #3F3F3F;
+}
+body.papermag-dark-mode .widget-area .widget-title{
+    border-bottom: 1px solid #3F3F3F;
+}
+body.papermag-dark-mode .papermag-breadcrumb-area h4{
+    color:#fff;
+}
+body.papermag-dark-mode .section-heading {
+    border-bottom: 1px solid #3F3F3F;
+}
+body.papermag-dark-mode .post-video-item-spo:last-child{
+        border-bottom: 0;
+    padding-bottom: 0;
+}
+body.papermag-dark-mode .elementor-heading-title{
+    color:#fff !important
+}
+body.papermag-dark-mode .ex-info-box {
+    border: 1px solid #3F3F3F;
+    background: transparent;
+}
+body.papermag-dark-mode .footer-top{
+    border-top: 1px solid #3F3F3F;
+}
+body.papermag-dark-mode .post-video-item-spo {
+    border-right: 1px solid #3F3F3F;
+    border-bottom: 1px solid #3F3F3F;
+}
+body.papermag-dark-mode .elementor-995 .elementor-element.elementor-element-0c7dbf8:not(.elementor-motion-effects-element-type-background), .elementor-995 .elementor-element.elementor-element-0c7dbf8 > .elementor-motion-effects-container > .elementor-motion-effects-layer{
+    background:#222 !important;
+}
+body.papermag-dark-mode .recent-posts-widget .papermag__post-content:not(:last-child){
+    border-bottom:1px solid #3F3F3F;
+}
+body.papermag-dark-mode .primary-menu ul#primary-menu li ul {
+    background: #222;
+}
+body.papermag-dark-mode .papermag-search input[type="search"],
+body.papermag-dark-mode .ex-info-content h3{
+    color: #fff;
+}
+
+body.papermag-dark-mode .papermag-search i {
+    color: #fff;
+}
+body.papermag-dark-mode .papermag-top-bar {
+    border-bottom: 1px solid #3F3F3F;
+}
+
+body.papermag-dark-mode {
+    background: #222;
+    color: #C5C5C5;
+}
+
+body.papermag-dark-mode .footer-1 .footer-top ul li a,
+body.papermag-dark-mode .contact-info-item p,
+body.papermag-dark-mode .papermag-post-pagination ul li a, 
+body.papermag-dark-mode .papermag-post-pagination ul li span.current,
+body.papermag-dark-mode .papermag-single-content .entry-content p,
+body.papermag-dark-mode .papermag-single-content .entry-footer .tags-links a,
+body.papermag-dark-mode .comments-area .comment-date,
+body.papermag-dark-mode .papermag-breadcrumb-area span,
+body.papermag-dark-mode .elementor-widget-container p,
+body.papermag-dark-mode .post-list-bottom .post-auth{
+    color: #C5C5C5;
+}
+body.papermag-dark-mode .post-meta-right .post-single-meta-item.meta-cmt i, 
+body.papermag-dark-mode .post-meta-right .post-single-meta-item.meta-view i,
+body.papermag-dark-mode .papermag-post-spost-tap-area.post-video-sports-tab .post-meta-info div{
+    color: #BDBDBD;
+}
+body.papermag-dark-mode .primary-menu ul>li>a {
+    color: #C5C5C5;
+}
+body.papermag-dark-mode .post-list-item-one h4 a,
+body.papermag-dark-mode .section-heading h4,
+body.papermag-dark-mode .section-heading i,
+body.papermag-dark-mode .papermag-common-hover .hover-title a,
+body.papermag-dark-mode .papermag-post-tap-area .nav-pills .nav-link.active, 
+body.papermag-dark-mode .papermag-post-tap-area .nav-pills .show>.nav-link,
+body.papermag-dark-mode .apsc-icons-wrapper .apsc-each-profile .social-icon,
+body.papermag-dark-mode .papermag-tabs-list.nav-pills .nav-link.active,
+body.papermag-dark-mode .post-grid-item-two.post-grid-tb .auth-info-date span,
+body.papermag-dark-mode .home_category_widget ul li a,
+body.papermag-dark-mode .footer-top h5,
+body.papermag-dark-mode .papermag-subscribe-box h4,
+body.papermag-dark-mode .widget-area .widget-title,
+body.papermag-dark-mode .widget-area .widget ul li a,
+body.papermag-dark-mode .papermag-single-content .entry-header .entry-title,
+body.papermag-dark-mode .papermag-single-content .post-bottom-meta .papermag-post-date span,
+body.papermag-dark-mode .papermag-single-content .entry-content blockquote cite,
+body.papermag-dark-mode .papermag-single-content .entry-footer .tags-links,
+body.papermag-dark-mode .post_nav_inner a,
+body.papermag-dark-mode .comment-content a,
+body.papermag-dark-mode .comment-reply-title,
+body.papermag-dark-mode .comments-title,
+body.papermag-dark-mode .logged-in-as a,
+body.papermag-dark-mode .header-two-top-left span,
+body.papermag-dark-mode .papermag_bloc_post .auth-info-date span,
+body.papermag-dark-mode .post-colum-two .post-content-col-grid h4 a,
+body.papermag-dark-mode .post-list-wrap .post-list-top h4 a,
+body.papermag-dark-mode .post-list-slm .post-list-info h5 a,
+body.papermag-dark-mode .papermag-authore-quote .quote-info h3 a,
+body.papermag-dark-mode .quote-info span,
+body.papermag-dark-mode .famous-post-item h4 a,
+body.papermag-dark-mode .famous-post-item .auth-info-date span,
+body.papermag-dark-mode .papermag-authore-quote .quote-info h4,
+body.papermag-dark-mode .error-content h2, 
+body.papermag-dark-mode section.no-results.not-found .page-title,
+body.papermag-dark-mode .papermag-page-content p,
+body.papermag-dark-mode .papermag-top-ba-3 .ticket-box li a,
+body.papermag-dark-mode .papermag-top-ba-3 .header-social a,
+body.papermag-dark-mode .section-heading-sports h4,
+body.papermag-dark-mode .papermag-post-spost-tap-area ul.papermag-tabs-sports li a.active,
+body.papermag-dark-mode .post-grid-sports-content h4 a,
+body.papermag-dark-mode .match-date-info h4{
+    color: #fff;
+}
+body.papermag-dark-mode .nice-select.open .list, 
+body.papermag-dark-mode .nice-select,
+body.papermag-dark-mode .widget table{
+    background:#222;
+}
+body.papermag-dark-mode .papermag-post-tap-area.post-politic-tab h4{
+    color: #fff !important;
+}
+body.papermag-dark-mode .wp-calendar-table th{
+    background:#3e3e3e;
+}
+body.papermag-dark-mode .papermag_bloc_post .post__title a {
+    color: #fff;
+    background-color: #222;
+    -webkit-box-shadow: 0.5em 0 0 #222, -0.5em 0 0 #222;
+            box-shadow: 0.5em 0 0 #222, -0.5em 0 0 #222;
+}
+body.papermag-dark-mode .papermag-breadcrumb-area,
+body.papermag-dark-mode .comments-area .comment-list li,
+body.papermag-dark-mode .papermag-top-ba-3,
+body.papermag-dark-mode .sports-newslater{
+    background: #111111;
+}
+
+body.papermag-dark-mode .papermag-blog-content{
+    background:transparent;
+}
+body.papermag-dark-mode .papermag-blog-content{
+    border: 1px solid #3F3F3F;
+}
+body.papermag-dark-mode header.header-area {
+    border-bottom: 1px solid #3F3F3F;
+}
+body.papermag-dark-mode .section-border{
+    border-bottom: 1px solid #3F3F3F;
+}
+body.papermag-dark-mode .papermag-post__item.papermag-post__item_pol.papermag-common-hover .papermag-post-title a {
+    color: #fff;
+    background-color: #222;
+    -webkit-box-shadow: 0.5em 0 0 #222, -0.5em 0 0 #222;
+            box-shadow: 0.5em 0 0 #222, -0.5em 0 0 #222;
+}
+body.papermag-dark-mode .post-colum-item.post-item-lst.post-colum-two {
+    border-bottom: 1px solid #3F3F3F;
+}
+body.papermag-dark-mode .post-list-slm .post-list-item:not(:last-child) {
+    border-bottom: 1px solid #3F3F3F;
+}
+body.papermag-dark-mode .papermag-authore-quote {
+    background: #2B2B2B;
+}
+body.papermag-dark-mode .papermag-header-2 .site-logo {
+    display: none;
+}
+body.papermag-dark-mode .papermag-dark-mode-logo {
+    display: block;
+}
+body.papermag-dark-mode .footer-wid-item > div{
+    border-color:#3F3F3F !important
+}
+body.papermag-dark-mode .elementor-8 .elementor-element.elementor-element-7e20763:not(.elementor-motion-effects-element-type-background), .elementor-8 .elementor-element.elementor-element-7e20763 > .elementor-motion-effects-container > .elementor-motion-effects-layer {
+    background-color: #111;
+}
+/*======= 404 CSS =======*/
+.papermag-erro-page {
+    padding: 60px 0;
+    padding-top: 40px;
+}
+.error-content h1 {
+    font-size: 350px;
+    line-height: 300px;
+    color: transparent;
+    -webkit-text-stroke: 6px #2130FF;
+}
+
+.error-content h2 {
+    margin-bottom: 40px;
+}
+form.search-form input[type="submit"] {
+    background: -webkit-gradient(linear, left top, right top, from(#2130FF), to(#0090FF));
+    background: -o-linear-gradient(left, #2130FF 0%, #0090FF 100%);
+    background: linear-gradient(
+90deg, #2130FF 0%, #0090FF 100%);
+    border: none;
+    color: #fff;
+    padding: 10px 15px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+form.search-form input[type="search"] {
+    padding: 9px 15px;
+    border: 1px solid #EEEEEE;
+    width: 100%;
+}
+.widget.widget_search .search-form {
+    margin-top: 0;
+}
+form.search-form label {
+    width: 100%;
+}
+
+form.search-form {
+    margin-top: 30px;
+    position: relative;
+}
+
+section.no-results.not-found .page-title {
+    margin-bottom: 10px;
+}
+/*======= Preloader CSS =======*/
+.papermag-preloader div#animation {
+    width: 150px;
+    height: 150px;
+}
+
+.papermag-preloader lottie-player {
+    width: 200px;
+    height: 200px;
+}
+
+.papermag-preloader {
+    position: fixed;
+    z-index: 9;
+    background: #fff;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+
+.papermag-preloader lottie-player {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translateY(-50%) translateX(-50%);
+        -ms-transform: translateY(-50%) translateX(-50%);
+            transform: translateY(-50%) translateX(-50%);
+}
+.papermag-contact-form input[type="text"], .papermag-contact-form input[type="tel"], .papermag-contact-form input[type="email"], .papermag-contact-form textarea {
+    width: 100%;
+    border: 1px solid #EAEAEA;
+    padding: 18px 30px;
+    margin-bottom: 18px;
+}
+
+.papermag-contact-form textarea {
+    height: 180px;
+}
+
+.papermag-contact-form span {
+    width: 100%;
+}
+textarea:focus, input[type="text"]:focus, input[type="tel"]:focus, input[type="email"]:focus {
+    outline-color: #2130FF;    
+    border-color: #2130FF;
+}
+
+/*======= Post Slider CSS =======*/
+.pmg-post-slider-item {
+    height: 700px;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+
+.pmg-post-slider-item:after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+    z-index: -1;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0) 100%);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.pmg-post-slide-content h1 {
+    color: #FFFFFF;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 70px;
+}
+a.papermag-btn.pmg-sports-btn {
+    background: linear-gradient(90deg, #2130FF 0%, #0090FF 100%);
+    border: none;
+    padding: 16px 30px;
+    color: #fff;font-size: 14px;
+    text-transform: uppercase;
+}
+.pmg-post-slide-content h1 {
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+a.popup-video.sports-video {
+    background: #fff;
+    width: 56px;
+    height: 56px;
+    text-align: center;
+    color: #000;
+    line-height: 57px;
+    margin-left: 15px;
+}
+
+a.papermag-btn.pmg-sports-btn i {
+    margin-left: 10px;
+}
+.pmg-sports-top-meta {
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-bottom: 16px;
+}
+
+.pmg-sports-top-meta div {
+    margin-right: 20px;
+}
+
+.pmg-sports-top-meta .post-cat a {
+    background: linear-gradient(90deg, #2130FF 0%, #0090FF 100%);
+    color: #fff;
+    font-size: 12px;
+    padding: 6px 12px;
+    text-transform: uppercase;
+}
+
+.pmg-sports-top-meta .post-cat {
+    color: #fff;
+}
+
+.pmg-sports-top-meta .post-cmt, .pmg-sports-top-meta .post-view {
+    color: #fff;
+}
+/* Score Css */
+.pgm-sport-score-item {
+    background: #fff;
+    padding: 30px;
+}
+.pmg-item-score h1 {
+    background: -webkit-gradient(linear, left top, right top, from(#2130FF), to(#0090FF));
+    background: -o-linear-gradient(left, #2130FF 0%, #0090FF 100%);
+    background: linear-gradient( 
+90deg, #2130FF 0%, #0090FF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 40px;
+    line-height: 40px;
+}
+.pmg-item-score span {
+    color: #777;
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+.pmg-item-score {
+    text-align: center;
+}
+/* Post Sports Recent Add */
+.post_recent_ad_item .post-recent-add-thumb img {
+    height: auto;
+    -o-object-fit: cover;
+    object-fit: cover;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+    height: 360px;
+}
+.post_recent_ad_item .post-recent-add-thumb img {
+    height: auto;
+    -o-object-fit: cover;
+    object-fit: cover;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+    height: 300px;
+}
+
+.post_recent_ad_item {
+    overflow: hidden;
+    position: relative;
+}
+
+.papermag-post-recent-add .post_recet_add_content {
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+    z-index: 1;
+    right: 30px;
+}
+
+.post-recent-add-thumb a {
+    display: block;
+}
+
+.post_recent_ad_item:after {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 100%);
+    opacity: 0.4;
+    width: 100%;
+    height: 100%;
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.papermag-post-recent-add .post_recet_add_content h4 a {
+    color: #fff;
+}
+
+.papermag-post-recent-add .post_recet_add_content h4 {
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.post_recent_ad_item .post_recet_add_content .papermag-cate-name {
+    background: linear-gradient(
+90deg
+, #2130FF 0%, #0090FF 100%);
+    color: #fff;
+    -webkit-background-clip: inherit;
+    -webkit-text-fill-color: inherit;
+    padding: 3px 8px;
+    font-size: 12px;
+    font-weight: 500;
+}
+.papermag-post-recent-add .post_recet_add_content .post-cmt, .papermag-post-recent-add .post_recet_add_content .post-view {
+    color: #fff;
+}
+.papermag-post-recent-add .post_recet_add_content .common-style-meta i{
+    color: #fff;
+}
+.papermag-post-recent-add .post_recet_add_content .common-style-meta {
+    margin-bottom: 15px;
+}
+
+/* Post Sports Tab */
+.post-item-sport-tb .post-grid-thumb img {
+    -o-object-fit: cover;
+    object-fit: cover;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+    height: 360px;
+    width: 100%;
+}
+
+.post-item-sport-tb .post-grid-thumb a {
+    display: block;
+}
+
+.post-item-sport-tb.papermag-common-hover {
+    position: relative;
+}
+
+.post-item-sport-tb.papermag-common-hover:after {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 100%);
+    opacity: 0.5;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+}
+
+.post-item-sport-tb .post-grid-content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 40px;
+    z-index: 1;
+}
+
+.post-item-sport-tb .post-grid-content h3 {
+    font-weight: 600;
+    font-size: 24px;
+    color: #fff;
+    line-height: 34px;
+    margin-bottom:20px;
+    text-transform: uppercase;
+}
+
+.post-item-sport-tb .post-grid-content h3 a {
+    color: #fff;
+}
+.post-item-sport-tb .post-grid-content .papermag-cate-name,
+.papermag-post-spost-tap-area.post-video-sports-tab .papermag-cate-name {
+    background: linear-gradient(
+90deg
+, #2130FF 0%, #0090FF 100%);
+    color: #fff;
+    font-size: 12px;
+    padding: 6px 12px;
+    text-transform: uppercase;
+}
+
+.post-item-sport-tb .post-grid-content .post-meta-info div {
+    margin-right: 20px;
+    color: #fff;
+    font-size: 12px;
+}
+
+.post-item-sport-tb .post-grid-content .post-meta-info {
+    margin-bottom: 18px;
+}
+.post-grid-item-sports .post-grid-thumb {
+    width: 100px;
+    min-width: 100px;
+    margin-right: 20px;
+}
+
+.post-grid-item-sports .post-grid-thumb a {
+    display: block;
+}
+
+.post-grid-item-sports .post-grid-thumb img {
+    height: 100px;
+    -o-object-fit: cover;
+    object-fit: cover;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+    width: 100%;
+}
+
+.post-grid-item-sports:not(:last-child) {
+    margin-bottom: 30px;
+}
+.post-grid-sports-content h4 {
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 600;
+    line-height: 26px;
+    margin-bottom: 16px;
+}
+.papermag-post-spost-tap-area ul.papermag-tabs-sports li a {
+    color: #A9A9A9;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 0;
+    padding-left: 25px;
+}
+
+.papermag-post-spost-tap-area ul.papermag-tabs-sports li a.active {
+    background: transparent;
+    color: #000;
+}
+
+.papermag-post-spost-tap-area ul.papermag-tabs-sports {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.section-heading-sports h4 {
+    border-bottom: 1px solid #EBEBEB;
+    padding-bottom: 20px;
+    margin-bottom: 28px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+/* Sports Result */
+.papermag-post-match .nav-pills .nav-link {
+    background: #000;
+    border-radius: 0;
+    padding: 10px 25px;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.papermag-post-match div#pills-tabContent {
+    border: 1px solid #EAEAEA;
+    padding: 30px;
+}
+
+.papermag-post-match ul#pills-tab.papermag-tabs-match {margin-bottom: 0 !important;}
+
+.papermag-post-match .nav-pills .nav-link.active {
+    background: linear-gradient(90deg, #2130FF 0%, #0090FF 100%);
+    clip-path:polygon(20% 0, 95% 0%, 75% 100%, 0% 100%);
+}
+
+.pmg-match-logo-wrap {
+    margin-bottom: 30px;
+}
+
+.logo-item span {
+    border: 1px solid #ECECEC;
+    width: 36px;
+    height: 36px;
+    text-align: center;
+    line-height: 36px;
+    border-radius: 50px;
+    font-size: 12px;
+    background: -webkit-gradient(linear, left top, right top, from(#2130FF), to(#0090FF));
+    background: -o-linear-gradient(left, #2130FF 0%, #0090FF 100%);
+    background: linear-gradient( 
+90deg
+, #2130FF 0%, #0090FF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.match-date-info h4 {
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    line-height: 18px;
+}
+.papermag-post-match .nav-pills .nav-item {
+    background: #000;
+    position: relative;
+    overflow: hidden;
+}
+.papermag-post-match .nav-pills .nav-item:first-child:after {
+    border-top: 45px solid #fff;
+    border-right: 19px solid transparent;
+    content: "";
+    position: absolute;
+    top: 0;
+}
+
+
+.papermag-post-match .nav-pills .nav-item:last-child:after {
+    content: "";
+    border-bottom: 54px solid #fff;
+    border-left: 25px solid transparent;
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: 0px;
+}
+.match-date-info p {
+    margin-bottom: 0;
+    font-size: 14px;
+    color: #777777;
+}
+
+/* Social Share Sports */
+.apsc-icons-wrapper.apsc-theme-4 .apsc-each-profile i {
+    background: #1877F2;
+    height: 60px;
+    top: 0;
+    transform: inherit;
+    left: 0;
+    color: #fff;
+    width: 60px;
+    line-height: 60px;
+    text-align: center;
+}
+
+.apsc-icons-wrapper.apsc-theme-4 .apsc-inner-block {
+    padding-left: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    padding-right: 15px;
+}
+
+.apsc-theme-4.apsc-icons-wrapper .apsc-each-profile {
+    width: 100%;
+    padding: 10px;
+    padding-left: 60px;
+}
+
+.apsc-icons-wrapper.apsc-theme-4 .apsc-inner-block span {
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
+    font-family: 'Oswald';
+}
+
+.apsc-icons-wrapper.apsc-theme-4 .apsc-each-profile .apsc-twitter-icon i {
+    background: #1DA1F2;
+}
+
+.apsc-icons-wrapper.apsc-theme-4 .apsc-each-profile .apsc-youtube-icon i {
+    background: #CD201F;
+}
+
+.apsc-theme-4.apsc-icons-wrapper .apsc-each-profile:hover {
+    background: transparent;
+}
+
+.apsc-icons-wrapper.apsc-theme-4 .apsc-each-profile:hover span {
+    color: #000;
+}
+
+/* POst List Style */
+.post-lst-style-thumb {
+    width: 400px;
+    min-width: 400px;
+    margin-right: 40px;
+}
+
+.papermag-post_list_item .post-lst-style-thumb img {
+    height: 320px;
+    -o-object-fit: cover;
+    object-fit: cover;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+    width: 100%;
+}
+
+.papermag__list__post-content .top-meta div:not(:last-child) {
+    padding-right: 24px;
+}
+
+.papermag__list__post-content .top-meta div {
+    margin-bottom: 16px;
+}
+
+.papermag__list__post-content .papermag-cate-name {
+    background: linear-gradient(90deg, #2130FF 0%, #0090FF 100%);
+    color: #fff;
+    font-size: 12px;
+    text-transform: uppercase;
+    padding: 6px 15px;
+}
+.papermag__list__post-content h2.papermag__list__post-title {
+    text-transform: uppercase;
+}
+h2.papermag__list__post-title {
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 40px;
+    margin-bottom: 20px;
+}
+.papermag-post_list_item:not(:last-child) {
+    margin-bottom: 30px;
+}
+
+/* POst Sports Tab */
+.post-video-item-spo a.papermag-popup-video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background: #fff;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    color: #000;
+    border-radius: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.post-video-item-spo .post-grid-thumb {
+    position: relative;
+}
+
+.post-video-item-spo .post-grid-thumb img {
+    height: auto;
+    -o-object-fit: cover;
+    object-fit: cover;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+    height: 180px;
+}
+
+.post-item-sport-v-tb img {
+    height: auto;
+    -o-object-fit: cover;
+    object-fit: cover;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+    min-height: 498px;
+}
+.papermag-post-spost-tap-area.post-video-sports-tab .post-meta-info div {
+    margin-right: 20px;
+    color: #444;
+    font-size: 12px;
+}
+.post-grid-sports-content .post-meta-info {
+    margin-bottom: 16px;
+}
+.post-video-item-spo .post-grid-thumb {
+    margin-bottom: 25px;
+}
+
+.post-meta-info .post-meta-info {
+    margin-bottom: 82px;
+}
+
+post-video-item-spo .post-meta-info {
+    margin-bottom: 16px;
+}
+
+.post-grid-sports-content .post-meta-info {
+    margin-bottom: 16px;
+}
+
+.post-video-item-spo {
+    border-right: 1px solid #EBEBEB;
+    border-bottom: 1px solid #EBEBEB;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    padding-right: 25px;
+}
+
+.post-video-item-spo .hover-title {
+    margin-bottom: 0;
+}
+
+.post-video-item-spo:first-child {
+    padding-top: 0;
+}
+
+.post-video-item-spo:last-child {
+    border-bottom: 0;
+    padding-bottom: 0;
+}
+.post-item-sport-tb-vd h2 {
+    font-size: 30px;
+    text-transform: uppercase;
+    line-height: 40px;
+    margin-top: 16px;
+    margin-bottom: 0;
+}
+
+.post-item-sport-tb-vd .post-grid-content {
+    margin-top: 25px;
+}
+
+.post-item-sport-tb-vd .post-grid-thumb img {-o-object-fit: cover;object-fit: cover;-webkit-transition: 0.5s;-o-transition: 0.5s;transition: 0.5s;height: 498px;}
+.post-item-sport-tb-vd .post-grid-thumb {
+    position: relative;
+}
+
+.post-item-sport-tb-vd .post-grid-thumb .papermag-popup-video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    background: #fff;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    font-size: 20px;
+    border-radius: 50%;
+    color: #000;
+}
+.section-heading.style-two h4 {
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 0;
+    position: relative;
+    margin-bottom: 15px;
+    padding-bottom: 4px;
+}
+
+.section-heading.style-two h4:after {
+    background: linear-gradient(90deg, #2130FF 0%, #0090FF 100%);
+    position: absolute;
+    bottom: -16px;
+    left: 0;
+    width: 140px;
+    content: "";
+    height: 2px;
+}
+
+.section-heading.style-two {
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+.sports-newslater {
+    background: #F9F9F9;
+    padding: 40px;
+}
+
+.sports-newslater input[type="email"] {
+    width: 100%;
+    background: #fff;
+    border: none;
+    padding: 13px 15px;
+    margin-bottom: 10px;
+}
+
+.sports-newslater button {
+    background: linear-gradient(90deg, #2130FF 0%, #0090FF 100%);
+    border: none;
+    width: 100%;
+    text-transform: uppercase;
+    color: #fff;
+    font-family: 'Oswald';
+    font-weight: 700;
+    text-align: left;
+    padding: 13px 20px;
+    position: relative;
+}
+
+.sports-newslater button i {
+    position: absolute;
+    top: 17px;
+    right: 20px;
+}
+.sports-newslater h4 {
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.post-rv-item-sm .post-list-thumb-one {
+    width: 82px;
+    min-width: 82px;
+    margin-right: 0;
+}
+
+.post-rv-item-sm .post-list-thumb-one img {
+    -o-object-fit: cover;
+    object-fit: cover;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+    height: 60px;
+}
+
+.post-rv-item-sm {
+    border-bottom: 1px solid #F0F0F0;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.post-rv-item-sm .post-list-content-one {
+    padding-right: 15px;
+}
+
+.post-rv-item-sm .post-list-content-one h5 {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.post-rv-item-sm:last-child {
+    padding-bottom: 0;
+    margin-bottom: 0;
+    border: none;
+}
+ul.papermag-extension__cat_nav li a {
+    width: 100%;
+    padding: 18px 30px;
+    background: #ddd;
+    background-size: cover;
+    background-position: center;
+    text-transform: uppercase;
+    color: #fff;
+    font-family: 'Oswald';
+    font-weight: 600;
+    font-size: 14px;
+    position: relative;
+    z-index: 1;
+}
+
+ul.papermag-extension__cat_nav li:not(:last-child) {margin-bottom: 10px;}
+
+ul.papermag-extension__cat_nav li a span {
+    float: right;
+}
+
+ul.papermag-extension__cat_nav li a:after {
+    background: #000;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+    opacity: .1;
+    z-index: -1;
+}
+.post__list_footer {
+    border-top: 1px solid #EBEBEB;
+    margin-top: 30px;
+    padding-top: 20px;
+}
+
+.post__list_footer .papermag-post-date {
+    color: #777;
+}
+
+.post__list_footer .post__list_btn a {
+    color: #D0D0D0;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: 'Oswald';
+}

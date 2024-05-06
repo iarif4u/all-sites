@@ -1,0 +1,480 @@
+@media (min-width: 992px) and (max-width: 1200px) {
+    .container{
+        max-width: 1170px;
+    }
+}
+@media (min-width: 1077px) and (max-width: 1158px) {
+    .papermag-header-2 .primary-menu ul li a{
+        padding-right: 50px;
+    }
+    .papermag-authore-quote.with-popup .quote-auth-img {
+        max-width: 410px;
+    }
+    .papermag-authore-quote.with-popup .quote-auth-img:after{
+        right: 10px;
+    }
+}
+@media (min-width: 992px) and (max-width: 1148px) {
+    .papermag-search input[type="search"]{    
+        width: 80%;
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 993px) and (max-width: 1076px) {
+    .primary-menu ul li a {
+        padding: 0 14px;
+    }
+    .papermag-authore-quote.with-popup .quote-auth-img {
+        max-width: 300px;
+    }
+    .papermag-authore-quote.with-popup .quote-auth-img:after {
+        position: absolute;
+        background: #fff;
+        width: 250px;
+        height: 250px;
+        right: 5px;
+    }
+    .papermag-header-2 .primary-menu ul li a {
+        padding-right: 36px;
+    }
+}
+
+@media (max-width: 1024px){
+    .container{
+        max-width: 100%;
+    }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+    .post-list-wrap .post-list-top .post-list-info {
+        padding-right: 30px;
+        min-width:65%;
+    }
+    .post-list-wrap .post-list-top .post-list-img {
+        min-width: 35%;
+    }
+    .post-list-slm .post-list-img.post-common-img-style {
+        margin-left: 20px;
+    }
+    .papermag-authore-quote .quote-auth-img {
+        position: relative;
+    }
+    .quote-auth-img:after{
+        bottom: 0;
+    }
+}
+@media (max-width: 992px) {
+    div#papermag_mobile_menu {
+        display: block;
+        position: relative;
+    }
+    .post-lst-style-thumb {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    
+    .papermag-post_list_item.d-flex {
+        display: block !important;
+    }
+    #papermag_mobile_menu .slicknav_menu .slicknav_btn {
+        padding: 0;
+        line-height: normal;
+    }
+    .header-main-two {
+        margin-top: 20px;
+    }
+    .slicknav_menu {
+        position: absolute;
+        top: 28px;
+        left: 0;
+        width: 100%;
+        z-index: 2;
+    }
+    header.header-area.papermag-header-2 .slicknav_menu .slicknav_btn {
+        left: 0;
+        float: left;
+    }
+    header.header-area.papermag-header-2 span.slicknav_nav_icon.flaticon-right-alignment:after{
+        background: #111;
+    }
+    .slicknav_menu .slicknav_btn {
+        top: -80px;
+        right: 40px;
+        left: auto;
+    }
+    .papermag-header-3 .slicknav_menu .slicknav_btn{
+        top:-59px;
+    }
+    .header-main {
+        padding: 15px 0;
+    }
+    .header-right.header-right {
+        position: absolute;
+        top: -34px;
+        right: 50px;
+    }
+    .papermag-header-3 .header-main {
+        padding: 40px 0;
+    }
+    .papermag-search {
+        display: none;
+    }
+    .primary-menu {
+        display: none;
+    }
+    .primary-menu {
+        display: none;
+    }
+    .slicknav_nav {
+        background: #fff;
+        max-height: 350px;
+        overflow-y: scroll;
+        box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 9%);
+    }
+    body.papermag-dark-mode .slicknav_nav {
+        background: #111111;
+    }
+    
+    .slicknav_nav ul li:not(:last-child) {
+        border-bottom: 1px solid #ddd;
+    }
+    body.papermag-dark-mode .slicknav_nav ul li:not(:last-child) {
+        border-bottom: 1px solid #323232;
+    }
+    
+    .slicknav_nav ul>li>a {
+        padding: 15px;
+    }
+    
+    .slicknav_nav ul li a {
+        color: #777777;
+    }
+    body.papermag-dark-mode .slicknav_nav ul li a {
+        color: #fff;
+    }
+    span.slicknav_nav_icon.flaticon-right-alignment:after {
+        content: "\f0c9";
+        position: absolute;
+        left: 0;
+        top: 0;
+        font-family: "Font Awesome 5 Pro";
+        line-height: normal;
+        font-size: 16px;
+        background: linear-gradient(
+    90deg, #2130FF 0%, #0090FF 100%);
+        color: #fff;
+        padding: 10px 13px;
+    }
+    
+    span.slicknav_nav_icon.flaticon-right-alignment {
+        position: relative;
+    }
+    .slicknav_btn {
+        position: relative;
+        display: block;
+        vertical-align: middle;
+        float: right;
+        padding: 0.438em 0.625em 0.438em 0.625em;
+        line-height: 1.125em;
+        cursor: pointer;
+        top: -55px;
+    }
+    .post-tabs-item-wrapp .post-grid-item-two.post-grid-tb {
+        margin-bottom: 30px;
+    }
+    .apsc-icons-wrapper .apsc-each-profile {
+        width: 100%;
+    }
+    .papermag-tabs-list {
+        position: relative;
+        top: 0;
+        margin-bottom: 30px !important;
+    }
+    .papermag-post-video-area .col-lg-6:last-child {
+        padding-left: 15px;
+    }
+    .papermag-post-video-area .papermag-post__item {
+        margin-bottom: 30px;
+    }
+    .papermag-post-tap-area .papermag-tabs {
+        position: relative;
+        top: 0;
+        margin-bottom: 30px !important;
+    }
+    .papermag-post-pagination {
+        margin-top: 40px;
+        margin-bottom: 50px;
+    }
+    .papermag_bloc_post .col-lg-4 {
+        order: 2;
+    }
+    .papermag_bloc_post .post__title {
+        width: 100%;
+    }
+    .post-list-item-sm {
+        margin-bottom: 30px;
+    }
+    .post-overlay-item-tab {
+        margin-bottom: 30px;
+    }
+    .post_list__wrap .col-lg-3 {
+        -ms-flex: 0 0 33.333%;
+        flex: 0 0 33.333%;
+        max-width: 33.333%;
+    }
+    body.papermag-dark-mode header.header-area.papermag-header-2 span.slicknav_nav_icon.flaticon-right-alignment:after {
+        background: #999999;
+    }
+    .ex-info-box{
+        padding: 30px;
+    }
+    .ex-info-content h3 {
+        font-size: 18px;
+        line-height: 26px;
+    }
+    .sports-newslater {
+        padding: 15px;
+    }
+    .post-rv-item-sm {
+        display: block !important;
+    }
+    
+    .post-rv-item-sm .post-list-content-one {
+        padding-right: 0;
+        padding-bottom: 10px;
+    }
+    .papermag-post-match div#pills-tabContent {
+        padding: 15px;
+    }
+    .post-item-sport-tb.papermag-common-hover {
+        margin-bottom: 30px;
+    }
+    body.papermag-dark-mode .papermag-header-3 .slicknav_menu .slicknav_btn {
+        top: -78px;
+    }
+    body.papermag-dark-mode .papermag-header-3 .header-main {
+        padding: 15px 0;
+    }
+}
+@media (max-width: 767px) {
+    h1 {
+        font-size: 35px;
+    }
+        
+    h2 {
+        font-size: 26px;
+        line-height: 36px;
+    }
+    h3 {
+        font-size: 22px;
+        line-height: 32px;
+    }
+    h4 {
+        font-size: 20px;
+        line-height: 28px;
+    }
+    h5 {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .papermag-top-bar #menu-top-nav {
+        text-align: center;
+    }    
+    .header-social {
+        text-align: center;
+        margin-top: 10px;
+    }
+    .error-content h1 {
+        font-size: 150px;
+        line-height: 150px;
+    }
+    .footer-btm-left {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .header-two-top-left {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    
+    .papermag-head-top .col-lg-3.text-right.d-flex.align-items-center.justify-content-end {
+        text-align: center !important;
+        justify-content: center !important;
+    }
+    ul.ticket-box {
+        text-align: center;
+    }
+    
+    .papermag-top-ba-3 .col-lg-6.d-flex.justify-content-end.col-md-6.text-right {
+        justify-content: center !important;
+        text-align: center !important;
+        margin-top: 14px;
+    }
+    
+    .papermag-top-ba-3 .ticket-box li:last-child {
+        padding: 0;
+    }
+    
+    header.header-area.papermag-header-2 .site-logo{
+        margin-bottom: 12px;
+    }
+    header.header-area.papermag-header-2 .papermag-dark-mode-logo {
+        margin-bottom: 22px;
+    }
+    .footer-bottom .col-lg-6.text-right {
+        text-align: center !important;
+    }
+    .papermag-post-tap-area .papermag-tabs {
+        position: relative;
+        top: 0;
+        left: 0;
+        margin-bottom: 30px !important;
+    }
+    .papermag-post-video-area .col-lg-6:last-child {
+        padding-left: 15px;
+    }
+    .papermag-post-video-area .papermag-post__item {
+        margin-bottom: 30px;
+    }
+    .post-tabs-item-wrapp .post-grid-item-two.post-grid-tb {
+        margin-bottom: 30px;
+    }
+    .papermag-post-video-area {
+        padding: 30px;
+    }
+    .papermag-tabs-list {
+        position: relative;
+        top: 0;
+        margin-bottom: 30px !important;
+        left: 0;
+        right: auto;
+    }
+    .papermag_bloc_post .post__title {
+        width: 100%;
+    }
+    
+    .post_list__wrap .col-lg-3 {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .papermag-authore-quote.with-popup .quote-info {
+        width: 100%;
+    }
+    .papermag-authore-quote.with-popup .quote-auth-img {
+        position: relative;
+    }
+    .post-tabs-politics-item-wrapp .post-overlay-item-tab {
+        margin-bottom: 30px;
+    }
+    .papermag-post__item.papermag-post__item_pol {
+        margin-top: 30px;
+    }
+    .papermag-search-two {
+        display: none;
+    }
+    .post-list-wrap .post-list-top {
+        display: block !important;
+    }
+    .post-list-wrap .post-list-top .post-list-img {
+        min-width: 100%;
+        margin-top: 15px;
+    }
+    .post-list-wrap .post-list-top .post-list-info {
+        min-width: 100%;
+    }
+    .post_list__wrap .col-lg-3:not(:last-child) {
+        margin-bottom: 20px;
+    }
+    .papermag-authore-quote.with-popup {
+        padding: 30px;
+    }
+    .papermag-authore-quote.with-popup .quote-auth-img:after {
+        width: 215px;
+        height: 215px;
+    }
+	.mobile-width .elementor-column {
+        width: 100% !important;
+    }
+    .papermag-single-content .entry-header .entry-title {
+        line-height: 40px;
+        font-size: 30px;
+    }
+    .papermag-blog-main-content .col-lg-9, .papermag-single-post-section .col-lg-9 {
+        padding-right: 15px;
+    }
+    .nav-post-item.next-post-item {
+        margin-top: 20px;
+    }
+    .comments-area .comment-list li {
+        padding: 30px;
+    }
+    .comments-area .comment-body {
+        padding-left: 0;
+    }
+    
+    .comments-area .author-thumb {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+    .papermag-blog-content h1 {
+        margin-bottom: 20px;
+        font-size: 28px;
+        line-height: 38px;
+    }
+    .papermag-blog-content {
+        padding: 30px;
+    }
+    .comments-area .author-thumb {
+        position: relative;
+    }
+    .widget-area .widget {
+        margin-top: 50px;
+    }
+    blockquote {
+        padding-left: 75px;
+        text-align: left;
+    }
+    blockquote p {
+        font-size: 18px !important;
+        line-height: 38px !important;
+    }
+    .comments-area .comment-body ul, .comments-area .comment-body ol  {
+        text-align: initial;
+    }
+    .papermag-post-spost-tap-area ul.papermag-tabs-sports {
+        position: relative;
+    }
+    .post-item-sport-tb.papermag-common-hover {
+        margin-bottom: 30px;
+    }
+    .papermag-post-match {
+        margin-top: 30px;
+    }
+    
+    .post-video-item-spo .post-grid-thumb img {
+        width: 100%;
+    }
+    .papermag-post_list_item {
+        display: block !important;
+    }
+    
+    .post-lst-style-thumb {
+        margin-right: 0;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+}
+@media (max-width: 430px) {
+    .apsc-icons-wrapper .apsc-each-profile {
+        width: 100%;
+    }
+    .papermag-post-pagination ul li {
+        margin-bottom: 11px;
+    }
+    .papermag-blog-content h1 {
+        margin-bottom: 20px;
+        font-size: 28px;
+        line-height: 38px;
+    }
+}

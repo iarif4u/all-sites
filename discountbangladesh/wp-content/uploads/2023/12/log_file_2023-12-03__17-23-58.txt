@@ -1,0 +1,37 @@
+
+---Downloaded files---
+The import files for: Sports Demo were successfully downloaded!
+Initial max execution time = 30
+Files info:
+Site URL = https://discountbangladesh.test
+Data file = /var/www/discountbangladesh.test/wp-content/plugins/papermag-extension//demo/sports-demo.xml
+Widget file = /var/www/discountbangladesh.test/wp-content/plugins/papermag-extension//demo/sports-widget.wie
+Customizer file = /var/www/discountbangladesh.test/wp-content/plugins/papermag-extension//demo/sports-customizer.dat
+Redux files:
+not defined!
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+---Importing widgets---
+Sidebar : 
+
+Search - No Title - Imported
+Recent Posts - No Title - Imported
+Recent Comments - No Title - Imported
+Archives - No Title - Imported
+Categories - No Title - Imported
+Meta - No Title - Imported
+
+
+
+---Importing customizer settings---
+Customizer settings import finished!
+
+---ocdi/after_import---
+

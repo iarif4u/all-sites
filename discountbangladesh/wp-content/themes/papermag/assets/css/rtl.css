@@ -1,0 +1,146 @@
+/*-------------------------------------
+ PaperMag THEME RTL CSS
+---------------------------------------*/
+
+body {
+    direction: rtl;
+    unicode-bidi: embed;
+    overflow-x: hidden;
+}
+.papermag-darkmode {
+    padding-right: 0;
+    padding-left: 20px;
+}
+.papermag-darkmode {
+    padding-right: 0;
+    padding-left: 20px;
+}
+
+.post-list-item-one {
+    text-align: right;
+}
+
+.post-tarading__wrap .post-list-thumb-one {
+    padding-right: 0;
+    padding-left: 20px;
+}
+
+.post-list-thumb-one span {
+    left: auto;
+    right: 0;
+}
+
+.post-list-content-one .post-meta-info div:not(:last-child) {
+    padding-right: 0;
+    padding-left: 24px;
+}
+.auth-avater {
+    margin-right: 0;
+    margin-left: 10px;
+}
+.papermag-post-content {
+    left: auto;
+    right: 0;
+    text-align: right;
+}
+.post-list-item-one.post-list-tab-item .post-list-thumb-one {
+    margin-right: 0;
+    margin-left: 20px;
+}
+
+.post-grid-content {
+    text-align: right;
+}
+
+.post__list_video .post-list-thumb-one {
+    margin-right: 0;
+    margin-left: 20px;
+}
+.post-colum-item {
+    text-align: right;
+}
+
+.papermag__postpost-info {
+    text-align: right;
+}
+
+.recent-posts-widget {
+    text-align: right;
+}
+.recent-posts-widget .post-thumb a {
+    margin-right: 0;
+    margin-left: 20px;
+}
+
+.contact-info-item {
+    text-align: right;
+}
+
+.con-item-list i {
+    left: auto;
+    right: 0;
+}
+.con-item-list {
+    padding-left: 0;
+    padding-right: 26px;
+}
+
+.footer-btm-left {
+    text-align: right;
+}
+.video-popup a {
+    left: auto;
+    right: 40px;
+}
+.common-style-meta {
+    justify-content: start;
+}
+.papermag-post-carousel .owl-stage-outer {
+    direction: ltr;
+}
+.papermag-post-content .top-meta div {
+    padding-right: 0;
+    padding-left: 12px;
+    margin-right: 0;
+    margin-left: 12px;
+}
+.common-style-meta div:not(:last-child) {
+    padding-right: 0;
+    padding-left: 24px;
+}
+.section-heading.icon-left i {
+    left: 0;
+    right: auto;
+}
+.section-heading {
+    text-align: right;
+}
+
+.section-heading i {
+    right: auto;
+    left: 0;
+}
+.papermag-post-tap-area .papermag-tabs {
+    right: 110px;
+}
+.papermag-tabs-list {
+    right: 85px;
+}
+.papermag-post-content .top-meta div {
+    padding-right: 0;
+    padding-left: 12px;
+    margin-right: 0;
+    margin-left: 12px;
+}
+
+.papermag-post-carousel .post-meta-info.common-style-meta.d-flex {
+    justify-content: end;
+}
+
+.papermag-post-carousel .common-style-meta div:not(:last-child) {
+    padding-right: 24px;
+    padding-left: 0;
+}
+.papermag-breadcrumb-area .col-lg-6.col-6.col-md-6 {
+    text-align: right;
+}
